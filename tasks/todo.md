@@ -1,0 +1,149 @@
+# Todo（一卡一项）
+
+- [ ] F00a Uni-app 四 Tab 空壳
+  - Acceptance: 开发者工具四个 Tab 不报错；token 已设
+  - Verify: 预览截图或编译成功
+  - Files: 脚手架、pages.json、全局样式、四空页
+- [ ] F00b 云开发 ping 与集合约定
+  - Acceptance: ping 可调；api.md 有集合名；无密钥入库
+  - Verify: 调用说明可复现
+  - Files: cloudfunctions/ping, doc/spec/api.md
+- [ ] F00c 示例课时目录 JSON（占位）
+  - Acceptance: 样例字段对齐平台层级
+  - Verify: 打开 JSON
+  - Files: data/catalog 样例
+- [ ] F00d 目录数据模型对齐平台
+  - Acceptance: catalog-schema 含 platformTag
+  - Verify: 文档评审
+  - Files: doc/spec/catalog-schema.md
+- [ ] F00e 采集各科各版公开目录
+  - Acceptance: 临时树 JSON 层级正确，无课件文件
+  - Verify: 抽查与平台名称
+  - Files: scripts/catalog-sync
+- [ ] F00g 目录写入云数据库
+  - Acceptance: catalog_edition/lesson 可查；只读权限；分批导入
+  - Verify: 云开发控制台文档条数
+  - Files: cloudfunctions/catalogImport
+- [ ] F00f P14 按平台归纳展示
+  - Acceptance: 读云库展示；筛选与平台一致
+  - Verify: P14
+  - Files: P14
+- [ ] F01 孩子档案
+  - Acceptance: 姓名年级保存后重开仍在
+  - Verify: 开发者工具重进
+  - Files: childProfile, P12 区块
+- [ ] F02 分科教材版本与进度章
+  - Acceptance: 数学英语可不同版本
+  - Verify: 改保存再读
+  - Files: P13, child 字段
+- [ ] F03 绑定学生微信（可按 SPEC 延后）
+  - Acceptance: family 可挂两个 openid 或文档标明延后
+  - Verify: 说明或一次绑定成功
+  - Files: familyBind, P12
+- [ ] F04 纸质作业计时
+  - Acceptance: 开始暂停结束；同时一段；4h 忘关
+  - Verify: 手动走一遍
+  - Files: HomeworkTimer, timer 云函数
+- [ ] F05 拍照上传压缩
+  - Acceptance: 得到 fileID[]
+  - Verify: 云存储可见
+  - Files: P02 上传
+- [ ] F06 作业批次
+  - Acceptance: status 待核对
+  - Verify: 库中有 batch
+  - Files: homeworkBatch
+- [ ] F07 AI 识图（可 mock）
+  - Acceptance: JSON 含题干课时置信度
+  - Verify: 云函数日志
+  - Files: recognizeHomework
+- [ ] F08 识别核对页
+  - Acceptance: 低置信未确认不能完成
+  - Verify: 点完成被拦截
+  - Files: P03
+- [ ] F09 错题入库
+  - Acceptance: wrong_item 可查
+  - Verify: 错题本或控制台
+  - Files: wrongItem.create
+- [ ] F10 打星纯函数+测试
+  - Acceptance: npm test 覆盖升降下限人工标记
+  - Verify: npm test
+  - Files: utils/masteryStars, tests
+- [ ] F11 新错写 1 星
+  - Acceptance: 入库后该课时 1 星
+  - Verify: mastery 记录
+  - Files: 衔接 F09 云函数
+- [ ] F12 错题本列表
+  - Acceptance: 能看到入库题
+  - Verify: P04
+  - Files: P04, wrongItem.list
+- [ ] F13 错题详情改绑
+  - Acceptance: 改绑后列表课时名变
+  - Verify: P05
+  - Files: P05
+- [ ] F14 今日待练组卷
+  - Acceptance: 返回 3–8 题 JSON
+  - Verify: 云函数
+  - Files: practiceCompose
+- [ ] F14b 并入遗漏题
+  - Acceptance: 总数≤10 且含探测题
+  - Verify: 有遗漏课时时
+  - Files: practiceCompose
+- [ ] F15 补练答题页
+  - Acceptance: 能作答并点交卷
+  - Verify: P08
+  - Files: P08
+- [ ] F16 补练交卷改星回流
+  - Acceptance: 错题回流星变化
+  - Verify: 交卷后库
+  - Files: practiceSubmit
+- [ ] F17 遗漏探测
+  - Acceptance: 不选进度章外课时
+  - Verify: 改进度章再调
+  - Files: gapDetect
+- [ ] F18 掌握度概览
+  - Acceptance: 与库一致
+  - Verify: P06
+  - Files: P06
+- [ ] F19 章节课时树
+  - Acceptance: 见目录与星
+  - Verify: P07
+  - Files: P07
+- [ ] F20 在线练习时长
+  - Acceptance: 与纸质分开显示
+  - Verify: P01 文案
+  - Files: practice_record, P01
+- [ ] F21 今日待办聚合
+  - Acceptance: 去核对/去答题入口正确
+  - Verify: P01
+  - Files: P01 待办组件
+- [ ] F22 心愿家长 CRUD
+  - Acceptance: 仅一个主心愿
+  - Verify: 再设主心愿被拒或旧改排队
+  - Files: P09, wish.save
+- [ ] F23 孩子许愿
+  - Acceptance: 未同意不计入进度
+  - Verify: 许愿后进度不变
+  - Files: wish.propose
+- [ ] F24 满星进度
+  - Acceptance: 人工星不计；达标可考试
+  - Verify: 改星后进度
+  - Files: wish.progress
+- [ ] F25 综合卷组卷
+  - Acceptance: 未达标报错；达标 15–25 题
+  - Verify: 云函数
+  - Files: examCompose
+- [ ] F26 综合卷作答
+  - Acceptance: 交卷前无解析
+  - Verify: P10
+  - Files: P10
+- [ ] F27 综合卷结果
+  - Acceptance: 及格待兑；不及格冷却；孩子不能兑现
+  - Verify: P11 + 学生号调 redeem 失败
+  - Files: examSubmit, P11
+- [ ] F28 家长兑现
+  - Acceptance: 仅家长成功
+  - Verify: 状态已兑现
+  - Files: wish.redeem
+- [ ] S8 验证报告
+- [ ] S9 评审报告
+- [ ] S10 体验版交付清单

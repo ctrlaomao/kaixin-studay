@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>开心补漏 · H5 界面原型</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="stage">
+    <p class="hint">手机框内为界面原型（演示数据）。设计说明见 <a href="../产品设计文档.md">产品设计文档</a>。</p>
+    <div class="phone">
+      <div class="status"><span>9:41</span><span>开心补漏</span></div>
+      <div class="app">
+        <div class="screens">
+
+          <!-- P01 今日 -->
+          <section class="screen on" id="today" data-tab="today">
+            <div class="nav">
+              <div>
+                <h1>今日</h1>
+                <div class="sub">小明 · 八年级 · 人教数学</div>
+              </div>
+              <span class="tag">家长</span>
+            </div>
+            <div class="card">
+              <div class="row">
+                <h3>作业计时</h3>
+                <span class="tag warn" id="timerState">未开始</span>
+              </div>
+              <div class="chips" id="subjChips">
+                <button class="chip on" data-s="数学">数学</button>
+                <button class="chip" data-s="英语">英语</button>
+                <button class="chip" data-s="物理">物理</button>
+                <button class="chip" data-s="化学">化学</button>
+                <button class="chip" data-s="未分科">未分科</button>
+              </div>
+              <div class="timer-face"><div class="clock" id="clock">00:00:00</div></div>
+              <p class="muted">今日纸质已计 1 小时 12 分 · 在线补练 18 分</p>
+              <div class="btn-row">
+                <button class="btn btn-amber" id="btnStart">开始</button>
+                <button class="btn btn-ghost" id="btnPause">暂停</button>
+                <button class="btn btn-ghost" id="btnStop">结束</button>
+              </div>
+            </div>
+            <div class="card">
+              <h3>主心愿 · 周末桌游</h3>
+              <div class="progress-bar"><i style="width:60%"></i></div>
+              <p class="muted">满星课时 6 / 10 · 达标后须过综合卷才能兑现</p>
+            </div>
+            <div class="card">
+              <h3>待办</h3>
+              <div class="todo">
+                <span class="dot"></span>
+                <div>
+                  <div>待核对 · 数学作业 3 张图</div>
+                  <p class="muted">低置信度 1 题需确认课时</p>
+                  <div class="btn-row"><button class="btn btn-primary" data-go="confirm">去核对</button></div>
+                </div>
+              </div>
+              <div class="todo">
+                <span class="dot teal"></span>
+                <div>
+                  <div>今日待练 6 题</div>
+                  <p class="muted">含 2 题章节遗漏探测 · 建议 15 分钟内做完</p>
+                  <div class="btn-row"><button class="btn btn-primary" data-go="quiz">去答题</button></div>
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-primary" data-go="upload">拍错题上传</button>
+          </section>
+
+          <!-- P02 上传 -->
+          <section class="screen" id="upload">
+            <div class="nav">
+              <button class="back" data-go="today">返回</button>
+              <h1>拍错题</h1>
+              <span></span>
+            </div>
+            <div class="upload-box">点击添加照片（演示）<br />可多图 · 建议压缩后上传</div>
+            <div class="card">
+              <div class="mine-row">学科 <span>数学</span></div>
+              <div class="mine-row">作业日期 <span>2026-08-25</span></div>
+              <div class="mine-row">来源 <span>课后作业</span></div>
+              <div class="mine-row">教材版本 <span>人教八年级上（可改）</span></div>
+            </div>
+            <button class="btn btn-primary" data-go="confirm">开始识别</button>
+          </section>
+
+          <!-- P03 核对 -->
+          <section class="screen" id="confirm">
+            <div class="nav">
+              <button class="back" data-go="today">返回</button>
+              <h1>核对识别</h1>
+              <span class="tag warn">低置信</span>
+            </div>
+            <div class="card confirm-item">
+              <span class="tag bad">需确认</span>
+              <p style="margin:8px 0">已知一次函数 y=kx+b 过点 (1,3)、(2,5)，求 k、b。</p>
+              <p class="muted">错因候选：概念不清 · 课时：一次函数的图像（置信 0.52）</p>
+              <div class="btn-row">
+                <button class="btn btn-ghost">改绑课时</button>
+                <button class="btn btn-primary">确认入库</button>
+              </div>
+            </div>
+            <div class="card confirm-item">
+              <span class="tag">已识别</span>
+              <p style="margin:8px 0">计算 (x+2)(x-2) 并化简。</p>
+              <p class="muted">错因：计算失误 · 课时：平方差公式（置信 0.91）</p>
+            </div>
+            <button class="btn btn-primary" data-go="today">完成并生成待练</button>
+          </section>
+
+          <!-- P04 错题本 -->
+          <section class="screen" id="wrong" data-tab="wrong">
+            <div class="nav"><h1>错题本</h1></div>
+            <div class="filters">
+              <button class="filter on">全部</button>
+              <button class="filter">数学</button>
+              <button class="filter">英语</button>
+              <button class="filter">物理</button>
+              <button class="filter">化学</button>
+            </div>
+            <div class="card" style="padding:8px 14px">
+              <div class="list-item" data-go="wrongDetail">
+                <div class="thumb"></div>
+                <div>
+                  <div>一次函数过两点求解析式</div>
+                  <p class="muted">数学 · 一次函数的图像 · 概念不清</p>
+                  <span class="stars weak">★☆☆☆☆</span>
+                </div>
+              </div>
+              <div class="list-item" data-go="wrongDetail">
+                <div class="thumb"></div>
+                <div>
+                  <div>平方差公式计算</div>
+                  <p class="muted">数学 · 平方差公式 · 计算失误</p>
+                  <span class="stars">★★☆☆☆</span>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="thumb"></div>
+                <div>
+                  <div>被动语态一般现在时</div>
+                  <p class="muted">英语 · Unit 5 Grammar · 语法</p>
+                  <span class="stars">★★★☆☆</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="screen" id="wrongDetail">
+            <div class="nav">
+              <button class="back" data-go="wrong">返回</button>
+              <h1>错题详情</h1>
+              <span></span>
+            </div>
+            <div class="upload-box" style="height:120px">原图裁剪预览</div>
+            <div class="card">
+              <p class="muted">绑定课时（同步课堂）</p>
+              <p style="margin:6px 0 10px;font-weight:600">八年级上 · 第 11 章 · 一次函数的图像</p>
+              <p class="muted">星级 ★☆☆☆☆ · 人工改星不计入心愿</p>
+              <div class="btn-row">
+                <button class="btn btn-ghost">改绑课时</button>
+                <button class="btn btn-primary" data-go="quiz">再练此课时</button>
+              </div>
+            </div>
+          </section>
+
+          <!-- P06 掌握度 -->
+          <section class="screen" id="mastery" data-tab="mastery">
+            <div class="nav"><h1>掌握度</h1></div>
+            <div class="card">
+              <p class="muted">距主心愿还差 4 颗满星课时</p>
+              <div class="progress-bar"><i style="width:60%"></i></div>
+            </div>
+            <div class="card">
+              <h3>数学 · 人教八上</h3>
+              <div class="chapter">
+                <div class="chapter-h">第 11 章 一次函数 · 进度到 11.2</div>
+                <div class="lesson">11.1 一次函数 <span class="stars">★★★★★</span></div>
+                <div class="lesson">11.2 一次函数的图像 <span class="stars weak">★☆☆☆☆</span></div>
+                <div class="lesson">11.3 一次函数与方程 <span class="tag warn">疑似遗漏</span></div>
+              </div>
+            </div>
+            <div class="card">
+              <h3>英语 · 外研八上</h3>
+              <div class="lesson">Unit 5 Grammar <span class="stars">★★★☆☆</span></div>
+            </div>
+          </section>
+
+          <!-- P08 补练 -->
+          <section class="screen" id="quiz">
+            <div class="nav">
+              <button class="back" data-go="today">返回</button>
+              <h1>今日补练 1/6</h1>
+              <span class="muted">在线计时</span>
+            </div>
+            <p class="muted">课时：一次函数的图像</p>
+            <p class="quiz-q">直线 y=2x+1 与 y 轴交点的坐标是？</p>
+            <button class="opt">A. (0, 1)</button>
+            <button class="opt on">B. (1, 0)</button>
+            <button class="opt">C. (0, 2)</button>
+            <button class="opt">D. (2, 1)</button>
+            <button class="btn btn-primary" style="margin-top:12px" data-go="quizDone">交卷（演示直接结束）</button>
+          </section>
+
+          <section class="screen" id="quizDone">
+            <div class="nav">
+              <button class="back" data-go="today">返回</button>
+              <h1>补练结果</h1>
+              <span></span>
+            </div>
+            <div class="card">
+              <p class="result-big ok">4 / 6</p>
+              <p class="muted" style="text-align:center">对题升星倾向已记 · 2 道错题回流错题本</p>
+            </div>
+            <button class="btn btn-primary" data-go="today">回到今日</button>
+          </section>
+
+          <!-- P09 心愿 -->
+          <section class="screen" id="wish">
+            <div class="nav">
+              <button class="back" data-go="mine">返回</button>
+              <h1>心愿单</h1>
+              <span></span>
+            </div>
+            <div class="card">
+              <span class="tag warn">主心愿 · 进行中</span>
+              <h3 style="margin-top:8px">周末桌游</h3>
+              <p class="muted">门槛：任意学科满星课时 × 10 · 及格线 80%</p>
+              <div class="progress-bar"><i></i></div>
+              <p class="muted">当前 6 / 10 · 人工改星默认不计入</p>
+            </div>
+            <div class="card">
+              <span class="tag">排队</span>
+              <h3 style="margin-top:8px">新篮球</h3>
+              <p class="muted">待主心愿兑现后再推进</p>
+            </div>
+            <div class="card">
+              <span class="tag">待家长同意</span>
+              <h3 style="margin-top:8px">晚睡半小时（孩子许愿）</h3>
+            </div>
+            <button class="btn btn-ghost">添加心愿（家长）</button>
+          </section>
+
+          <!-- P10 综合卷 -->
+          <section class="screen" id="exam">
+            <div class="nav">
+              <button class="back" data-go="today">返回</button>
+              <h1>综合卷 1/18</h1>
+              <span class="muted">兑奖检验</span>
+            </div>
+            <p class="muted">覆盖已满星课时 · 考试中不显示解析</p>
+            <p class="quiz-q">一次函数 y=−x+4 的图像经过第几象限？</p>
+            <button class="opt on">A. 第一、二、四</button>
+            <button class="opt">B. 仅第一</button>
+            <button class="opt">C. 第二、三</button>
+            <button class="btn btn-primary" style="margin-top:12px" data-go="examResult">交卷（演示及格）</button>
+          </section>
+
+          <section class="screen" id="examResult">
+            <div class="nav">
+              <button class="back" data-go="today">返回</button>
+              <h1>综合卷结果</h1>
+              <span></span>
+            </div>
+            <div class="card">
+              <p class="result-big ok">86 分 · 及格</p>
+              <p class="muted" style="text-align:center">心愿「周末桌游」进入待家长兑现。请家长线下兑现后点确认。</p>
+            </div>
+            <button class="btn btn-amber" data-go="mine">提醒家长兑现</button>
+          </section>
+
+          <!-- P12 我的 -->
+          <section class="screen" id="mine" data-tab="mine">
+            <div class="nav"><h1>我的</h1></div>
+            <div class="card">
+              <div style="font-weight:700;font-size:17px">小明</div>
+              <p class="muted">八年级 · 家长微信已登录 · 学生待绑定</p>
+            </div>
+            <div class="card" style="padding:4px 14px">
+              <div class="mine-row" data-go="books">分科教材版本 <span>数学人教 / 英语外研</span></div>
+              <div class="mine-row" data-go="catalog">教材目录（按平台归纳） <span>同步课堂结构</span></div>
+              <div class="mine-row" data-go="wish">心愿单 <span>主心愿进行中</span></div>
+              <div class="mine-row" data-go="exam">去考综合卷 <span>未满星，演示可进</span></div>
+              <div class="mine-row">绑定学生微信 <span>邀请</span></div>
+              <div class="mine-row">本周时长 <span>纸质 6h · 在线 1.2h</span></div>
+            </div>
+            <p class="muted" style="padding:8px">对照同步课堂整理目录 · 体验版不正式上架</p>
+          </section>
+
+          <section class="screen" id="catalog">
+            <div class="nav">
+              <button class="back" data-go="mine">返回</button>
+              <h1>教材目录</h1>
+              <span></span>
+            </div>
+            <p class="muted" style="margin-bottom:8px">筛选顺序与国家中小学智慧教育平台同步课堂一致</p>
+            <div class="chips">
+              <button class="chip on">初中</button>
+              <button class="chip on">八年级</button>
+              <button class="chip on">数学</button>
+              <button class="chip">英语</button>
+              <button class="chip">物理</button>
+            </div>
+            <div class="chips">
+              <button class="chip on">人教版</button>
+              <button class="chip">北师大版</button>
+              <button class="chip on">上册</button>
+            </div>
+            <div class="card">
+              <div class="chapter-h">第 11 章 一次函数</div>
+              <div class="lesson">11.1 从函数到一次函数</div>
+              <div class="lesson">11.2 一次函数的图像</div>
+              <div class="lesson">11.3 一次函数与方程、不等式</div>
+            </div>
+            <p class="muted">课时名来自采集目录 · 不播放平台课件</p>
+          </section>
+
+          <section class="screen" id="books">
+            <div class="nav">
+              <button class="back" data-go="mine">返回</button>
+              <h1>教材版本</h1>
+              <span></span>
+            </div>
+            <p class="muted" style="margin-bottom:8px">选项来自采集的同步课堂已上线版本</p>
+            <div class="card">
+              <div class="mine-row">数学 <span>人教版 八年级上册</span></div>
+              <div class="mine-row">英语 <span>外研版 八年级上册</span></div>
+              <div class="mine-row">物理 <span>人教版 八年级上册</span></div>
+              <div class="mine-row">化学 <span>尚未开设</span></div>
+            </div>
+            <div class="card">
+              <p class="muted">当前进度（遗漏探测窗口）</p>
+              <div class="mine-row">数学学到 <span>第 11 章 11.2</span></div>
+            </div>
+          </section>
+        </div>
+
+        <nav class="tabbar">
+          <button class="tab on" data-tab="today"><span class="ico">◎</span>今日</button>
+          <button class="tab" data-tab="wrong"><span class="ico">▤</span>错题</button>
+          <button class="tab" data-tab="mastery"><span class="ico">★</span>掌握</button>
+          <button class="tab" data-tab="mine"><span class="ico">○</span>我的</button>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
