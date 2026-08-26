@@ -1,0 +1,10 @@
+{
+  "name": "ping",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Health check; deploy via WeChat DevTools as event function",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.4.0"
+  }
+}

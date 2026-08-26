@@ -10,6 +10,15 @@
 - `doc/spec/宪法摘要.md`
 - `doc/plan/功能任务清单.md`
 - `doc/spec/ADR-004-同步课堂目录采集.md`
+- `doc/spec/ADR-005-前端只走HTTP后端.md`
+
+云开发实现前必读技能：`C:/Users/admin/.agents/skills/cloudbase/SKILL.md`，以及 `references/cloud-functions`、`http-api-cloudbase`、`auth-wechat-miniprogram`。**本产品前端仍禁止 callFunction，以 ADR-005 为准。**
+
+安装（缺技能时）：
+
+```bash
+npx skills add tencentcloudbase/cloudbase-skills -g -y
+```
 
 ## 目录
 
@@ -19,13 +28,14 @@
 | `doc/design/` | 设计文档与 H5 原型 |
 | `doc/spec/` | SPEC、ADR、api.md |
 | `tasks/` | plan.md / todo.md |
-| `cloudfunctions/` | 云函数（实现期） |
+| `frontend/` | 微信小程序（`miniprogramRoot`） |
+| `cloudfunctions/` | 普通云函数（`cloudfunctionRoot`，即后端） |
 | `data/catalog/` | 可选采集缓冲，非线上真源 |
 | 云数据库 catalog_* | 知识点目录真源 |
 
 ## 实现纪律
 
-一次只做 `tasks/todo.md` 下一张未完成 **Fxx**。今日页只插槽。密钥不进 git。禁止微信提交审核。
+一次只做 `tasks/todo.md` 下一张未完成项。先波次 A（普通云函数），再波次 B。小程序对接云开发 `callFunction`，不自建服务器，禁止客户端直写云库。今日页只插槽。密钥不进 git。禁止微信提交审核。一期不做费曼模块。
 
 ## 官方文档（S4+）
 

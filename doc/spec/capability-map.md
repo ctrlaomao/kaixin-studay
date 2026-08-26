@@ -2,7 +2,7 @@
 
 | Module id | Responsibility | Depends on |
 | --- | --- | --- |
-| identity-child | 孩子档案、家庭 openid 绑定 | — |
+| identity-child | 多名孩子档案；微信号加入家庭；openid 角色；当前孩子解析 | — |
 | catalog | 采集目录元数据并 **写入云数据库**；按平台层级展示 | identity-child |
 | timer | 纸质作业计时 | identity-child |
 | homework-capture | 拍照上传、批次、识图、核对入库 | catalog |
@@ -11,6 +11,6 @@
 | wish-exam | 心愿、综合卷、兑现 | mastery, practice |
 | shell | Tab 空壳、今日待办聚合、体验版交付 | identity-child |
 
-Build order: shell(F00) 与 identity-child 并行于骨架之后 → catalog → timer 可与 homework-capture 分文件并行但禁止同文件 → mastery(F10 可提前) → practice → wish-exam。
+Build order: 波次 A：F00 云侧 → identity（含 **F03 家庭角色，必做**）→ catalog → timer / homework → mastery → practice → wish。波次 B 再挂页面。
 
 索引：总规格 [`SPEC.md`](SPEC.md)；实现卡 [`../plan/功能任务清单.md`](../plan/功能任务清单.md)。

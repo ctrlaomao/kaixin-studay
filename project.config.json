@@ -1,0 +1,53 @@
+{
+  "miniprogramRoot": "frontend/",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "compileType": "miniprogram",
+  "appid": "wx4bed64e09ce765c2",
+  "projectname": "kaixin-studay",
+  "libVersion": "3.17.1",
+  "setting": {
+    "es6": true,
+    "minified": true,
+    "urlCheck": false,
+    "postcss": false,
+    "compileWorklet": false,
+    "uglifyFileName": false,
+    "uploadWithSourceMap": true,
+    "enhance": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "minifyWXML": true,
+    "localPlugins": false,
+    "disableUseStrict": false,
+    "useCompilerPlugins": false,
+    "condition": false,
+    "swc": false,
+    "disableSWC": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "packOptions": {
+    "ignore": [
+      {
+        "value": "doc",
+        "type": "folder"
+      },
+      {
+        "value": "mp-weixin",
+        "type": "folder"
+      },
+      {
+        "value": "data",
+        "type": "folder"
+      }
+    ],
+    "include": []
+  },
+  "simulatorPluginLibVersion": {},
+  "editorSetting": {},
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate/"
+}

@@ -1,0 +1,11 @@
+{
+  "pages": ["pages/index/index"],
+  "window": {
+    "navigationBarTitleText": "开心补漏",
+    "navigationBarBackgroundColor": "#0F766E",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#F4F1EA"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

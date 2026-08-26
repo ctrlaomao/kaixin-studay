@@ -8,7 +8,7 @@
 - 涉及界面时：`frontend-ui-engineering/SKILL.md`
 - 涉及云函数/集合时：`api-and-interface-design/SKILL.md`（只扩本卡契约）
 - 本卡若含打星计算：`test-driven-development/SKILL.md` + `doubt-driven-development/SKILL.md`
-- 调微信云 API：`source-driven-development/SKILL.md`（先查官方文档）
+- 调微信云 API：`source-driven-development/SKILL.md` + `C:/Users/admin/.agents/skills/cloudbase/SKILL.md`。小程序经封装 `callFunction`；禁止客户端直写云库。
 
 ## 宪法
 
@@ -16,7 +16,7 @@
 
 ## 工作方式
 
-1. 只实现任务卡中的功能与验收。
+1. 只实现任务卡中的功能与验收。切片 A：`cloudfunctions/` / 脚本 / 测试，禁止改业务页，禁止自建 HTTP 服务器。切片 B：页面 + 统一 `api` 封装 `callFunction`；禁止 `wx.cloud.database` 写库。
 2. 只改「允许改动」路径；今日页只加插槽组件，不把新业务写进无关 Tab。
 3. 不修改其他任务卡已完成的行为；要共用则调用已有云函数/工具函数。
 4. 结束前自测验收清单；给总控阶段报告（改了哪些文件、如何验证、假设）。

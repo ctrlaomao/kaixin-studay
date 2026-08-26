@@ -1,0 +1,10 @@
+{
+  "name": "recognizeHomework",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Homework image recognition via CloudBase multimodal AI",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "3.0.5-beta.1"
+  }
+}

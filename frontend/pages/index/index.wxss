@@ -1,0 +1,5 @@
+.hint {
+  padding: 48rpx;
+  color: #0f766e;
+  font-size: 28rpx;
+}
