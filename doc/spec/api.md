@@ -14,6 +14,7 @@
 | --- | --- |
 | `ping` | 健康检查。云端测试验收。 |
 | `recognizeHomework` | F07 识图。默认外部 DeepSeek `deepseek-v4-flash-vision-exp`（环境变量 `DEEPSEEK_API_KEY`）。`textSmoke` 仍测云开发 `hy3`。`mock:true` 走样例。 |
+| `catalogImport` | F00g 目录导入。`action`: `ping` / `importEdition` / `importTree`；分批 upsert `catalog_edition`、`catalog_lesson`，写 `catalog_sync_log`。见 `cloudfunctions/catalogImport/README.md`。 |
 
 ## 鉴权
 
@@ -23,7 +24,7 @@
 
 | 方法 | 路径 | 卡 |
 | --- | --- | --- |
-| * | `/catalog/import` | F00g 导入，非小程序日常调用 |
+| * | `/catalog/import` | F00g `catalogImport`：`importEdition` / `importTree` |
 | GET | `/catalog/editions` `/catalog/lessons` | F00g/F00f |
 | * | `/children` | F01A |
 | PATCH | `/children/:id/textbooks` | F02A |
@@ -57,3 +58,5 @@
 | wish | childId、主心愿 |
 
 权限原则：小程序安全规则不开放业务集合给客户端 SDK。写入只在 `cloudfunctions/`。目录经云函数查询。
+
+`catalog_edition`、`catalog_lesson`、`catalog_sync_log`：**客户端拒绝写**；仅 `catalogImport` 云函数写入。读目录后续经查询类云函数（F00g 后 / P14）。

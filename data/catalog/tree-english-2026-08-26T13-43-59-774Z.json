@@ -1,0 +1,3947 @@
+{
+  "schemaVersion": 1,
+  "syncAt": "2026-08-26T13:43:59.774Z",
+  "source": "smartedu-syncClassroom",
+  "editions": [
+    {
+      "editionId": "de15c806d848e531fe7afdbabdca07dd",
+      "stageId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+      "stageLabel": "初中",
+      "gradeId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+      "gradeLabel": "七年级",
+      "subjectId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+      "subjectLabel": "英语",
+      "versionId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+      "versionLabel": "外研社版",
+      "volumeId": "ff8080814371757b014390f883db0453",
+      "volumeLabel": "上册",
+      "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453",
+      "platformTagPath": [
+        {
+          "level": "stage",
+          "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+          "label": "初中"
+        },
+        {
+          "level": "grade",
+          "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+          "label": "七年级"
+        },
+        {
+          "level": "subject",
+          "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+          "label": "英语"
+        },
+        {
+          "level": "version",
+          "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+          "label": "外研社版"
+        },
+        {
+          "level": "volume",
+          "tagId": "ff8080814371757b014390f883db0453",
+          "label": "上册"
+        }
+      ],
+      "online": true,
+      "sourceUrl": "https://basic.smartedu.cn/syncClassroom?defaultTag=e7bbce2c-0590-11ed-9c79-92fc3b3249d5%2F44bebf7c-54e6-11ed-9c34-850ba61fa9f4%2F6a7495dc-0772-11ed-ac74-092ab92074e6%2F44bedbe2-54e6-11ed-9c34-850ba61fa9f4%2Fff8080814371757b014390f883db0453",
+      "chapters": [
+        {
+          "chapterId": "90b94893-73a3-4b76-bef4-f3112eb43cbe",
+          "chapterLabel": "Starter Module 1 My teacher and my friends",
+          "chapterOrder": 1,
+          "lessons": [
+            {
+              "lessonId": "f8ee629adb1d1cb5970bdbb4677da1bc",
+              "lessonLabel": "Starter Module 1 My teacher and my friends（1）",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/90b94893-73a3-4b76-bef4-f3112eb43cbe/3caf0ca0-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "90b94893-73a3-4b76-bef4-f3112eb43cbe",
+                  "label": "Starter Module 1 My teacher and my friends"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0ca0-9879-11ec-92ef-246e9675e50c",
+                  "label": "Starter Module 1 My teacher and my friends（1）"
+                }
+              ],
+              "sortKey": "001_001"
+            },
+            {
+              "lessonId": "095384f881bf8e8839aeed725108f7e3",
+              "lessonLabel": "Starter Module 1 My teacher and my friends（2）",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/90b94893-73a3-4b76-bef4-f3112eb43cbe/3caf0cd9-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "90b94893-73a3-4b76-bef4-f3112eb43cbe",
+                  "label": "Starter Module 1 My teacher and my friends"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0cd9-9879-11ec-92ef-246e9675e50c",
+                  "label": "Starter Module 1 My teacher and my friends（2）"
+                }
+              ],
+              "sortKey": "001_002"
+            }
+          ]
+        },
+        {
+          "chapterId": "6049ae35-1d28-4fb4-a18e-b59f87ea682b",
+          "chapterLabel": "Starter Module 2 My English lesson",
+          "chapterOrder": 2,
+          "lessons": [
+            {
+              "lessonId": "00e51cbfea204642ad503adc4aa614d9",
+              "lessonLabel": "Starter Module 2 My English lesson（1）",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/6049ae35-1d28-4fb4-a18e-b59f87ea682b/3caf0d13-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "6049ae35-1d28-4fb4-a18e-b59f87ea682b",
+                  "label": "Starter Module 2 My English lesson"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0d13-9879-11ec-92ef-246e9675e50c",
+                  "label": "Starter Module 2 My English lesson（1）"
+                }
+              ],
+              "sortKey": "002_001"
+            },
+            {
+              "lessonId": "7a3f246545a0dd53692f2c331a4b7048",
+              "lessonLabel": "Starter Module 2 My English lesson（2）",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/6049ae35-1d28-4fb4-a18e-b59f87ea682b/3caf0dc0-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "6049ae35-1d28-4fb4-a18e-b59f87ea682b",
+                  "label": "Starter Module 2 My English lesson"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0dc0-9879-11ec-92ef-246e9675e50c",
+                  "label": "Starter Module 2 My English lesson（2）"
+                }
+              ],
+              "sortKey": "002_002"
+            }
+          ]
+        },
+        {
+          "chapterId": "c6eec1b2-8990-43df-a720-dac70ccd3a3f",
+          "chapterLabel": "Starter Module 3 My English book",
+          "chapterOrder": 3,
+          "lessons": [
+            {
+              "lessonId": "54290ba500a2cc475981ffbaca2f47c5",
+              "lessonLabel": "Starter Module 3 My English book（1）",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/c6eec1b2-8990-43df-a720-dac70ccd3a3f/3caf0dff-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "c6eec1b2-8990-43df-a720-dac70ccd3a3f",
+                  "label": "Starter Module 3 My English book"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0dff-9879-11ec-92ef-246e9675e50c",
+                  "label": "Starter Module 3 My English book（1）"
+                }
+              ],
+              "sortKey": "003_001"
+            },
+            {
+              "lessonId": "e7de2a74ba3d044ce1a5a24f7a5b20ce",
+              "lessonLabel": "Starter Module 3 My English book（2）",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/c6eec1b2-8990-43df-a720-dac70ccd3a3f/3caf0e3a-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "c6eec1b2-8990-43df-a720-dac70ccd3a3f",
+                  "label": "Starter Module 3 My English book"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0e3a-9879-11ec-92ef-246e9675e50c",
+                  "label": "Starter Module 3 My English book（2）"
+                }
+              ],
+              "sortKey": "003_002"
+            }
+          ]
+        },
+        {
+          "chapterId": "8f6005ab-faeb-42b1-b476-9504061a4dd9",
+          "chapterLabel": "Starter Module 4 My everyday life",
+          "chapterOrder": 4,
+          "lessons": [
+            {
+              "lessonId": "709082aacf3f5d9ee60f0188e9d866cf",
+              "lessonLabel": "Starter Module 4 My everyday life（1）",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/8f6005ab-faeb-42b1-b476-9504061a4dd9/3caf0e74-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "8f6005ab-faeb-42b1-b476-9504061a4dd9",
+                  "label": "Starter Module 4 My everyday life"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0e74-9879-11ec-92ef-246e9675e50c",
+                  "label": "Starter Module 4 My everyday life（1）"
+                }
+              ],
+              "sortKey": "004_001"
+            },
+            {
+              "lessonId": "55dfb034d24a96959ca46773343b797f",
+              "lessonLabel": "Starter Module 4 My everyday life（2）",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/8f6005ab-faeb-42b1-b476-9504061a4dd9/3caf0eac-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "8f6005ab-faeb-42b1-b476-9504061a4dd9",
+                  "label": "Starter Module 4 My everyday life"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0eac-9879-11ec-92ef-246e9675e50c",
+                  "label": "Starter Module 4 My everyday life（2）"
+                }
+              ],
+              "sortKey": "004_002"
+            }
+          ]
+        },
+        {
+          "chapterId": "6ac3cb5e-3b24-440d-bc5d-043864772d09",
+          "chapterLabel": "Module 1  My class-mates",
+          "chapterOrder": 5,
+          "lessons": [
+            {
+              "lessonId": "19c50973b026a0e86d9ef650b6a08912",
+              "lessonLabel": "M1 Unit 1 Nice to meet you.",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/6ac3cb5e-3b24-440d-bc5d-043864772d09/3caf0507-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "6ac3cb5e-3b24-440d-bc5d-043864772d09",
+                  "label": "Module 1  My class-mates"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0507-9879-11ec-92ef-246e9675e50c",
+                  "label": "M1 Unit 1 Nice to meet you."
+                }
+              ],
+              "sortKey": "005_001"
+            },
+            {
+              "lessonId": "5c09164d312802ed109d1514b4a9e386",
+              "lessonLabel": "M1 Unit 2 I'm Wang Lingling and I'm thirteen years old.",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/6ac3cb5e-3b24-440d-bc5d-043864772d09/3caf0543-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "6ac3cb5e-3b24-440d-bc5d-043864772d09",
+                  "label": "Module 1  My class-mates"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0543-9879-11ec-92ef-246e9675e50c",
+                  "label": "M1 Unit 2 I'm Wang Lingling and I'm thirteen years old."
+                }
+              ],
+              "sortKey": "005_002"
+            },
+            {
+              "lessonId": "e9b285879a24c464f770673b0a5a8320",
+              "lessonLabel": "M1 Unit 3 Language in use",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/6ac3cb5e-3b24-440d-bc5d-043864772d09/3caf057b-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "6ac3cb5e-3b24-440d-bc5d-043864772d09",
+                  "label": "Module 1  My class-mates"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf057b-9879-11ec-92ef-246e9675e50c",
+                  "label": "M1 Unit 3 Language in use"
+                }
+              ],
+              "sortKey": "005_003"
+            }
+          ]
+        },
+        {
+          "chapterId": "465475c1-0923-41c5-ac02-65c9b3bb1360",
+          "chapterLabel": "Module 2  My family",
+          "chapterOrder": 6,
+          "lessons": [
+            {
+              "lessonId": "deb36634581c1d3a1ea7d595db34ead4",
+              "lessonLabel": "M2 Unit 1 Is this your mum?",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/465475c1-0923-41c5-ac02-65c9b3bb1360/3caf0675-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "465475c1-0923-41c5-ac02-65c9b3bb1360",
+                  "label": "Module 2  My family"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0675-9879-11ec-92ef-246e9675e50c",
+                  "label": "M2 Unit 1 Is this your mum?"
+                }
+              ],
+              "sortKey": "006_001"
+            },
+            {
+              "lessonId": "0c152b66f8883fc350b624b710d6a466",
+              "lessonLabel": "M2 Unit 2 These are my parents.",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/465475c1-0923-41c5-ac02-65c9b3bb1360/3caf06ab-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "465475c1-0923-41c5-ac02-65c9b3bb1360",
+                  "label": "Module 2  My family"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf06ab-9879-11ec-92ef-246e9675e50c",
+                  "label": "M2 Unit 2 These are my parents."
+                }
+              ],
+              "sortKey": "006_002"
+            },
+            {
+              "lessonId": "56144f2a4c74d40d8461511b7796f948",
+              "lessonLabel": "M2 Unit 3 Language in use",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/465475c1-0923-41c5-ac02-65c9b3bb1360/3caf06e2-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "465475c1-0923-41c5-ac02-65c9b3bb1360",
+                  "label": "Module 2  My family"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf06e2-9879-11ec-92ef-246e9675e50c",
+                  "label": "M2 Unit 3 Language in use"
+                }
+              ],
+              "sortKey": "006_003"
+            }
+          ]
+        },
+        {
+          "chapterId": "d5bc7ca9-91f7-4aeb-b24e-855902652189",
+          "chapterLabel": "Module 3  My school",
+          "chapterOrder": 7,
+          "lessons": [
+            {
+              "lessonId": "0d86ac9683b7fb6f10194c5c01b9f860",
+              "lessonLabel": "M3 Unit 1 There are thirty students in my class.",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/d5bc7ca9-91f7-4aeb-b24e-855902652189/3caf071a-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "d5bc7ca9-91f7-4aeb-b24e-855902652189",
+                  "label": "Module 3  My school"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf071a-9879-11ec-92ef-246e9675e50c",
+                  "label": "M3 Unit 1 There are thirty students in my class."
+                }
+              ],
+              "sortKey": "007_004"
+            },
+            {
+              "lessonId": "add06c12f91ee9a92c7388b84f3a760d",
+              "lessonLabel": "M3 Unit 2 The library is on the left of the playground.",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/d5bc7ca9-91f7-4aeb-b24e-855902652189/3caf0754-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "d5bc7ca9-91f7-4aeb-b24e-855902652189",
+                  "label": "Module 3  My school"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0754-9879-11ec-92ef-246e9675e50c",
+                  "label": "M3 Unit 2 The library is on the left of the playground."
+                }
+              ],
+              "sortKey": "007_005"
+            },
+            {
+              "lessonId": "56325633f87be05930db4cbb5a6e0e6a",
+              "lessonLabel": "M3 Unit 3 Language in use",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/d5bc7ca9-91f7-4aeb-b24e-855902652189/3caf078b-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "d5bc7ca9-91f7-4aeb-b24e-855902652189",
+                  "label": "Module 3  My school"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf078b-9879-11ec-92ef-246e9675e50c",
+                  "label": "M3 Unit 3 Language in use"
+                }
+              ],
+              "sortKey": "007_006"
+            }
+          ]
+        },
+        {
+          "chapterId": "abcfca18-bbd3-4604-a6c4-252d0518d634",
+          "chapterLabel": "Module 4  Healthy food",
+          "chapterOrder": 8,
+          "lessons": [
+            {
+              "lessonId": "f8622cbad2ea4f3d53a9123d37e5d923",
+              "lessonLabel": "M4 Unit 1 We've got lots of apples.",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/abcfca18-bbd3-4604-a6c4-252d0518d634/3caf07c5-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "abcfca18-bbd3-4604-a6c4-252d0518d634",
+                  "label": "Module 4  Healthy food"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf07c5-9879-11ec-92ef-246e9675e50c",
+                  "label": "M4 Unit 1 We've got lots of apples."
+                }
+              ],
+              "sortKey": "008_001"
+            },
+            {
+              "lessonId": "756795157333d81a703e9de82ccb926e",
+              "lessonLabel": "M4 Unit 2 Is your food and drink healthy?",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/abcfca18-bbd3-4604-a6c4-252d0518d634/3caf07fe-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "abcfca18-bbd3-4604-a6c4-252d0518d634",
+                  "label": "Module 4  Healthy food"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf07fe-9879-11ec-92ef-246e9675e50c",
+                  "label": "M4 Unit 2 Is your food and drink healthy?"
+                }
+              ],
+              "sortKey": "008_002"
+            },
+            {
+              "lessonId": "c84510bd1cd6020b15805601e57e6e1c",
+              "lessonLabel": "M4 Unit 3 Language in use",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/abcfca18-bbd3-4604-a6c4-252d0518d634/3caf0835-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "abcfca18-bbd3-4604-a6c4-252d0518d634",
+                  "label": "Module 4  Healthy food"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0835-9879-11ec-92ef-246e9675e50c",
+                  "label": "M4 Unit 3 Language in use"
+                }
+              ],
+              "sortKey": "008_003"
+            }
+          ]
+        },
+        {
+          "chapterId": "a300b2f8-73a8-4ff5-a7e7-cff22e61dacd",
+          "chapterLabel": "Module 5  My school day",
+          "chapterOrder": 9,
+          "lessons": [
+            {
+              "lessonId": "44517ba8a37b86c719094339d922ce38",
+              "lessonLabel": "M5 Unit 1 I love history.",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/a300b2f8-73a8-4ff5-a7e7-cff22e61dacd/3caf086d-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a300b2f8-73a8-4ff5-a7e7-cff22e61dacd",
+                  "label": "Module 5  My school day"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf086d-9879-11ec-92ef-246e9675e50c",
+                  "label": "M5 Unit 1 I love history."
+                }
+              ],
+              "sortKey": "009_001"
+            },
+            {
+              "lessonId": "f2efaa5f1b971dba129a2a6107343cc0",
+              "lessonLabel": "M5 Unit 2 We start work at nine o'clock.",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/a300b2f8-73a8-4ff5-a7e7-cff22e61dacd/3caf08a3-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a300b2f8-73a8-4ff5-a7e7-cff22e61dacd",
+                  "label": "Module 5  My school day"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf08a3-9879-11ec-92ef-246e9675e50c",
+                  "label": "M5 Unit 2 We start work at nine o'clock."
+                }
+              ],
+              "sortKey": "009_002"
+            },
+            {
+              "lessonId": "9528de6e16abffb89a9f3fa0c0779164",
+              "lessonLabel": "M5 Unit 3 Language in use",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/a300b2f8-73a8-4ff5-a7e7-cff22e61dacd/3caf08dc-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a300b2f8-73a8-4ff5-a7e7-cff22e61dacd",
+                  "label": "Module 5  My school day"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf08dc-9879-11ec-92ef-246e9675e50c",
+                  "label": "M5 Unit 3 Language in use"
+                }
+              ],
+              "sortKey": "009_003"
+            }
+          ]
+        },
+        {
+          "chapterId": "1608fb88-a356-4bbc-b5c8-8a4855ca575c",
+          "chapterLabel": "Revision Module A",
+          "chapterOrder": 10,
+          "lessons": [
+            {
+              "lessonId": "6281888f6ecf79c156d98e6d4f951dab",
+              "lessonLabel": "Revision Module A（1）",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/1608fb88-a356-4bbc-b5c8-8a4855ca575c/3caf0bba-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "1608fb88-a356-4bbc-b5c8-8a4855ca575c",
+                  "label": "Revision Module A"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0bba-9879-11ec-92ef-246e9675e50c",
+                  "label": "Revision Module A（1）"
+                }
+              ],
+              "sortKey": "010_001"
+            },
+            {
+              "lessonId": "cb55b22b5541b3b91001fd41e3f80cd0",
+              "lessonLabel": "Revision Module A（2）",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/1608fb88-a356-4bbc-b5c8-8a4855ca575c/3caf0bf2-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "1608fb88-a356-4bbc-b5c8-8a4855ca575c",
+                  "label": "Revision Module A"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0bf2-9879-11ec-92ef-246e9675e50c",
+                  "label": "Revision Module A（2）"
+                }
+              ],
+              "sortKey": "010_002"
+            }
+          ]
+        },
+        {
+          "chapterId": "ab44a277-3456-4425-bb4e-c5c094d40318",
+          "chapterLabel": "Module 6  A trip to the zoo",
+          "chapterOrder": 11,
+          "lessons": [
+            {
+              "lessonId": "11628565f2bce2d456fdd6e8318580cf",
+              "lessonLabel": "M6 Unit 1 Does it eat meat?",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/ab44a277-3456-4425-bb4e-c5c094d40318/3caf0913-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "ab44a277-3456-4425-bb4e-c5c094d40318",
+                  "label": "Module 6  A trip to the zoo"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0913-9879-11ec-92ef-246e9675e50c",
+                  "label": "M6 Unit 1 Does it eat meat?"
+                }
+              ],
+              "sortKey": "011_001"
+            },
+            {
+              "lessonId": "37a82b244c738cdf81636621e8541f22",
+              "lessonLabel": "M6 Unit 2 The tiger lives in Asia.",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/ab44a277-3456-4425-bb4e-c5c094d40318/3caf0953-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "ab44a277-3456-4425-bb4e-c5c094d40318",
+                  "label": "Module 6  A trip to the zoo"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0953-9879-11ec-92ef-246e9675e50c",
+                  "label": "M6 Unit 2 The tiger lives in Asia."
+                }
+              ],
+              "sortKey": "011_002"
+            },
+            {
+              "lessonId": "f67e5ed73e2776d6c3986ec41451d538",
+              "lessonLabel": "M6 Unit 3 Language in use",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/ab44a277-3456-4425-bb4e-c5c094d40318/3caf098d-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "ab44a277-3456-4425-bb4e-c5c094d40318",
+                  "label": "Module 6  A trip to the zoo"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf098d-9879-11ec-92ef-246e9675e50c",
+                  "label": "M6 Unit 3 Language in use"
+                }
+              ],
+              "sortKey": "011_003"
+            }
+          ]
+        },
+        {
+          "chapterId": "0d838157-622f-4fef-941f-3b17444c7013",
+          "chapterLabel": "Module 7  Computers",
+          "chapterOrder": 12,
+          "lessons": [
+            {
+              "lessonId": "77a2f918b9f8d48f0109f8f615edb085",
+              "lessonLabel": "M7 Unit 1 How do I write my homework on the computer?",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/0d838157-622f-4fef-941f-3b17444c7013/3caf09c6-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "0d838157-622f-4fef-941f-3b17444c7013",
+                  "label": "Module 7  Computers"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf09c6-9879-11ec-92ef-246e9675e50c",
+                  "label": "M7 Unit 1 How do I write my homework on the computer?"
+                }
+              ],
+              "sortKey": "012_001"
+            },
+            {
+              "lessonId": "82fed31d2bae55cb3872dbccf4ad615f",
+              "lessonLabel": "M7 Unit 2 When do you use a computer?",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/0d838157-622f-4fef-941f-3b17444c7013/3caf0a01-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "0d838157-622f-4fef-941f-3b17444c7013",
+                  "label": "Module 7  Computers"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0a01-9879-11ec-92ef-246e9675e50c",
+                  "label": "M7 Unit 2 When do you use a computer?"
+                }
+              ],
+              "sortKey": "012_002"
+            },
+            {
+              "lessonId": "d20aca7a41b710f32e10b4b8f03d244d",
+              "lessonLabel": "M7 Unit 3 Language in use",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/0d838157-622f-4fef-941f-3b17444c7013/3caf0a36-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "0d838157-622f-4fef-941f-3b17444c7013",
+                  "label": "Module 7  Computers"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0a36-9879-11ec-92ef-246e9675e50c",
+                  "label": "M7 Unit 3 Language in use"
+                }
+              ],
+              "sortKey": "012_003"
+            }
+          ]
+        },
+        {
+          "chapterId": "0efbd17b-be0b-48b6-9a4b-0c5d27a1b7d1",
+          "chapterLabel": "Module 8  Choosing presents",
+          "chapterOrder": 13,
+          "lessons": [
+            {
+              "lessonId": "e6f4dcf3614034c768830de89fb81470",
+              "lessonLabel": "M8 Unit 1 I always like birthday parties.",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/0efbd17b-be0b-48b6-9a4b-0c5d27a1b7d1/3caf0a70-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "0efbd17b-be0b-48b6-9a4b-0c5d27a1b7d1",
+                  "label": "Module 8  Choosing presents"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0a70-9879-11ec-92ef-246e9675e50c",
+                  "label": "M8 Unit 1 I always like birthday parties."
+                }
+              ],
+              "sortKey": "013_004"
+            },
+            {
+              "lessonId": "67fccd7805934e93f6b2e243fca0c44d",
+              "lessonLabel": "M8 Unit 2 She often goes to concerts.",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/0efbd17b-be0b-48b6-9a4b-0c5d27a1b7d1/3caf0aa8-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "0efbd17b-be0b-48b6-9a4b-0c5d27a1b7d1",
+                  "label": "Module 8  Choosing presents"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0aa8-9879-11ec-92ef-246e9675e50c",
+                  "label": "M8 Unit 2 She often goes to concerts."
+                }
+              ],
+              "sortKey": "013_005"
+            },
+            {
+              "lessonId": "0ac30bf879ba7681e781bd86ee87d3b0",
+              "lessonLabel": "M8 Unit 3 Language in use",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/0efbd17b-be0b-48b6-9a4b-0c5d27a1b7d1/3caf0ae0-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "0efbd17b-be0b-48b6-9a4b-0c5d27a1b7d1",
+                  "label": "Module 8  Choosing presents"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0ae0-9879-11ec-92ef-246e9675e50c",
+                  "label": "M8 Unit 3 Language in use"
+                }
+              ],
+              "sortKey": "013_006"
+            }
+          ]
+        },
+        {
+          "chapterId": "57a80162-4759-40d0-babe-f511645fa34d",
+          "chapterLabel": "Module 9  People and places",
+          "chapterOrder": 14,
+          "lessons": [
+            {
+              "lessonId": "4c44bd9cfb752b496e298d0da959feb4",
+              "lessonLabel": "M9 Unit 1 We're enjoying the school trip a lot.",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/57a80162-4759-40d0-babe-f511645fa34d/3caf0b17-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "57a80162-4759-40d0-babe-f511645fa34d",
+                  "label": "Module 9  People and places"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0b17-9879-11ec-92ef-246e9675e50c",
+                  "label": "M9 Unit 1 We're enjoying the school trip a lot."
+                }
+              ],
+              "sortKey": "014_001"
+            },
+            {
+              "lessonId": "1b0c6ac91f24dc59f7f432e7b7ffbf9f",
+              "lessonLabel": "M9 Unit 2 They're waiting for buses or trains.",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/57a80162-4759-40d0-babe-f511645fa34d/3caf0b4c-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "57a80162-4759-40d0-babe-f511645fa34d",
+                  "label": "Module 9  People and places"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0b4c-9879-11ec-92ef-246e9675e50c",
+                  "label": "M9 Unit 2 They're waiting for buses or trains."
+                }
+              ],
+              "sortKey": "014_002"
+            },
+            {
+              "lessonId": "dcd5396570184162f77af2c547250cf5",
+              "lessonLabel": "M9 Unit 3 Language in use",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/57a80162-4759-40d0-babe-f511645fa34d/3caf0b84-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "57a80162-4759-40d0-babe-f511645fa34d",
+                  "label": "Module 9  People and places"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0b84-9879-11ec-92ef-246e9675e50c",
+                  "label": "M9 Unit 3 Language in use"
+                }
+              ],
+              "sortKey": "014_003"
+            }
+          ]
+        },
+        {
+          "chapterId": "604ebc67-7ae3-420e-993a-ae6cbfeabf3a",
+          "chapterLabel": "Module 10  Spring Festival",
+          "chapterOrder": 15,
+          "lessons": [
+            {
+              "lessonId": "c7c8e4233bb419e020a1df942ce03cdc",
+              "lessonLabel": "M10 Unit 1 Are you getting ready for Spring Festival?",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/604ebc67-7ae3-420e-993a-ae6cbfeabf3a/3caf05b7-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "604ebc67-7ae3-420e-993a-ae6cbfeabf3a",
+                  "label": "Module 10  Spring Festival"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf05b7-9879-11ec-92ef-246e9675e50c",
+                  "label": "M10 Unit 1 Are you getting ready for Spring Festival?"
+                }
+              ],
+              "sortKey": "015_001"
+            },
+            {
+              "lessonId": "d95a1d56401d6f9f43dd6b1056c6fc31",
+              "lessonLabel": "M10 Unit 2 My mother's cleaning our house and sweeping away bad luck.",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/604ebc67-7ae3-420e-993a-ae6cbfeabf3a/3caf05ef-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "604ebc67-7ae3-420e-993a-ae6cbfeabf3a",
+                  "label": "Module 10  Spring Festival"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf05ef-9879-11ec-92ef-246e9675e50c",
+                  "label": "M10 Unit 2 My mother's cleaning our house and sweeping away bad luck."
+                }
+              ],
+              "sortKey": "015_002"
+            },
+            {
+              "lessonId": "6141fc1d6b45b6b843655440878550ea",
+              "lessonLabel": "M10 Unit 3 Language in use",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/604ebc67-7ae3-420e-993a-ae6cbfeabf3a/3caf063b-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "604ebc67-7ae3-420e-993a-ae6cbfeabf3a",
+                  "label": "Module 10  Spring Festival"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf063b-9879-11ec-92ef-246e9675e50c",
+                  "label": "M10 Unit 3 Language in use"
+                }
+              ],
+              "sortKey": "015_003"
+            }
+          ]
+        },
+        {
+          "chapterId": "1c846a94-db03-4570-a95d-3093bf28ff90",
+          "chapterLabel": "Revision Module B",
+          "chapterOrder": 16,
+          "lessons": [
+            {
+              "lessonId": "dd39816040a85f746d866c20b4a292ac",
+              "lessonLabel": "Revision Module B（1）",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/1c846a94-db03-4570-a95d-3093bf28ff90/3caf0c2c-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "1c846a94-db03-4570-a95d-3093bf28ff90",
+                  "label": "Revision Module B"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0c2c-9879-11ec-92ef-246e9675e50c",
+                  "label": "Revision Module B（1）"
+                }
+              ],
+              "sortKey": "016_001"
+            },
+            {
+              "lessonId": "44ae41d619ba96dac48cc3c66f8bd165",
+              "lessonLabel": "Revision Module B（2）",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/44bedbe2-54e6-11ed-9c34-850ba61fa9f4/ff8080814371757b014390f883db0453/1c846a94-db03-4570-a95d-3093bf28ff90/3caf0c63-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "44bedbe2-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "外研社版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "1c846a94-db03-4570-a95d-3093bf28ff90",
+                  "label": "Revision Module B"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caf0c63-9879-11ec-92ef-246e9675e50c",
+                  "label": "Revision Module B（2）"
+                }
+              ],
+              "sortKey": "016_002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "editionId": "8e7b1b1e1885596b86ac4231e7537aab",
+      "stageId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+      "stageLabel": "初中",
+      "gradeId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+      "gradeLabel": "七年级",
+      "subjectId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+      "subjectLabel": "英语",
+      "versionId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+      "versionLabel": "北师大版",
+      "volumeId": "ff8080814371757b014390fcdce504bd",
+      "volumeLabel": "下册",
+      "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd",
+      "platformTagPath": [
+        {
+          "level": "stage",
+          "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+          "label": "初中"
+        },
+        {
+          "level": "grade",
+          "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+          "label": "七年级"
+        },
+        {
+          "level": "subject",
+          "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+          "label": "英语"
+        },
+        {
+          "level": "version",
+          "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+          "label": "北师大版"
+        },
+        {
+          "level": "volume",
+          "tagId": "ff8080814371757b014390fcdce504bd",
+          "label": "下册"
+        }
+      ],
+      "online": true,
+      "sourceUrl": "https://basic.smartedu.cn/syncClassroom?defaultTag=e7bbce2c-0590-11ed-9c79-92fc3b3249d5%2F44bebf7c-54e6-11ed-9c34-850ba61fa9f4%2F6a7495dc-0772-11ed-ac74-092ab92074e6%2Fe7bbd21e-0590-11ed-9c79-92fc3b3249d5%2Fff8080814371757b014390fcdce504bd",
+      "chapters": [
+        {
+          "chapterId": "aff2a1b2-28f9-4472-bdd4-074bfd6cd7e2",
+          "chapterLabel": "Unit 1 Daily Life",
+          "chapterOrder": 1,
+          "lessons": [
+            {
+              "lessonId": "fde083b9bc2223589dd08f7c81197529",
+              "lessonLabel": "Lesson 1 After School",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/aff2a1b2-28f9-4472-bdd4-074bfd6cd7e2/3cae9957-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "aff2a1b2-28f9-4472-bdd4-074bfd6cd7e2",
+                  "label": "Unit 1 Daily Life"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cae9957-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 1 After School"
+                }
+              ],
+              "sortKey": "001_001"
+            },
+            {
+              "lessonId": "165ca041ddc49b10b2e4723d79011b41",
+              "lessonLabel": "Lesson 2 A Dangerous Job 1",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/aff2a1b2-28f9-4472-bdd4-074bfd6cd7e2/3cae9990-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "aff2a1b2-28f9-4472-bdd4-074bfd6cd7e2",
+                  "label": "Unit 1 Daily Life"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cae9990-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 2 A Dangerous Job 1"
+                }
+              ],
+              "sortKey": "001_002"
+            },
+            {
+              "lessonId": "db5fe2acb70e7960e9491b0411be035c",
+              "lessonLabel": "Lesson 2 A Dangerous Job 2",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/aff2a1b2-28f9-4472-bdd4-074bfd6cd7e2/3cae99c6-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "aff2a1b2-28f9-4472-bdd4-074bfd6cd7e2",
+                  "label": "Unit 1 Daily Life"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cae99c6-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 2 A Dangerous Job 2"
+                }
+              ],
+              "sortKey": "001_003"
+            },
+            {
+              "lessonId": "7c11640659e98a9fe0f6726226dcd2ca",
+              "lessonLabel": "Lesson 3 Safety First 1",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/aff2a1b2-28f9-4472-bdd4-074bfd6cd7e2/3cae99fc-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "aff2a1b2-28f9-4472-bdd4-074bfd6cd7e2",
+                  "label": "Unit 1 Daily Life"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cae99fc-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 3 Safety First 1"
+                }
+              ],
+              "sortKey": "001_004"
+            },
+            {
+              "lessonId": "d35194937eab6b0a347ba710fb285bfe",
+              "lessonLabel": "Lesson 3 Safety First 2",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/aff2a1b2-28f9-4472-bdd4-074bfd6cd7e2/3cae9a3c-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "aff2a1b2-28f9-4472-bdd4-074bfd6cd7e2",
+                  "label": "Unit 1 Daily Life"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cae9a3c-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 3 Safety First 2"
+                }
+              ],
+              "sortKey": "001_005"
+            },
+            {
+              "lessonId": "e28fadbcb5a5d89133723ce5390b7dcc",
+              "lessonLabel": "Communication Workshop 1",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/aff2a1b2-28f9-4472-bdd4-074bfd6cd7e2/3cae98e7-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "aff2a1b2-28f9-4472-bdd4-074bfd6cd7e2",
+                  "label": "Unit 1 Daily Life"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cae98e7-9879-11ec-92ef-246e9675e50c",
+                  "label": "Communication Workshop 1"
+                }
+              ],
+              "sortKey": "001_006"
+            },
+            {
+              "lessonId": "3aa673759f7a7dfbdd3cc28f255ce89a",
+              "lessonLabel": "Communication Workshop 2",
+              "lessonOrder": 7,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/aff2a1b2-28f9-4472-bdd4-074bfd6cd7e2/3cae991f-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "aff2a1b2-28f9-4472-bdd4-074bfd6cd7e2",
+                  "label": "Unit 1 Daily Life"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cae991f-9879-11ec-92ef-246e9675e50c",
+                  "label": "Communication Workshop 2"
+                }
+              ],
+              "sortKey": "001_007"
+            }
+          ]
+        },
+        {
+          "chapterId": "e9c296fc-cc6c-4182-aec8-2078520d3771",
+          "chapterLabel": "Unit 2 On the Weekend",
+          "chapterOrder": 2,
+          "lessons": [
+            {
+              "lessonId": "de6fcaa2d90eb619639a0af7092c773d",
+              "lessonLabel": "Lesson 4 Helping at Home 1",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/e9c296fc-cc6c-4182-aec8-2078520d3771/3cae9ae7-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "e9c296fc-cc6c-4182-aec8-2078520d3771",
+                  "label": "Unit 2 On the Weekend"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cae9ae7-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 4 Helping at Home 1"
+                }
+              ],
+              "sortKey": "002_001"
+            },
+            {
+              "lessonId": "5aad89d268fa99fab74bdbcc7c7216cc",
+              "lessonLabel": "Lesson 4 Helping at Home 2",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/e9c296fc-cc6c-4182-aec8-2078520d3771/3cae9b1e-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "e9c296fc-cc6c-4182-aec8-2078520d3771",
+                  "label": "Unit 2 On the Weekend"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cae9b1e-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 4 Helping at Home 2"
+                }
+              ],
+              "sortKey": "002_002"
+            },
+            {
+              "lessonId": "c81dbbcd31d157436701947f5a8b7d68",
+              "lessonLabel": "Lesson 5 Talking to Friends 1",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/e9c296fc-cc6c-4182-aec8-2078520d3771/3cae9b55-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "e9c296fc-cc6c-4182-aec8-2078520d3771",
+                  "label": "Unit 2 On the Weekend"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cae9b55-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 5 Talking to Friends 1"
+                }
+              ],
+              "sortKey": "002_003"
+            },
+            {
+              "lessonId": "056e9c87b18fbf2758cc7e91e154f044",
+              "lessonLabel": "Lesson 5 Talking to Friends 2",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/e9c296fc-cc6c-4182-aec8-2078520d3771/3cae9b8c-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "e9c296fc-cc6c-4182-aec8-2078520d3771",
+                  "label": "Unit 2 On the Weekend"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cae9b8c-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 5 Talking to Friends 2"
+                }
+              ],
+              "sortKey": "002_004"
+            },
+            {
+              "lessonId": "fad3b64eb33776531ad52320bd2fb332",
+              "lessonLabel": "Lesson 6 Going Out",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/e9c296fc-cc6c-4182-aec8-2078520d3771/3cae9bc5-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "e9c296fc-cc6c-4182-aec8-2078520d3771",
+                  "label": "Unit 2 On the Weekend"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cae9bc5-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 6 Going Out"
+                }
+              ],
+              "sortKey": "002_005"
+            },
+            {
+              "lessonId": "ab29051b150064b957fe6ec2e53dcba1",
+              "lessonLabel": "Communication Workshop 1",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/e9c296fc-cc6c-4182-aec8-2078520d3771/3cae9a76-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "e9c296fc-cc6c-4182-aec8-2078520d3771",
+                  "label": "Unit 2 On the Weekend"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cae9a76-9879-11ec-92ef-246e9675e50c",
+                  "label": "Communication Workshop 1"
+                }
+              ],
+              "sortKey": "002_006"
+            },
+            {
+              "lessonId": "f7386290fc8c0b68e257e91b83cdc730",
+              "lessonLabel": "Communication Workshop 2",
+              "lessonOrder": 7,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/e9c296fc-cc6c-4182-aec8-2078520d3771/3cae9ab1-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "e9c296fc-cc6c-4182-aec8-2078520d3771",
+                  "label": "Unit 2 On the Weekend"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cae9ab1-9879-11ec-92ef-246e9675e50c",
+                  "label": "Communication Workshop 2"
+                }
+              ],
+              "sortKey": "002_007"
+            }
+          ]
+        },
+        {
+          "chapterId": "2b4ee07e-d9cb-481a-a328-e298147b899a",
+          "chapterLabel": "Unit 3 Food and Drink",
+          "chapterOrder": 3,
+          "lessons": [
+            {
+              "lessonId": "4c106620ba6579619b78dd85b9a06463",
+              "lessonLabel": "Lesson 7 Shopping for Food",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/2b4ee07e-d9cb-481a-a328-e298147b899a/3cae9cbd-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "2b4ee07e-d9cb-481a-a328-e298147b899a",
+                  "label": "Unit 3 Food and Drink"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cae9cbd-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 7 Shopping for Food"
+                }
+              ],
+              "sortKey": "003_001"
+            },
+            {
+              "lessonId": "14764157071b9bd73399a42799207b64",
+              "lessonLabel": "Lesson 8 At a Restaurant 1",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/2b4ee07e-d9cb-481a-a328-e298147b899a/3cae9cf3-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "2b4ee07e-d9cb-481a-a328-e298147b899a",
+                  "label": "Unit 3 Food and Drink"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cae9cf3-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 8 At a Restaurant 1"
+                }
+              ],
+              "sortKey": "003_002"
+            },
+            {
+              "lessonId": "b2b4e86d9e7ca48d3138b875c4826192",
+              "lessonLabel": "Lesson 8 At a Restaurant 2",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/2b4ee07e-d9cb-481a-a328-e298147b899a/3cae9d2b-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "2b4ee07e-d9cb-481a-a328-e298147b899a",
+                  "label": "Unit 3 Food and Drink"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cae9d2b-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 8 At a Restaurant 2"
+                }
+              ],
+              "sortKey": "003_003"
+            },
+            {
+              "lessonId": "d1f38b186dc58c011b4d97c7f761607e",
+              "lessonLabel": "Lesson 9 Food for Sport 1",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/2b4ee07e-d9cb-481a-a328-e298147b899a/3cae9d61-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "2b4ee07e-d9cb-481a-a328-e298147b899a",
+                  "label": "Unit 3 Food and Drink"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cae9d61-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 9 Food for Sport 1"
+                }
+              ],
+              "sortKey": "003_004"
+            },
+            {
+              "lessonId": "624ae76c27a38f76d24ca8aab7a8b92c",
+              "lessonLabel": "Lesson 9 Food for Sport 2",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/2b4ee07e-d9cb-481a-a328-e298147b899a/3cae9d9a-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "2b4ee07e-d9cb-481a-a328-e298147b899a",
+                  "label": "Unit 3 Food and Drink"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cae9d9a-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 9 Food for Sport 2"
+                }
+              ],
+              "sortKey": "003_005"
+            },
+            {
+              "lessonId": "cdc52149cfb604924b9527d526f5bf76",
+              "lessonLabel": "Communication Workshop 1",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/2b4ee07e-d9cb-481a-a328-e298147b899a/3cae9c41-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "2b4ee07e-d9cb-481a-a328-e298147b899a",
+                  "label": "Unit 3 Food and Drink"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cae9c41-9879-11ec-92ef-246e9675e50c",
+                  "label": "Communication Workshop 1"
+                }
+              ],
+              "sortKey": "003_006"
+            },
+            {
+              "lessonId": "bb2c44b16ec3fd7573417f57fdd8bf0b",
+              "lessonLabel": "Communication Workshop 2",
+              "lessonOrder": 7,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/2b4ee07e-d9cb-481a-a328-e298147b899a/3cae9c84-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "2b4ee07e-d9cb-481a-a328-e298147b899a",
+                  "label": "Unit 3 Food and Drink"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cae9c84-9879-11ec-92ef-246e9675e50c",
+                  "label": "Communication Workshop 2"
+                }
+              ],
+              "sortKey": "003_007"
+            }
+          ]
+        },
+        {
+          "chapterId": "8871bed2-5181-444a-ab33-37de43807aed",
+          "chapterLabel": "Unit 4 Seasons and Weather",
+          "chapterOrder": 4,
+          "lessons": [
+            {
+              "lessonId": "044e35e0e6d00dc880fe2b185a96d158",
+              "lessonLabel": "Weather in Beijing 1",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/8871bed2-5181-444a-ab33-37de43807aed/3caea069-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "8871bed2-5181-444a-ab33-37de43807aed",
+                  "label": "Unit 4 Seasons and Weather"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caea069-9879-11ec-92ef-246e9675e50c",
+                  "label": "Weather in Beijing 1"
+                }
+              ],
+              "sortKey": "004_001"
+            },
+            {
+              "lessonId": "06be184b4be53afe399bb81f731fc4fa",
+              "lessonLabel": "Weather in Beijing 2",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/8871bed2-5181-444a-ab33-37de43807aed/3caea0a2-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "8871bed2-5181-444a-ab33-37de43807aed",
+                  "label": "Unit 4 Seasons and Weather"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caea0a2-9879-11ec-92ef-246e9675e50c",
+                  "label": "Weather in Beijing 2"
+                }
+              ],
+              "sortKey": "004_002"
+            },
+            {
+              "lessonId": "90945fdf201f1a8db554303f2b121849",
+              "lessonLabel": "Lesson 11 Weather Around the World",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/8871bed2-5181-444a-ab33-37de43807aed/3cae9f26-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "8871bed2-5181-444a-ab33-37de43807aed",
+                  "label": "Unit 4 Seasons and Weather"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cae9f26-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 11 Weather Around the World"
+                }
+              ],
+              "sortKey": "004_003"
+            },
+            {
+              "lessonId": "a40e20121795f8391f143fe59f72430f",
+              "lessonLabel": "Lesson 12 Summer Holiday 1",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/8871bed2-5181-444a-ab33-37de43807aed/3cae9f93-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "8871bed2-5181-444a-ab33-37de43807aed",
+                  "label": "Unit 4 Seasons and Weather"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cae9f93-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 12 Summer Holiday 1"
+                }
+              ],
+              "sortKey": "004_004"
+            },
+            {
+              "lessonId": "2c35d3fbafdb891a4f1f41ff75b33cfd",
+              "lessonLabel": "Lesson 12 Summer Holiday 2",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/8871bed2-5181-444a-ab33-37de43807aed/3caea021-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "8871bed2-5181-444a-ab33-37de43807aed",
+                  "label": "Unit 4 Seasons and Weather"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caea021-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 12 Summer Holiday 2"
+                }
+              ],
+              "sortKey": "004_005"
+            },
+            {
+              "lessonId": "9ac32d98000abb05cbb95db05d530d3c",
+              "lessonLabel": "Communication Workshop 1",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/8871bed2-5181-444a-ab33-37de43807aed/3cae9e2d-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "8871bed2-5181-444a-ab33-37de43807aed",
+                  "label": "Unit 4 Seasons and Weather"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cae9e2d-9879-11ec-92ef-246e9675e50c",
+                  "label": "Communication Workshop 1"
+                }
+              ],
+              "sortKey": "004_006"
+            },
+            {
+              "lessonId": "32712aaeca739c104176a924067f802e",
+              "lessonLabel": "Communication Workshop 2",
+              "lessonOrder": 7,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/8871bed2-5181-444a-ab33-37de43807aed/3cae9e98-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "8871bed2-5181-444a-ab33-37de43807aed",
+                  "label": "Unit 4 Seasons and Weather"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cae9e98-9879-11ec-92ef-246e9675e50c",
+                  "label": "Communication Workshop 2"
+                }
+              ],
+              "sortKey": "004_007"
+            }
+          ]
+        },
+        {
+          "chapterId": "1a1d9533-7aa8-4e3a-84f4-b366ddc3548f",
+          "chapterLabel": "Unit 5 Now and Then",
+          "chapterOrder": 5,
+          "lessons": [
+            {
+              "lessonId": "8c39b8561c16c88f8530da1ba0eae834",
+              "lessonLabel": "Lesson 13 Changes in Our Town 1",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/1a1d9533-7aa8-4e3a-84f4-b366ddc3548f/3caea151-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "1a1d9533-7aa8-4e3a-84f4-b366ddc3548f",
+                  "label": "Unit 5 Now and Then"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caea151-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 13 Changes in Our Town 1"
+                }
+              ],
+              "sortKey": "005_001"
+            },
+            {
+              "lessonId": "1aa817907d6923e92363f9f33e72ef19",
+              "lessonLabel": "Lesson 13 Changes in Our Town 2",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/1a1d9533-7aa8-4e3a-84f4-b366ddc3548f/3caea18a-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "1a1d9533-7aa8-4e3a-84f4-b366ddc3548f",
+                  "label": "Unit 5 Now and Then"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caea18a-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 13 Changes in Our Town 2"
+                }
+              ],
+              "sortKey": "005_002"
+            },
+            {
+              "lessonId": "fd176e8244de00651bde9a9f2e2ce6a1",
+              "lessonLabel": "Lesson 14 My First Day 1",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/1a1d9533-7aa8-4e3a-84f4-b366ddc3548f/3caea1ce-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "1a1d9533-7aa8-4e3a-84f4-b366ddc3548f",
+                  "label": "Unit 5 Now and Then"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caea1ce-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 14 My First Day 1"
+                }
+              ],
+              "sortKey": "005_003"
+            },
+            {
+              "lessonId": "48cf8d7bced819c774afa565b58881aa",
+              "lessonLabel": "Lesson 14 My First Day 2",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/1a1d9533-7aa8-4e3a-84f4-b366ddc3548f/3caea208-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "1a1d9533-7aa8-4e3a-84f4-b366ddc3548f",
+                  "label": "Unit 5 Now and Then"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caea208-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 14 My First Day 2"
+                }
+              ],
+              "sortKey": "005_004"
+            },
+            {
+              "lessonId": "28dbad30d282cf4d61939d2d9fc48dd8",
+              "lessonLabel": "Lesson 15 My favourite teacher",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/1a1d9533-7aa8-4e3a-84f4-b366ddc3548f/3caea23e-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "1a1d9533-7aa8-4e3a-84f4-b366ddc3548f",
+                  "label": "Unit 5 Now and Then"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caea23e-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 15 My favourite teacher"
+                }
+              ],
+              "sortKey": "005_005"
+            },
+            {
+              "lessonId": "3a3e73885ada8e951dedfc0152706532",
+              "lessonLabel": "Communication Workshop 1",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/1a1d9533-7aa8-4e3a-84f4-b366ddc3548f/3caea0dc-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "1a1d9533-7aa8-4e3a-84f4-b366ddc3548f",
+                  "label": "Unit 5 Now and Then"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caea0dc-9879-11ec-92ef-246e9675e50c",
+                  "label": "Communication Workshop 1"
+                }
+              ],
+              "sortKey": "005_006"
+            },
+            {
+              "lessonId": "2da9dd3856b249db2218a0a199483308",
+              "lessonLabel": "Communication Workshop 2",
+              "lessonOrder": 7,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/1a1d9533-7aa8-4e3a-84f4-b366ddc3548f/3caea112-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "1a1d9533-7aa8-4e3a-84f4-b366ddc3548f",
+                  "label": "Unit 5 Now and Then"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caea112-9879-11ec-92ef-246e9675e50c",
+                  "label": "Communication Workshop 2"
+                }
+              ],
+              "sortKey": "005_007"
+            }
+          ]
+        },
+        {
+          "chapterId": "ecae7d53-e0db-48ec-b012-15067118c94a",
+          "chapterLabel": "Unit 6 The Animal Kingdom",
+          "chapterOrder": 6,
+          "lessons": [
+            {
+              "lessonId": "a3e1ea824456fdf9383942d7575ea312",
+              "lessonLabel": "Lesson 16 My Favourite Animal",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/ecae7d53-e0db-48ec-b012-15067118c94a/3caea325-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "ecae7d53-e0db-48ec-b012-15067118c94a",
+                  "label": "Unit 6 The Animal Kingdom"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caea325-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 16 My Favourite Animal"
+                }
+              ],
+              "sortKey": "006_001"
+            },
+            {
+              "lessonId": "8edca8bad5609ed877b8fa8393981d0a",
+              "lessonLabel": "Lesson 17 Interesting Animals 1",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/ecae7d53-e0db-48ec-b012-15067118c94a/3caea36d-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "ecae7d53-e0db-48ec-b012-15067118c94a",
+                  "label": "Unit 6 The Animal Kingdom"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caea36d-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 17 Interesting Animals 1"
+                }
+              ],
+              "sortKey": "006_002"
+            },
+            {
+              "lessonId": "3a2e250e6955cbd066b124762fab34dc",
+              "lessonLabel": "Lesson 17 Interesting Animals 2",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/ecae7d53-e0db-48ec-b012-15067118c94a/3caea3a7-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "ecae7d53-e0db-48ec-b012-15067118c94a",
+                  "label": "Unit 6 The Animal Kingdom"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caea3a7-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 17 Interesting Animals 2"
+                }
+              ],
+              "sortKey": "006_003"
+            },
+            {
+              "lessonId": "38f0194e093b7a7414aeb03a13b412f9",
+              "lessonLabel": "Lesson 18 An Animal Story 1",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/ecae7d53-e0db-48ec-b012-15067118c94a/3caea3dd-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "ecae7d53-e0db-48ec-b012-15067118c94a",
+                  "label": "Unit 6 The Animal Kingdom"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caea3dd-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 18 An Animal Story 1"
+                }
+              ],
+              "sortKey": "006_004"
+            },
+            {
+              "lessonId": "54ae506c1089c4d295d00d8e09b7a9bd",
+              "lessonLabel": "Lesson 18 An Animal Story 2",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/ecae7d53-e0db-48ec-b012-15067118c94a/3caea413-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "ecae7d53-e0db-48ec-b012-15067118c94a",
+                  "label": "Unit 6 The Animal Kingdom"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caea413-9879-11ec-92ef-246e9675e50c",
+                  "label": "Lesson 18 An Animal Story 2"
+                }
+              ],
+              "sortKey": "006_005"
+            },
+            {
+              "lessonId": "ff3cf1cb9d86865227d1d343b4ee33bf",
+              "lessonLabel": "Communication Workshop 1",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/ecae7d53-e0db-48ec-b012-15067118c94a/3caea278-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "ecae7d53-e0db-48ec-b012-15067118c94a",
+                  "label": "Unit 6 The Animal Kingdom"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caea278-9879-11ec-92ef-246e9675e50c",
+                  "label": "Communication Workshop 1"
+                }
+              ],
+              "sortKey": "006_006"
+            },
+            {
+              "lessonId": "043102c52cf4c83783088393758409c9",
+              "lessonLabel": "Communication Workshop 2",
+              "lessonOrder": 7,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/6a7495dc-0772-11ed-ac74-092ab92074e6/e7bbd21e-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b014390fcdce504bd/ecae7d53-e0db-48ec-b012-15067118c94a/3caea2b0-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "6a7495dc-0772-11ed-ac74-092ab92074e6",
+                  "label": "英语"
+                },
+                {
+                  "level": "version",
+                  "tagId": "e7bbd21e-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "北师大版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "ecae7d53-e0db-48ec-b012-15067118c94a",
+                  "label": "Unit 6 The Animal Kingdom"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3caea2b0-9879-11ec-92ef-246e9675e50c",
+                  "label": "Communication Workshop 2"
+                }
+              ],
+              "sortKey": "006_007"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

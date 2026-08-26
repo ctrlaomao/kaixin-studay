@@ -1,0 +1,2492 @@
+{
+  "schemaVersion": 1,
+  "syncAt": "2026-08-26T13:43:59.774Z",
+  "source": "smartedu-syncClassroom",
+  "editions": [
+    {
+      "editionId": "156fc1c428b48b5b5a423614272e277b",
+      "stageId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+      "stageLabel": "初中",
+      "gradeId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+      "gradeLabel": "七年级",
+      "subjectId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+      "subjectLabel": "数学",
+      "versionId": "362880034bfbfa20014c0b98acd70152",
+      "versionLabel": "苏科版",
+      "volumeId": "ff8080814371757b014390fcdce504bd",
+      "volumeLabel": "下册",
+      "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd",
+      "platformTagPath": [
+        {
+          "level": "stage",
+          "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+          "label": "初中"
+        },
+        {
+          "level": "grade",
+          "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+          "label": "七年级"
+        },
+        {
+          "level": "subject",
+          "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+          "label": "数学"
+        },
+        {
+          "level": "version",
+          "tagId": "362880034bfbfa20014c0b98acd70152",
+          "label": "苏科版"
+        },
+        {
+          "level": "volume",
+          "tagId": "ff8080814371757b014390fcdce504bd",
+          "label": "下册"
+        }
+      ],
+      "online": true,
+      "sourceUrl": "https://basic.smartedu.cn/syncClassroom?defaultTag=e7bbce2c-0590-11ed-9c79-92fc3b3249d5%2F44bebf7c-54e6-11ed-9c34-850ba61fa9f4%2Fe7bbcf80-0590-11ed-9c79-92fc3b3249d5%2F362880034bfbfa20014c0b98acd70152%2Fff8080814371757b014390fcdce504bd",
+      "chapters": [
+        {
+          "chapterId": "455869e2-11ee-477a-aacf-b5ba7925ac25",
+          "chapterLabel": "第7章 平面图形的认识(二)",
+          "chapterOrder": 1,
+          "lessons": [
+            {
+              "lessonId": "d624bc9eaff784348b4ee6bd8e5d4208",
+              "lessonLabel": "7.1探索直线平行的条件(1)",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/455869e2-11ee-477a-aacf-b5ba7925ac25/82748f9c-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "455869e2-11ee-477a-aacf-b5ba7925ac25",
+                  "label": "第7章 平面图形的认识(二)"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82748f9c-96ea-11ec-92ef-246e9675e50c",
+                  "label": "7.1探索直线平行的条件(1)"
+                }
+              ],
+              "sortKey": "001_001"
+            },
+            {
+              "lessonId": "ff01be7d47b60f8271310b1162d3b4ab",
+              "lessonLabel": "7.1探索直线平行的条件(2)",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/455869e2-11ee-477a-aacf-b5ba7925ac25/82748fed-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "455869e2-11ee-477a-aacf-b5ba7925ac25",
+                  "label": "第7章 平面图形的认识(二)"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82748fed-96ea-11ec-92ef-246e9675e50c",
+                  "label": "7.1探索直线平行的条件(2)"
+                }
+              ],
+              "sortKey": "001_002"
+            },
+            {
+              "lessonId": "568a58b54da7ce3c273dfdeac00a8de2",
+              "lessonLabel": "7.2探索平行线的性质",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/455869e2-11ee-477a-aacf-b5ba7925ac25/82749024-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "455869e2-11ee-477a-aacf-b5ba7925ac25",
+                  "label": "第7章 平面图形的认识(二)"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82749024-96ea-11ec-92ef-246e9675e50c",
+                  "label": "7.2探索平行线的性质"
+                }
+              ],
+              "sortKey": "001_003"
+            },
+            {
+              "lessonId": "bf7a1e61cac046e1e1afa43a0546a85c",
+              "lessonLabel": "7.3图形的平移",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/455869e2-11ee-477a-aacf-b5ba7925ac25/8274905c-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "455869e2-11ee-477a-aacf-b5ba7925ac25",
+                  "label": "第7章 平面图形的认识(二)"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "8274905c-96ea-11ec-92ef-246e9675e50c",
+                  "label": "7.3图形的平移"
+                }
+              ],
+              "sortKey": "001_004"
+            },
+            {
+              "lessonId": "16f8d65a8be0e90d8d885778294b279c",
+              "lessonLabel": "7.4认识三角形(1)",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/455869e2-11ee-477a-aacf-b5ba7925ac25/82749093-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "455869e2-11ee-477a-aacf-b5ba7925ac25",
+                  "label": "第7章 平面图形的认识(二)"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82749093-96ea-11ec-92ef-246e9675e50c",
+                  "label": "7.4认识三角形(1)"
+                }
+              ],
+              "sortKey": "001_005"
+            },
+            {
+              "lessonId": "dde608a07a3d1242fcd137a27038b876",
+              "lessonLabel": "7.4认识三角形(2)",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/455869e2-11ee-477a-aacf-b5ba7925ac25/827490cb-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "455869e2-11ee-477a-aacf-b5ba7925ac25",
+                  "label": "第7章 平面图形的认识(二)"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "827490cb-96ea-11ec-92ef-246e9675e50c",
+                  "label": "7.4认识三角形(2)"
+                }
+              ],
+              "sortKey": "001_006"
+            },
+            {
+              "lessonId": "17623e3aa2fbb22ac5d6086e2711aad9",
+              "lessonLabel": "7.5多边形的内角和与外角和(1)",
+              "lessonOrder": 7,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/455869e2-11ee-477a-aacf-b5ba7925ac25/82749101-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "455869e2-11ee-477a-aacf-b5ba7925ac25",
+                  "label": "第7章 平面图形的认识(二)"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82749101-96ea-11ec-92ef-246e9675e50c",
+                  "label": "7.5多边形的内角和与外角和(1)"
+                }
+              ],
+              "sortKey": "001_007"
+            },
+            {
+              "lessonId": "b4d704d798a67594d3b47b1daf4d9578",
+              "lessonLabel": "7.5多边形的内角和与外角和(2)",
+              "lessonOrder": 8,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/455869e2-11ee-477a-aacf-b5ba7925ac25/827496d4-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "455869e2-11ee-477a-aacf-b5ba7925ac25",
+                  "label": "第7章 平面图形的认识(二)"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "827496d4-96ea-11ec-92ef-246e9675e50c",
+                  "label": "7.5多边形的内角和与外角和(2)"
+                }
+              ],
+              "sortKey": "001_008"
+            },
+            {
+              "lessonId": "b58571da4a05412149bb2be3ff167eb8",
+              "lessonLabel": "7.5多边形的内角和与外角和(3)",
+              "lessonOrder": 9,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/455869e2-11ee-477a-aacf-b5ba7925ac25/82749757-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "455869e2-11ee-477a-aacf-b5ba7925ac25",
+                  "label": "第7章 平面图形的认识(二)"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82749757-96ea-11ec-92ef-246e9675e50c",
+                  "label": "7.5多边形的内角和与外角和(3)"
+                }
+              ],
+              "sortKey": "001_009"
+            },
+            {
+              "lessonId": "04fd0881a08b4149a1c8e0a1092a03d1",
+              "lessonLabel": "第7章 小结与思考",
+              "lessonOrder": 10,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/455869e2-11ee-477a-aacf-b5ba7925ac25/8274979e-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "455869e2-11ee-477a-aacf-b5ba7925ac25",
+                  "label": "第7章 平面图形的认识(二)"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "8274979e-96ea-11ec-92ef-246e9675e50c",
+                  "label": "第7章 小结与思考"
+                }
+              ],
+              "sortKey": "001_010"
+            }
+          ]
+        },
+        {
+          "chapterId": "09b5b292-9541-4244-9642-5a4fbe5c70bd",
+          "chapterLabel": "第8章 幂的运算",
+          "chapterOrder": 2,
+          "lessons": [
+            {
+              "lessonId": "62186fd3ec2ea3c0801f1359f1464fbd",
+              "lessonLabel": "8.1同底数幂的乘法",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/09b5b292-9541-4244-9642-5a4fbe5c70bd/827497de-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "09b5b292-9541-4244-9642-5a4fbe5c70bd",
+                  "label": "第8章 幂的运算"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "827497de-96ea-11ec-92ef-246e9675e50c",
+                  "label": "8.1同底数幂的乘法"
+                }
+              ],
+              "sortKey": "002_001"
+            },
+            {
+              "lessonId": "466f399a4e457682f72c18a4ad9000fc",
+              "lessonLabel": "8.2幂的乘方与积的乘方(1)",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/09b5b292-9541-4244-9642-5a4fbe5c70bd/8274981d-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "09b5b292-9541-4244-9642-5a4fbe5c70bd",
+                  "label": "第8章 幂的运算"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "8274981d-96ea-11ec-92ef-246e9675e50c",
+                  "label": "8.2幂的乘方与积的乘方(1)"
+                }
+              ],
+              "sortKey": "002_002"
+            },
+            {
+              "lessonId": "a7a3a5c86347a7060bd84be1cb0b1e24",
+              "lessonLabel": "8.2幂的乘方与积的乘方(2)",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/09b5b292-9541-4244-9642-5a4fbe5c70bd/82749855-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "09b5b292-9541-4244-9642-5a4fbe5c70bd",
+                  "label": "第8章 幂的运算"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82749855-96ea-11ec-92ef-246e9675e50c",
+                  "label": "8.2幂的乘方与积的乘方(2)"
+                }
+              ],
+              "sortKey": "002_003"
+            },
+            {
+              "lessonId": "8daebc76ed212f409ed1e7f00714e9e3",
+              "lessonLabel": "8.3同底数幂的除法(1)",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/09b5b292-9541-4244-9642-5a4fbe5c70bd/8274988a-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "09b5b292-9541-4244-9642-5a4fbe5c70bd",
+                  "label": "第8章 幂的运算"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "8274988a-96ea-11ec-92ef-246e9675e50c",
+                  "label": "8.3同底数幂的除法(1)"
+                }
+              ],
+              "sortKey": "002_004"
+            },
+            {
+              "lessonId": "1f423ac796a7e612f3e6adb2e9cfa290",
+              "lessonLabel": "8.3同底数幂的除法(2)",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/09b5b292-9541-4244-9642-5a4fbe5c70bd/827498ca-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "09b5b292-9541-4244-9642-5a4fbe5c70bd",
+                  "label": "第8章 幂的运算"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "827498ca-96ea-11ec-92ef-246e9675e50c",
+                  "label": "8.3同底数幂的除法(2)"
+                }
+              ],
+              "sortKey": "002_005"
+            },
+            {
+              "lessonId": "812acc43ba6076659ce51cb2b8e067b3",
+              "lessonLabel": "8.3同底数幂的除法(3)",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/09b5b292-9541-4244-9642-5a4fbe5c70bd/82749900-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "09b5b292-9541-4244-9642-5a4fbe5c70bd",
+                  "label": "第8章 幂的运算"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82749900-96ea-11ec-92ef-246e9675e50c",
+                  "label": "8.3同底数幂的除法(3)"
+                }
+              ],
+              "sortKey": "002_006"
+            }
+          ]
+        },
+        {
+          "chapterId": "eba328a8-54cb-4f6b-a7a1-6ceffd0b6cf1",
+          "chapterLabel": "第9章 整式乘法与因式分解",
+          "chapterOrder": 3,
+          "lessons": [
+            {
+              "lessonId": "431aac7df2266697650a43e952623730",
+              "lessonLabel": "9.1单项式乘单项式",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/eba328a8-54cb-4f6b-a7a1-6ceffd0b6cf1/82749935-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "eba328a8-54cb-4f6b-a7a1-6ceffd0b6cf1",
+                  "label": "第9章 整式乘法与因式分解"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82749935-96ea-11ec-92ef-246e9675e50c",
+                  "label": "9.1单项式乘单项式"
+                }
+              ],
+              "sortKey": "003_001"
+            },
+            {
+              "lessonId": "28ef5ec0f41ab384ac3053062446674b",
+              "lessonLabel": "9.2单项式乘多项式",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/eba328a8-54cb-4f6b-a7a1-6ceffd0b6cf1/8274996f-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "eba328a8-54cb-4f6b-a7a1-6ceffd0b6cf1",
+                  "label": "第9章 整式乘法与因式分解"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "8274996f-96ea-11ec-92ef-246e9675e50c",
+                  "label": "9.2单项式乘多项式"
+                }
+              ],
+              "sortKey": "003_002"
+            },
+            {
+              "lessonId": "28749268c10eb94fed8179ecf449fce5",
+              "lessonLabel": "9.3多项式乘多项式",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/eba328a8-54cb-4f6b-a7a1-6ceffd0b6cf1/827499a6-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "eba328a8-54cb-4f6b-a7a1-6ceffd0b6cf1",
+                  "label": "第9章 整式乘法与因式分解"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "827499a6-96ea-11ec-92ef-246e9675e50c",
+                  "label": "9.3多项式乘多项式"
+                }
+              ],
+              "sortKey": "003_003"
+            },
+            {
+              "lessonId": "11b0a1089108a741cfacb68c90089334",
+              "lessonLabel": "9.4乘法公式(1)",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/eba328a8-54cb-4f6b-a7a1-6ceffd0b6cf1/827499dd-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "eba328a8-54cb-4f6b-a7a1-6ceffd0b6cf1",
+                  "label": "第9章 整式乘法与因式分解"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "827499dd-96ea-11ec-92ef-246e9675e50c",
+                  "label": "9.4乘法公式(1)"
+                }
+              ],
+              "sortKey": "003_004"
+            },
+            {
+              "lessonId": "36dea6f2c03646a8fafd7a901e837a58",
+              "lessonLabel": "9.4乘法公式(2)",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/eba328a8-54cb-4f6b-a7a1-6ceffd0b6cf1/82749a12-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "eba328a8-54cb-4f6b-a7a1-6ceffd0b6cf1",
+                  "label": "第9章 整式乘法与因式分解"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82749a12-96ea-11ec-92ef-246e9675e50c",
+                  "label": "9.4乘法公式(2)"
+                }
+              ],
+              "sortKey": "003_005"
+            },
+            {
+              "lessonId": "df227cb62e2305f0119a97a2ecbead2d",
+              "lessonLabel": "9.4乘法公式(3)",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/eba328a8-54cb-4f6b-a7a1-6ceffd0b6cf1/82749a49-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "eba328a8-54cb-4f6b-a7a1-6ceffd0b6cf1",
+                  "label": "第9章 整式乘法与因式分解"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82749a49-96ea-11ec-92ef-246e9675e50c",
+                  "label": "9.4乘法公式(3)"
+                }
+              ],
+              "sortKey": "003_006"
+            }
+          ]
+        },
+        {
+          "chapterId": "bb9b60f5-7991-4790-852c-3657d82e1a4a",
+          "chapterLabel": "第11章 一元一次不等式",
+          "chapterOrder": 4,
+          "lessons": [
+            {
+              "lessonId": "8e6c61e294f6aae4ac6d9eb9e7c2e871",
+              "lessonLabel": "11.1生活中的不等式",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/bb9b60f5-7991-4790-852c-3657d82e1a4a/82748cbb-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "bb9b60f5-7991-4790-852c-3657d82e1a4a",
+                  "label": "第11章 一元一次不等式"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82748cbb-96ea-11ec-92ef-246e9675e50c",
+                  "label": "11.1生活中的不等式"
+                }
+              ],
+              "sortKey": "004_001"
+            },
+            {
+              "lessonId": "79a8c0f4c9772e52e6530628804579db",
+              "lessonLabel": "11.2不等式的解集",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/bb9b60f5-7991-4790-852c-3657d82e1a4a/82748cf0-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "bb9b60f5-7991-4790-852c-3657d82e1a4a",
+                  "label": "第11章 一元一次不等式"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82748cf0-96ea-11ec-92ef-246e9675e50c",
+                  "label": "11.2不等式的解集"
+                }
+              ],
+              "sortKey": "004_002"
+            },
+            {
+              "lessonId": "2ce865d359d89c53f06f3be4b4d821f2",
+              "lessonLabel": "11.3不等式的基本性质",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/bb9b60f5-7991-4790-852c-3657d82e1a4a/82748d27-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "bb9b60f5-7991-4790-852c-3657d82e1a4a",
+                  "label": "第11章 一元一次不等式"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82748d27-96ea-11ec-92ef-246e9675e50c",
+                  "label": "11.3不等式的基本性质"
+                }
+              ],
+              "sortKey": "004_003"
+            },
+            {
+              "lessonId": "7cb27c516a48c04ceb2a97fe8a82a96a",
+              "lessonLabel": "11.4解一元一次不等式(1)",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/bb9b60f5-7991-4790-852c-3657d82e1a4a/82748d60-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "bb9b60f5-7991-4790-852c-3657d82e1a4a",
+                  "label": "第11章 一元一次不等式"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82748d60-96ea-11ec-92ef-246e9675e50c",
+                  "label": "11.4解一元一次不等式(1)"
+                }
+              ],
+              "sortKey": "004_004"
+            },
+            {
+              "lessonId": "e538a002d3ce0decf8cc758b26d587d9",
+              "lessonLabel": "11.4解一元一次不等式(2)",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/bb9b60f5-7991-4790-852c-3657d82e1a4a/82748d94-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "bb9b60f5-7991-4790-852c-3657d82e1a4a",
+                  "label": "第11章 一元一次不等式"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82748d94-96ea-11ec-92ef-246e9675e50c",
+                  "label": "11.4解一元一次不等式(2)"
+                }
+              ],
+              "sortKey": "004_005"
+            },
+            {
+              "lessonId": "cb6e9db439dc6de5f485825a9524ceae",
+              "lessonLabel": "11.5用一元一次不等式解决问题(1)",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/bb9b60f5-7991-4790-852c-3657d82e1a4a/82748dcb-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "bb9b60f5-7991-4790-852c-3657d82e1a4a",
+                  "label": "第11章 一元一次不等式"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82748dcb-96ea-11ec-92ef-246e9675e50c",
+                  "label": "11.5用一元一次不等式解决问题(1)"
+                }
+              ],
+              "sortKey": "004_006"
+            },
+            {
+              "lessonId": "cf263f9991235a3344b582cea3665fe6",
+              "lessonLabel": "11.5用一元一次不等式解决问题(2)",
+              "lessonOrder": 7,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/bb9b60f5-7991-4790-852c-3657d82e1a4a/82748e01-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "bb9b60f5-7991-4790-852c-3657d82e1a4a",
+                  "label": "第11章 一元一次不等式"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82748e01-96ea-11ec-92ef-246e9675e50c",
+                  "label": "11.5用一元一次不等式解决问题(2)"
+                }
+              ],
+              "sortKey": "004_007"
+            },
+            {
+              "lessonId": "2f224cc263948c00d80ded4248cd0adb",
+              "lessonLabel": "11.6一元一次不等式组(1)",
+              "lessonOrder": 8,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/bb9b60f5-7991-4790-852c-3657d82e1a4a/82748e38-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "bb9b60f5-7991-4790-852c-3657d82e1a4a",
+                  "label": "第11章 一元一次不等式"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82748e38-96ea-11ec-92ef-246e9675e50c",
+                  "label": "11.6一元一次不等式组(1)"
+                }
+              ],
+              "sortKey": "004_008"
+            },
+            {
+              "lessonId": "5569e7b345a707297a7356a3f73ad491",
+              "lessonLabel": "11.6一元一次不等式组(2)",
+              "lessonOrder": 9,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390fcdce504bd/bb9b60f5-7991-4790-852c-3657d82e1a4a/82748e6e-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "bb9b60f5-7991-4790-852c-3657d82e1a4a",
+                  "label": "第11章 一元一次不等式"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82748e6e-96ea-11ec-92ef-246e9675e50c",
+                  "label": "11.6一元一次不等式组(2)"
+                }
+              ],
+              "sortKey": "004_009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "editionId": "f3a210fd25cd1367d62290d83464d2df",
+      "stageId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+      "stageLabel": "初中",
+      "gradeId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+      "gradeLabel": "七年级",
+      "subjectId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+      "subjectLabel": "数学",
+      "versionId": "362880034bfbfa20014c0b98acd70152",
+      "versionLabel": "苏科版",
+      "volumeId": "ff8080814371757b014390f883db0453",
+      "volumeLabel": "上册",
+      "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390f883db0453",
+      "platformTagPath": [
+        {
+          "level": "stage",
+          "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+          "label": "初中"
+        },
+        {
+          "level": "grade",
+          "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+          "label": "七年级"
+        },
+        {
+          "level": "subject",
+          "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+          "label": "数学"
+        },
+        {
+          "level": "version",
+          "tagId": "362880034bfbfa20014c0b98acd70152",
+          "label": "苏科版"
+        },
+        {
+          "level": "volume",
+          "tagId": "ff8080814371757b014390f883db0453",
+          "label": "上册"
+        }
+      ],
+      "online": true,
+      "sourceUrl": "https://basic.smartedu.cn/syncClassroom?defaultTag=e7bbce2c-0590-11ed-9c79-92fc3b3249d5%2F44bebf7c-54e6-11ed-9c34-850ba61fa9f4%2Fe7bbcf80-0590-11ed-9c79-92fc3b3249d5%2F362880034bfbfa20014c0b98acd70152%2Fff8080814371757b014390f883db0453",
+      "chapters": [
+        {
+          "chapterId": "f3f66123-9339-462b-9f60-82ff9d934bc1",
+          "chapterLabel": "第1章 数学与我们同行",
+          "chapterOrder": 1,
+          "lessons": [
+            {
+              "lessonId": "c00a3dfde8f6e18ad50b06458a14f9bf",
+              "lessonLabel": "1.1生活 数学",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390f883db0453/f3f66123-9339-462b-9f60-82ff9d934bc1/82747dba-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "f3f66123-9339-462b-9f60-82ff9d934bc1",
+                  "label": "第1章 数学与我们同行"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82747dba-96ea-11ec-92ef-246e9675e50c",
+                  "label": "1.1生活 数学"
+                }
+              ],
+              "sortKey": "001_001"
+            },
+            {
+              "lessonId": "1c175c958df66dcf9f5ae89370cf6c84",
+              "lessonLabel": "1.2活动 思考",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390f883db0453/f3f66123-9339-462b-9f60-82ff9d934bc1/82747df0-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "f3f66123-9339-462b-9f60-82ff9d934bc1",
+                  "label": "第1章 数学与我们同行"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82747df0-96ea-11ec-92ef-246e9675e50c",
+                  "label": "1.2活动 思考"
+                }
+              ],
+              "sortKey": "001_002"
+            }
+          ]
+        },
+        {
+          "chapterId": "6ad0b888-9a32-4dd1-ac47-c7229cbd4137",
+          "chapterLabel": "第3章 代数式",
+          "chapterOrder": 2,
+          "lessons": [
+            {
+              "lessonId": "bc4d0b68b5fc3906bd931aeab2cd0b23",
+              "lessonLabel": "3.3代数式的值(1)",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390f883db0453/6ad0b888-9a32-4dd1-ac47-c7229cbd4137/82747e26-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "6ad0b888-9a32-4dd1-ac47-c7229cbd4137",
+                  "label": "第3章 代数式"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82747e26-96ea-11ec-92ef-246e9675e50c",
+                  "label": "3.3代数式的值(1)"
+                }
+              ],
+              "sortKey": "002_001"
+            },
+            {
+              "lessonId": "30c4a132a726ab3896ac6b582b16cdc2",
+              "lessonLabel": "3.3代数式的值(2)",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390f883db0453/6ad0b888-9a32-4dd1-ac47-c7229cbd4137/82747e5d-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "6ad0b888-9a32-4dd1-ac47-c7229cbd4137",
+                  "label": "第3章 代数式"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82747e5d-96ea-11ec-92ef-246e9675e50c",
+                  "label": "3.3代数式的值(2)"
+                }
+              ],
+              "sortKey": "002_002"
+            }
+          ]
+        },
+        {
+          "chapterId": "4a3cadd8-21da-4564-b22a-30384d152df5",
+          "chapterLabel": "第4章 一元一次方程",
+          "chapterOrder": 3,
+          "lessons": [
+            {
+              "lessonId": "64cd8a3b00b4dc7b25f52fd9952920de",
+              "lessonLabel": "4.1从问题到方程(1)",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390f883db0453/4a3cadd8-21da-4564-b22a-30384d152df5/82747e94-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "4a3cadd8-21da-4564-b22a-30384d152df5",
+                  "label": "第4章 一元一次方程"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82747e94-96ea-11ec-92ef-246e9675e50c",
+                  "label": "4.1从问题到方程(1)"
+                }
+              ],
+              "sortKey": "003_001"
+            },
+            {
+              "lessonId": "3b608dae466ce3a75d5c9d22ae57b203",
+              "lessonLabel": "4.1从问题到方程(2)",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390f883db0453/4a3cadd8-21da-4564-b22a-30384d152df5/82747ecd-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "4a3cadd8-21da-4564-b22a-30384d152df5",
+                  "label": "第4章 一元一次方程"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82747ecd-96ea-11ec-92ef-246e9675e50c",
+                  "label": "4.1从问题到方程(2)"
+                }
+              ],
+              "sortKey": "003_002"
+            },
+            {
+              "lessonId": "87a4a53d38096dd0d3c8fc73d30551a3",
+              "lessonLabel": "4.3用一元一次方程解决问题(1)",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390f883db0453/4a3cadd8-21da-4564-b22a-30384d152df5/82747f04-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "4a3cadd8-21da-4564-b22a-30384d152df5",
+                  "label": "第4章 一元一次方程"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82747f04-96ea-11ec-92ef-246e9675e50c",
+                  "label": "4.3用一元一次方程解决问题(1)"
+                }
+              ],
+              "sortKey": "003_003"
+            },
+            {
+              "lessonId": "ef2eb83800b2b1f796a3b0cc8858ff30",
+              "lessonLabel": "4.3用一元一次方程解决问题(2)",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390f883db0453/4a3cadd8-21da-4564-b22a-30384d152df5/82747f3d-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "4a3cadd8-21da-4564-b22a-30384d152df5",
+                  "label": "第4章 一元一次方程"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82747f3d-96ea-11ec-92ef-246e9675e50c",
+                  "label": "4.3用一元一次方程解决问题(2)"
+                }
+              ],
+              "sortKey": "003_004"
+            },
+            {
+              "lessonId": "42a2f88f0d575e88760f0dacf43e88a3",
+              "lessonLabel": "4.3用一元一次方程解决问题(3)",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390f883db0453/4a3cadd8-21da-4564-b22a-30384d152df5/82747f76-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "4a3cadd8-21da-4564-b22a-30384d152df5",
+                  "label": "第4章 一元一次方程"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82747f76-96ea-11ec-92ef-246e9675e50c",
+                  "label": "4.3用一元一次方程解决问题(3)"
+                }
+              ],
+              "sortKey": "003_005"
+            },
+            {
+              "lessonId": "7866533e0f0aa24dd8f75813b567aa88",
+              "lessonLabel": "4.3用一元一次方程解决问题(4)",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390f883db0453/4a3cadd8-21da-4564-b22a-30384d152df5/82747fad-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "4a3cadd8-21da-4564-b22a-30384d152df5",
+                  "label": "第4章 一元一次方程"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82747fad-96ea-11ec-92ef-246e9675e50c",
+                  "label": "4.3用一元一次方程解决问题(4)"
+                }
+              ],
+              "sortKey": "003_006"
+            },
+            {
+              "lessonId": "56af65a3c940db42756e8a0a714e696e",
+              "lessonLabel": "4.3用一元一次方程解决问题(5)",
+              "lessonOrder": 7,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390f883db0453/4a3cadd8-21da-4564-b22a-30384d152df5/82747fe2-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "4a3cadd8-21da-4564-b22a-30384d152df5",
+                  "label": "第4章 一元一次方程"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82747fe2-96ea-11ec-92ef-246e9675e50c",
+                  "label": "4.3用一元一次方程解决问题(5)"
+                }
+              ],
+              "sortKey": "003_007"
+            },
+            {
+              "lessonId": "f08f0d9ceebacdc7e357c30548915e6e",
+              "lessonLabel": "4.3用一元一次方程解决问题(6)",
+              "lessonOrder": 8,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390f883db0453/4a3cadd8-21da-4564-b22a-30384d152df5/82748018-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "4a3cadd8-21da-4564-b22a-30384d152df5",
+                  "label": "第4章 一元一次方程"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82748018-96ea-11ec-92ef-246e9675e50c",
+                  "label": "4.3用一元一次方程解决问题(6)"
+                }
+              ],
+              "sortKey": "003_008"
+            }
+          ]
+        },
+        {
+          "chapterId": "0ff86c6c-7fb7-46ee-9a51-8018bbaddaff",
+          "chapterLabel": "第5章 走进图形世界",
+          "chapterOrder": 4,
+          "lessons": [
+            {
+              "lessonId": "3ff169d63a8952d69477a830a742b9b1",
+              "lessonLabel": "5.1丰富的图形世界(2)",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390f883db0453/0ff86c6c-7fb7-46ee-9a51-8018bbaddaff/8274804e-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "0ff86c6c-7fb7-46ee-9a51-8018bbaddaff",
+                  "label": "第5章 走进图形世界"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "8274804e-96ea-11ec-92ef-246e9675e50c",
+                  "label": "5.1丰富的图形世界(2)"
+                }
+              ],
+              "sortKey": "004_001"
+            },
+            {
+              "lessonId": "1fd55ed88676bea4056bb797652764ed",
+              "lessonLabel": "5.3展开与折叠(1)",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390f883db0453/0ff86c6c-7fb7-46ee-9a51-8018bbaddaff/82748086-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "0ff86c6c-7fb7-46ee-9a51-8018bbaddaff",
+                  "label": "第5章 走进图形世界"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82748086-96ea-11ec-92ef-246e9675e50c",
+                  "label": "5.3展开与折叠(1)"
+                }
+              ],
+              "sortKey": "004_002"
+            },
+            {
+              "lessonId": "43ab9c7b1df530d331678c6e2927a9cf",
+              "lessonLabel": "5.3展开与折叠(2)",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390f883db0453/0ff86c6c-7fb7-46ee-9a51-8018bbaddaff/827480be-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "0ff86c6c-7fb7-46ee-9a51-8018bbaddaff",
+                  "label": "第5章 走进图形世界"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "827480be-96ea-11ec-92ef-246e9675e50c",
+                  "label": "5.3展开与折叠(2)"
+                }
+              ],
+              "sortKey": "004_003"
+            },
+            {
+              "lessonId": "4a100fb170d9d29687ad50c171aeb52d",
+              "lessonLabel": "5.4主视图、左视图、俯视图(1)",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390f883db0453/0ff86c6c-7fb7-46ee-9a51-8018bbaddaff/827480fa-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "0ff86c6c-7fb7-46ee-9a51-8018bbaddaff",
+                  "label": "第5章 走进图形世界"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "827480fa-96ea-11ec-92ef-246e9675e50c",
+                  "label": "5.4主视图、左视图、俯视图(1)"
+                }
+              ],
+              "sortKey": "004_004"
+            },
+            {
+              "lessonId": "4050440f95ef7087b4a8eb31a2abc66f",
+              "lessonLabel": "5.4主视图、左视图、俯视图(2)",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390f883db0453/0ff86c6c-7fb7-46ee-9a51-8018bbaddaff/82748130-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "0ff86c6c-7fb7-46ee-9a51-8018bbaddaff",
+                  "label": "第5章 走进图形世界"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82748130-96ea-11ec-92ef-246e9675e50c",
+                  "label": "5.4主视图、左视图、俯视图(2)"
+                }
+              ],
+              "sortKey": "004_005"
+            }
+          ]
+        },
+        {
+          "chapterId": "ae889776-e2d9-401e-ab1c-4a37b3c8a122",
+          "chapterLabel": "第6章 平面图形的认识(一)",
+          "chapterOrder": 5,
+          "lessons": [
+            {
+              "lessonId": "df74354f413c872cbffae54028948760",
+              "lessonLabel": "6.3余角、补角、对顶角(1)",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390f883db0453/ae889776-e2d9-401e-ab1c-4a37b3c8a122/8274816b-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "ae889776-e2d9-401e-ab1c-4a37b3c8a122",
+                  "label": "第6章 平面图形的认识(一)"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "8274816b-96ea-11ec-92ef-246e9675e50c",
+                  "label": "6.3余角、补角、对顶角(1)"
+                }
+              ],
+              "sortKey": "005_001"
+            },
+            {
+              "lessonId": "f0f047c0fcc3de205dc449bde5c459ab",
+              "lessonLabel": "6.3余角、补角、对顶角(2)",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390f883db0453/ae889776-e2d9-401e-ab1c-4a37b3c8a122/827481a5-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "ae889776-e2d9-401e-ab1c-4a37b3c8a122",
+                  "label": "第6章 平面图形的认识(一)"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "827481a5-96ea-11ec-92ef-246e9675e50c",
+                  "label": "6.3余角、补角、对顶角(2)"
+                }
+              ],
+              "sortKey": "005_002"
+            },
+            {
+              "lessonId": "ebd260bf0e48142e4473381d2291dabe",
+              "lessonLabel": "6.4平行",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390f883db0453/ae889776-e2d9-401e-ab1c-4a37b3c8a122/827481db-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "ae889776-e2d9-401e-ab1c-4a37b3c8a122",
+                  "label": "第6章 平面图形的认识(一)"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "827481db-96ea-11ec-92ef-246e9675e50c",
+                  "label": "6.4平行"
+                }
+              ],
+              "sortKey": "005_003"
+            },
+            {
+              "lessonId": "d8ec5ef6d74f20fd5b44d7871c458716",
+              "lessonLabel": "6.5垂直(1)",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390f883db0453/ae889776-e2d9-401e-ab1c-4a37b3c8a122/82748215-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "ae889776-e2d9-401e-ab1c-4a37b3c8a122",
+                  "label": "第6章 平面图形的认识(一)"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "82748215-96ea-11ec-92ef-246e9675e50c",
+                  "label": "6.5垂直(1)"
+                }
+              ],
+              "sortKey": "005_004"
+            },
+            {
+              "lessonId": "1c1a0fe93de9f9f2b29489422286a0eb",
+              "lessonLabel": "6.5垂直(2)",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bebf7c-54e6-11ed-9c34-850ba61fa9f4/e7bbcf80-0590-11ed-9c79-92fc3b3249d5/362880034bfbfa20014c0b98acd70152/ff8080814371757b014390f883db0453/ae889776-e2d9-401e-ab1c-4a37b3c8a122/8274824a-96ea-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bebf7c-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "七年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "数学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "362880034bfbfa20014c0b98acd70152",
+                  "label": "苏科版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "ae889776-e2d9-401e-ab1c-4a37b3c8a122",
+                  "label": "第6章 平面图形的认识(一)"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "8274824a-96ea-11ec-92ef-246e9675e50c",
+                  "label": "6.5垂直(2)"
+                }
+              ],
+              "sortKey": "005_005"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

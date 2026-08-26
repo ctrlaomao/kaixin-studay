@@ -1,0 +1,10 @@
+{
+  "name": "@kaixin/catalog-sync",
+  "private": true,
+  "type": "module",
+  "description": "F00e 同步课堂目录元数据采集（仅标题与 tag，无媒体）",
+  "scripts": {
+    "sync": "node sync.mjs",
+    "validate": "node validate.mjs"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kaixin-studay.local/spec/catalog-tree.schema.json",
+  "title": "CatalogTreeBuffer",
+  "description": "F00e 采集缓冲树；导入前校验。禁止媒体与课件字段。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "syncAt", "source", "editions"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "syncAt": { "type": "string", "format": "date-time" },
+    "source": { "type": "string", "minLength": 1 },
+    "sourceUrl": { "type": "string", "format": "uri" },
+    "editions": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/editionNode" }
+    }
+  },
+  "$defs": {
+    "platformLevel": {
+      "type": "string",
+      "enum": ["stage", "grade", "subject", "version", "volume", "chapter", "lesson"]
+    },
+    "platformTagPathItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["level", "tagId"],
+      "properties": {
+        "level": { "$ref": "#/$defs/platformLevel" },
+        "tagId": { "type": "string", "minLength": 1 },
+        "label": { "type": "string" }
+      }
+    },
+    "lessonNode": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "lessonId",
+        "lessonLabel",
+        "lessonOrder",
+        "platformTag"
+      ],
+      "properties": {
+        "lessonId": { "type": "string", "minLength": 1 },
+        "lessonLabel": { "type": "string", "minLength": 1 },
+        "lessonOrder": { "type": "integer", "minimum": 0 },
+        "platformTag": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[^/]+(/[^/]+)+$"
+        },
+        "platformTagPath": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/platformTagPathItem" }
+        },
+        "sortKey": { "type": "string" }
+      }
+    },
+    "chapterNode": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["chapterId", "chapterLabel", "chapterOrder", "lessons"],
+      "properties": {
+        "chapterId": { "type": "string", "minLength": 1 },
+        "chapterLabel": { "type": "string", "minLength": 1 },
+        "chapterOrder": { "type": "integer", "minimum": 0 },
+        "lessons": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/lessonNode" }
+        }
+      }
+    },
+    "editionNode": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "editionId",
+        "stageId",
+        "stageLabel",
+        "gradeId",
+        "gradeLabel",
+        "subjectId",
+        "subjectLabel",
+        "versionId",
+        "versionLabel",
+        "volumeId",
+        "volumeLabel",
+        "platformTag",
+        "online",
+        "chapters"
+      ],
+      "properties": {
+        "editionId": { "type": "string", "minLength": 1 },
+        "stageId": { "type": "string", "minLength": 1 },
+        "stageLabel": { "type": "string", "minLength": 1 },
+        "gradeId": { "type": "string", "minLength": 1 },
+        "gradeLabel": { "type": "string", "minLength": 1 },
+        "subjectId": { "type": "string", "minLength": 1 },
+        "subjectLabel": { "type": "string", "minLength": 1 },
+        "versionId": { "type": "string", "minLength": 1 },
+        "versionLabel": { "type": "string", "minLength": 1 },
+        "volumeId": { "type": "string", "minLength": 1 },
+        "volumeLabel": { "type": "string", "minLength": 1 },
+        "platformTag": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[^/]+(/[^/]+)+$"
+        },
+        "platformTagPath": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/platformTagPathItem" }
+        },
+        "online": { "type": "boolean" },
+        "sourceUrl": { "type": "string", "format": "uri" },
+        "chapters": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/chapterNode" }
+        }
+      }
+    }
+  }
+}

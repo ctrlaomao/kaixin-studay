@@ -6,14 +6,14 @@
   - Acceptance: 云端测试返回 ok；api.md 有路径与集合名；无密钥入库
   - Verify: 控制台云端测试
   - Files: cloudfunctions/ping, cloudfunctions/README.md, doc/spec/api.md
-- [ ] F00d 目录数据模型对齐平台
+- [x] F00d 目录数据模型对齐平台
   - Acceptance: catalog-schema 含 platformTag
   - Verify: 文档评审
-  - Files: doc/spec/catalog-schema.md
-- [ ] F00e 采集各科各版公开目录
+  - Files: doc/spec/catalog-schema.md, doc/spec/catalog-tree.schema.json
+- [x] F00e 采集各科各版公开目录
   - Acceptance: 临时树 JSON 层级正确，无课件文件
   - Verify: 抽查与平台名称
-  - Files: scripts/catalog-sync
+  - Files: scripts/catalog-sync, data/catalog/tree-*.json
 - [ ] F00g 目录写入云数据库
   - Acceptance: catalog_edition/lesson 可查；只读权限；分批导入
   - Verify: 云开发控制台文档条数

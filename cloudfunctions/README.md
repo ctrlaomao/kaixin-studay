@@ -13,3 +13,7 @@
 ## recognizeHomework
 
 识图。部署与云端测试见 `cloudfunctions/recognizeHomework/README.md`。识图用 DeepSeek，Key 只放云函数环境变量。
+
+## catalogImport
+
+目录分批导入。部署与云端测试见 `cloudfunctions/catalogImport/README.md`。导入前先在 `scripts/catalog-sync` 生成 `data/catalog/tree-*.json`。

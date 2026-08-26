@@ -1,0 +1,3048 @@
+{
+  "schemaVersion": 1,
+  "syncAt": "2026-08-26T13:43:59.774Z",
+  "source": "smartedu-syncClassroom",
+  "editions": [
+    {
+      "editionId": "94fd350b9d6eb5c59dbee5ca49071c07",
+      "stageId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+      "stageLabel": "初中",
+      "gradeId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+      "gradeLabel": "八年级",
+      "subjectId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+      "subjectLabel": "物理",
+      "versionId": "ff8080814371757b01437c363a187b0a",
+      "versionLabel": "人教版",
+      "volumeId": "ff8080814371757b014390f883db0453",
+      "volumeLabel": "上册",
+      "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453",
+      "platformTagPath": [
+        {
+          "level": "stage",
+          "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+          "label": "初中"
+        },
+        {
+          "level": "grade",
+          "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+          "label": "八年级"
+        },
+        {
+          "level": "subject",
+          "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+          "label": "物理"
+        },
+        {
+          "level": "version",
+          "tagId": "ff8080814371757b01437c363a187b0a",
+          "label": "人教版"
+        },
+        {
+          "level": "volume",
+          "tagId": "ff8080814371757b014390f883db0453",
+          "label": "上册"
+        }
+      ],
+      "online": true,
+      "sourceUrl": "https://basic.smartedu.cn/syncClassroom?defaultTag=e7bbce2c-0590-11ed-9c79-92fc3b3249d5%2F44bec67a-54e6-11ed-9c34-850ba61fa9f4%2Fe7bbcfee-0590-11ed-9c79-92fc3b3249d5%2Fff8080814371757b01437c363a187b0a%2Fff8080814371757b014390f883db0453",
+      "chapters": [
+        {
+          "chapterId": "ea4ac7da-eae7-4fca-b313-28d6b5d96f31",
+          "chapterLabel": "序言",
+          "chapterOrder": 1,
+          "lessons": [
+            {
+              "lessonId": "5c2b033d2d111cdf2f8f1ab378cdf45e",
+              "lessonLabel": "探索物理 科学之旅",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/ea4ac7da-eae7-4fca-b313-28d6b5d96f31/b1b1b189-4f0e-45b9-ace6-f9c307191d26",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "ea4ac7da-eae7-4fca-b313-28d6b5d96f31",
+                  "label": "序言"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "b1b1b189-4f0e-45b9-ace6-f9c307191d26",
+                  "label": "探索物理 科学之旅"
+                }
+              ],
+              "sortKey": "001_001"
+            }
+          ]
+        },
+        {
+          "chapterId": "a5acd519-f3ed-4f43-a9e4-cc2fe9ad44c9",
+          "chapterLabel": "第一章 机械运动",
+          "chapterOrder": 2,
+          "lessons": [
+            {
+              "lessonId": "0a593ff8ba07939e284b11bc38fce0a5",
+              "lessonLabel": "长度和时间的测量",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/a5acd519-f3ed-4f43-a9e4-cc2fe9ad44c9/c467ccc3-e63c-4ed1-b263-6ace2dd3b25c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a5acd519-f3ed-4f43-a9e4-cc2fe9ad44c9",
+                  "label": "第一章 机械运动"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "c467ccc3-e63c-4ed1-b263-6ace2dd3b25c",
+                  "label": "长度和时间的测量"
+                }
+              ],
+              "sortKey": "002_001"
+            },
+            {
+              "lessonId": "9676d31d631f14a9144d96a76be9bbe3",
+              "lessonLabel": "运动的描述",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/a5acd519-f3ed-4f43-a9e4-cc2fe9ad44c9/1bb3ed41-866e-485d-bf6f-6ece7e353bb8",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a5acd519-f3ed-4f43-a9e4-cc2fe9ad44c9",
+                  "label": "第一章 机械运动"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "1bb3ed41-866e-485d-bf6f-6ece7e353bb8",
+                  "label": "运动的描述"
+                }
+              ],
+              "sortKey": "002_002"
+            },
+            {
+              "lessonId": "f7d28cde1deac48cedfea22d3f74d674",
+              "lessonLabel": "运动的快慢（第一课时）",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/a5acd519-f3ed-4f43-a9e4-cc2fe9ad44c9/24544684-6d09-4bc0-99cf-0b30dcdc3065",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a5acd519-f3ed-4f43-a9e4-cc2fe9ad44c9",
+                  "label": "第一章 机械运动"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "24544684-6d09-4bc0-99cf-0b30dcdc3065",
+                  "label": "运动的快慢（第一课时）"
+                }
+              ],
+              "sortKey": "002_003"
+            },
+            {
+              "lessonId": "210ca10eef7afc495a075edbf646bf8c",
+              "lessonLabel": "运动的快慢（第二课时）",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/a5acd519-f3ed-4f43-a9e4-cc2fe9ad44c9/b495a97f-1d03-4aa8-b322-e5d8c30e8aca",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a5acd519-f3ed-4f43-a9e4-cc2fe9ad44c9",
+                  "label": "第一章 机械运动"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "b495a97f-1d03-4aa8-b322-e5d8c30e8aca",
+                  "label": "运动的快慢（第二课时）"
+                }
+              ],
+              "sortKey": "002_004"
+            },
+            {
+              "lessonId": "a6a2481aacfc07c69636683ac7588879",
+              "lessonLabel": "测量平均速度",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/a5acd519-f3ed-4f43-a9e4-cc2fe9ad44c9/8d9a6485-a735-48a1-9136-1716c17455a7",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a5acd519-f3ed-4f43-a9e4-cc2fe9ad44c9",
+                  "label": "第一章 机械运动"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "8d9a6485-a735-48a1-9136-1716c17455a7",
+                  "label": "测量平均速度"
+                }
+              ],
+              "sortKey": "002_005"
+            }
+          ]
+        },
+        {
+          "chapterId": "d2432b9a-912e-40d3-9fe0-0379b0e3bf02",
+          "chapterLabel": "第二章 声现象",
+          "chapterOrder": 3,
+          "lessons": [
+            {
+              "lessonId": "7a954d45ec19af15745687f7c2bf6477",
+              "lessonLabel": "声音的产生与传播",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/d2432b9a-912e-40d3-9fe0-0379b0e3bf02/fcaccf14-0c12-41bf-b8c0-e38b46b0b282",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "d2432b9a-912e-40d3-9fe0-0379b0e3bf02",
+                  "label": "第二章 声现象"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "fcaccf14-0c12-41bf-b8c0-e38b46b0b282",
+                  "label": "声音的产生与传播"
+                }
+              ],
+              "sortKey": "003_001"
+            },
+            {
+              "lessonId": "4b6f03a4e5c600c50dfc8fa5be4fba27",
+              "lessonLabel": "声音的特性",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/d2432b9a-912e-40d3-9fe0-0379b0e3bf02/1da69637-8e4c-4ee9-8408-7a6b2384c25b",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "d2432b9a-912e-40d3-9fe0-0379b0e3bf02",
+                  "label": "第二章 声现象"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "1da69637-8e4c-4ee9-8408-7a6b2384c25b",
+                  "label": "声音的特性"
+                }
+              ],
+              "sortKey": "003_002"
+            },
+            {
+              "lessonId": "c265c6954159b84d3bc974c0442339a4",
+              "lessonLabel": "声的利用",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/d2432b9a-912e-40d3-9fe0-0379b0e3bf02/85ef26fe-9369-4299-97cd-491156ef2f49",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "d2432b9a-912e-40d3-9fe0-0379b0e3bf02",
+                  "label": "第二章 声现象"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "85ef26fe-9369-4299-97cd-491156ef2f49",
+                  "label": "声的利用"
+                }
+              ],
+              "sortKey": "003_003"
+            },
+            {
+              "lessonId": "286954e670f19321fdd170660d2dea56",
+              "lessonLabel": "噪声的危害和控制",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/d2432b9a-912e-40d3-9fe0-0379b0e3bf02/00679b4d-adda-425f-84bf-f81f40590ffb",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "d2432b9a-912e-40d3-9fe0-0379b0e3bf02",
+                  "label": "第二章 声现象"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "00679b4d-adda-425f-84bf-f81f40590ffb",
+                  "label": "噪声的危害和控制"
+                }
+              ],
+              "sortKey": "003_004"
+            }
+          ]
+        },
+        {
+          "chapterId": "f47007ec-a68f-4a2c-ab94-b8b22f0d9ecc",
+          "chapterLabel": "第三章 物态变化",
+          "chapterOrder": 4,
+          "lessons": [
+            {
+              "lessonId": "29b0813c5a9b8aef637c3d535f762267",
+              "lessonLabel": "温度",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/f47007ec-a68f-4a2c-ab94-b8b22f0d9ecc/3d2ae728-0ee7-496d-beec-c4476ad024f1",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "f47007ec-a68f-4a2c-ab94-b8b22f0d9ecc",
+                  "label": "第三章 物态变化"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3d2ae728-0ee7-496d-beec-c4476ad024f1",
+                  "label": "温度"
+                }
+              ],
+              "sortKey": "004_001"
+            },
+            {
+              "lessonId": "3cca85a68bc96920fe6935e08dabf138",
+              "lessonLabel": "熔化和凝固",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/f47007ec-a68f-4a2c-ab94-b8b22f0d9ecc/0abfdb94-7e3a-407b-836c-51c131afc337",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "f47007ec-a68f-4a2c-ab94-b8b22f0d9ecc",
+                  "label": "第三章 物态变化"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "0abfdb94-7e3a-407b-836c-51c131afc337",
+                  "label": "熔化和凝固"
+                }
+              ],
+              "sortKey": "004_002"
+            },
+            {
+              "lessonId": "65480b15607efbf3045ce309b2b44b9a",
+              "lessonLabel": "汽化和液化（第一课时）",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/f47007ec-a68f-4a2c-ab94-b8b22f0d9ecc/4a94f47a-0ce0-46b4-9cc4-6f80e407b8ad",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "f47007ec-a68f-4a2c-ab94-b8b22f0d9ecc",
+                  "label": "第三章 物态变化"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "4a94f47a-0ce0-46b4-9cc4-6f80e407b8ad",
+                  "label": "汽化和液化（第一课时）"
+                }
+              ],
+              "sortKey": "004_003"
+            },
+            {
+              "lessonId": "8f15e4ebcabddba32feb54e6bf951012",
+              "lessonLabel": "汽化和液化（第二课时）",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/f47007ec-a68f-4a2c-ab94-b8b22f0d9ecc/77168635-d7f1-4c8f-beb9-ca2710b20c7f",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "f47007ec-a68f-4a2c-ab94-b8b22f0d9ecc",
+                  "label": "第三章 物态变化"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "77168635-d7f1-4c8f-beb9-ca2710b20c7f",
+                  "label": "汽化和液化（第二课时）"
+                }
+              ],
+              "sortKey": "004_004"
+            },
+            {
+              "lessonId": "4cd03489a273a6e24098363d25b7e7a5",
+              "lessonLabel": "升华和凝华",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/f47007ec-a68f-4a2c-ab94-b8b22f0d9ecc/5ee4a61d-55f2-4031-b94b-880ba206cc83",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "f47007ec-a68f-4a2c-ab94-b8b22f0d9ecc",
+                  "label": "第三章 物态变化"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "5ee4a61d-55f2-4031-b94b-880ba206cc83",
+                  "label": "升华和凝华"
+                }
+              ],
+              "sortKey": "004_005"
+            }
+          ]
+        },
+        {
+          "chapterId": "281345b1-b5a5-45ec-8e92-cef639a25101",
+          "chapterLabel": "第四章 光现象",
+          "chapterOrder": 5,
+          "lessons": [
+            {
+              "lessonId": "149204381b071535616f061ad717c7bb",
+              "lessonLabel": "光的直线传播",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/281345b1-b5a5-45ec-8e92-cef639a25101/80fa1b85-d965-418f-9709-328977686b89",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "281345b1-b5a5-45ec-8e92-cef639a25101",
+                  "label": "第四章 光现象"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "80fa1b85-d965-418f-9709-328977686b89",
+                  "label": "光的直线传播"
+                }
+              ],
+              "sortKey": "005_001"
+            },
+            {
+              "lessonId": "c5fcd7e356c178a4403bfdbf59b1b50c",
+              "lessonLabel": "光的反射",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/281345b1-b5a5-45ec-8e92-cef639a25101/960dd5eb-8ace-4e7a-a93f-23eafe82fdb2",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "281345b1-b5a5-45ec-8e92-cef639a25101",
+                  "label": "第四章 光现象"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "960dd5eb-8ace-4e7a-a93f-23eafe82fdb2",
+                  "label": "光的反射"
+                }
+              ],
+              "sortKey": "005_002"
+            },
+            {
+              "lessonId": "7aad27794498dcc8bff9b91312cf55ca",
+              "lessonLabel": "平面镜成像（第一课时）",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/281345b1-b5a5-45ec-8e92-cef639a25101/bd0768e4-533c-403c-8526-275673f76b09",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "281345b1-b5a5-45ec-8e92-cef639a25101",
+                  "label": "第四章 光现象"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "bd0768e4-533c-403c-8526-275673f76b09",
+                  "label": "平面镜成像（第一课时）"
+                }
+              ],
+              "sortKey": "005_003"
+            },
+            {
+              "lessonId": "721d74c93dacfc7ed70115f6d7157af5",
+              "lessonLabel": "平面镜成像（第二课时）",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/281345b1-b5a5-45ec-8e92-cef639a25101/55a17a69-057f-465c-b572-17dce4f1c354",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "281345b1-b5a5-45ec-8e92-cef639a25101",
+                  "label": "第四章 光现象"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "55a17a69-057f-465c-b572-17dce4f1c354",
+                  "label": "平面镜成像（第二课时）"
+                }
+              ],
+              "sortKey": "005_004"
+            },
+            {
+              "lessonId": "7c61ac37a8073a30d7294ab3a872f9ee",
+              "lessonLabel": "光的折射",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/281345b1-b5a5-45ec-8e92-cef639a25101/843c1755-d69c-43fe-84c7-366a8534f32d",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "281345b1-b5a5-45ec-8e92-cef639a25101",
+                  "label": "第四章 光现象"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "843c1755-d69c-43fe-84c7-366a8534f32d",
+                  "label": "光的折射"
+                }
+              ],
+              "sortKey": "005_005"
+            },
+            {
+              "lessonId": "f27c6a0146bb839452468c7bf333e75b",
+              "lessonLabel": "光的色散",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/281345b1-b5a5-45ec-8e92-cef639a25101/937b4ae3-6e4f-4fc2-b5fd-25a3a444afa7",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "281345b1-b5a5-45ec-8e92-cef639a25101",
+                  "label": "第四章 光现象"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "937b4ae3-6e4f-4fc2-b5fd-25a3a444afa7",
+                  "label": "光的色散"
+                }
+              ],
+              "sortKey": "005_006"
+            }
+          ]
+        },
+        {
+          "chapterId": "b0cb9482-fab0-4b4d-ab95-da5d8f5cb774",
+          "chapterLabel": "第五章 透镜及其应用",
+          "chapterOrder": 6,
+          "lessons": [
+            {
+              "lessonId": "d19a5a5c5e613c982ebbe495210aa583",
+              "lessonLabel": "透镜",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/b0cb9482-fab0-4b4d-ab95-da5d8f5cb774/7dac3b28-6be9-4e1f-879f-06e3949700fd",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "b0cb9482-fab0-4b4d-ab95-da5d8f5cb774",
+                  "label": "第五章 透镜及其应用"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "7dac3b28-6be9-4e1f-879f-06e3949700fd",
+                  "label": "透镜"
+                }
+              ],
+              "sortKey": "006_001"
+            },
+            {
+              "lessonId": "813e4fe1aa9b8bb1b725e5b6cf82b9b7",
+              "lessonLabel": "生活中的透镜",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/b0cb9482-fab0-4b4d-ab95-da5d8f5cb774/2c1d599f-8a15-4070-89d5-7a45c18ba688",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "b0cb9482-fab0-4b4d-ab95-da5d8f5cb774",
+                  "label": "第五章 透镜及其应用"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "2c1d599f-8a15-4070-89d5-7a45c18ba688",
+                  "label": "生活中的透镜"
+                }
+              ],
+              "sortKey": "006_002"
+            },
+            {
+              "lessonId": "fea70b241bf08aebe8bcb7869495e2f7",
+              "lessonLabel": "凸透镜成像的规律（第一课时)",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/b0cb9482-fab0-4b4d-ab95-da5d8f5cb774/09684072-ac5c-42f1-8312-a583e93803d8",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "b0cb9482-fab0-4b4d-ab95-da5d8f5cb774",
+                  "label": "第五章 透镜及其应用"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "09684072-ac5c-42f1-8312-a583e93803d8",
+                  "label": "凸透镜成像的规律（第一课时)"
+                }
+              ],
+              "sortKey": "006_003"
+            },
+            {
+              "lessonId": "43b9397c23a80ee6782978629c3b53ba",
+              "lessonLabel": "凸透镜成像的规律（第二课时)",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/b0cb9482-fab0-4b4d-ab95-da5d8f5cb774/d0779484-4330-4f40-93a4-3d99bbf2ae4d",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "b0cb9482-fab0-4b4d-ab95-da5d8f5cb774",
+                  "label": "第五章 透镜及其应用"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "d0779484-4330-4f40-93a4-3d99bbf2ae4d",
+                  "label": "凸透镜成像的规律（第二课时)"
+                }
+              ],
+              "sortKey": "006_004"
+            },
+            {
+              "lessonId": "cfd62189e308407868769d2e713a23a0",
+              "lessonLabel": "眼睛和眼镜",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/b0cb9482-fab0-4b4d-ab95-da5d8f5cb774/09e16bcc-307e-4202-88fd-c28c6c09fad7",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "b0cb9482-fab0-4b4d-ab95-da5d8f5cb774",
+                  "label": "第五章 透镜及其应用"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "09e16bcc-307e-4202-88fd-c28c6c09fad7",
+                  "label": "眼睛和眼镜"
+                }
+              ],
+              "sortKey": "006_005"
+            },
+            {
+              "lessonId": "af34e897c4ae4af051d03081c3784790",
+              "lessonLabel": "显微镜和望远镜",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/b0cb9482-fab0-4b4d-ab95-da5d8f5cb774/815bf895-f09f-4051-ac75-d9a2d83eae81",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "b0cb9482-fab0-4b4d-ab95-da5d8f5cb774",
+                  "label": "第五章 透镜及其应用"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "815bf895-f09f-4051-ac75-d9a2d83eae81",
+                  "label": "显微镜和望远镜"
+                }
+              ],
+              "sortKey": "006_006"
+            }
+          ]
+        },
+        {
+          "chapterId": "fe136538-7fb3-41f4-9b98-d839a3e758d8",
+          "chapterLabel": "第六章 质量与密度",
+          "chapterOrder": 7,
+          "lessons": [
+            {
+              "lessonId": "ed83d9cec438ab0597bc6d9dc5ed0aff",
+              "lessonLabel": "质量",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/fe136538-7fb3-41f4-9b98-d839a3e758d8/55826fc8-60ba-493b-8986-597f12bc6ed1",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "fe136538-7fb3-41f4-9b98-d839a3e758d8",
+                  "label": "第六章 质量与密度"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "55826fc8-60ba-493b-8986-597f12bc6ed1",
+                  "label": "质量"
+                }
+              ],
+              "sortKey": "007_001"
+            },
+            {
+              "lessonId": "51773b63b7157c1db5ee29ffc64b2430",
+              "lessonLabel": "密度（第一课时）",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/fe136538-7fb3-41f4-9b98-d839a3e758d8/6cf52265-4c14-4fc9-92f7-9b7bf6a3df2f",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "fe136538-7fb3-41f4-9b98-d839a3e758d8",
+                  "label": "第六章 质量与密度"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "6cf52265-4c14-4fc9-92f7-9b7bf6a3df2f",
+                  "label": "密度（第一课时）"
+                }
+              ],
+              "sortKey": "007_002"
+            },
+            {
+              "lessonId": "05479766f4d70012792934ebfa12cc21",
+              "lessonLabel": "密度（第二课时）",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/fe136538-7fb3-41f4-9b98-d839a3e758d8/f4416aef-b521-457e-81f1-157dbc36faa7",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "fe136538-7fb3-41f4-9b98-d839a3e758d8",
+                  "label": "第六章 质量与密度"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "f4416aef-b521-457e-81f1-157dbc36faa7",
+                  "label": "密度（第二课时）"
+                }
+              ],
+              "sortKey": "007_003"
+            },
+            {
+              "lessonId": "3da0fa818000429bd5a6d30040966a2f",
+              "lessonLabel": "测量物质的密度",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/fe136538-7fb3-41f4-9b98-d839a3e758d8/fce32a26-46c9-49bf-b6cd-f64580fd84c1",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "fe136538-7fb3-41f4-9b98-d839a3e758d8",
+                  "label": "第六章 质量与密度"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "fce32a26-46c9-49bf-b6cd-f64580fd84c1",
+                  "label": "测量物质的密度"
+                }
+              ],
+              "sortKey": "007_004"
+            },
+            {
+              "lessonId": "779b0657b7015e281254f4abadf0762b",
+              "lessonLabel": "密度与社会生活",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/fe136538-7fb3-41f4-9b98-d839a3e758d8/7aa4bacf-bfb0-4851-99cd-6500b3950ce8",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "fe136538-7fb3-41f4-9b98-d839a3e758d8",
+                  "label": "第六章 质量与密度"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "7aa4bacf-bfb0-4851-99cd-6500b3950ce8",
+                  "label": "密度与社会生活"
+                }
+              ],
+              "sortKey": "007_005"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "editionId": "c73f2d4dd76e1acfa8e610905c7d1b62",
+      "stageId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+      "stageLabel": "初中",
+      "gradeId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+      "gradeLabel": "八年级",
+      "subjectId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+      "subjectLabel": "物理",
+      "versionId": "ff8080814371757b01437c363a187b0a",
+      "versionLabel": "人教版",
+      "volumeId": "ff8080814371757b014390fcdce504bd",
+      "volumeLabel": "下册",
+      "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd",
+      "platformTagPath": [
+        {
+          "level": "stage",
+          "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+          "label": "初中"
+        },
+        {
+          "level": "grade",
+          "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+          "label": "八年级"
+        },
+        {
+          "level": "subject",
+          "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+          "label": "物理"
+        },
+        {
+          "level": "version",
+          "tagId": "ff8080814371757b01437c363a187b0a",
+          "label": "人教版"
+        },
+        {
+          "level": "volume",
+          "tagId": "ff8080814371757b014390fcdce504bd",
+          "label": "下册"
+        }
+      ],
+      "online": true,
+      "sourceUrl": "https://basic.smartedu.cn/syncClassroom?defaultTag=e7bbce2c-0590-11ed-9c79-92fc3b3249d5%2F44bec67a-54e6-11ed-9c34-850ba61fa9f4%2Fe7bbcfee-0590-11ed-9c79-92fc3b3249d5%2Fff8080814371757b01437c363a187b0a%2Fff8080814371757b014390fcdce504bd",
+      "chapters": [
+        {
+          "chapterId": "60f9ea10-0f59-490f-befc-f04158b58844",
+          "chapterLabel": "第七章 力",
+          "chapterOrder": 1,
+          "lessons": [
+            {
+              "lessonId": "db203843eefc070d22a1891f691de284",
+              "lessonLabel": "力（第一课时）",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/60f9ea10-0f59-490f-befc-f04158b58844/a1e3b3b9-5c85-42b8-9753-be06e02d4382",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "60f9ea10-0f59-490f-befc-f04158b58844",
+                  "label": "第七章 力"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "a1e3b3b9-5c85-42b8-9753-be06e02d4382",
+                  "label": "力（第一课时）"
+                }
+              ],
+              "sortKey": "001_001"
+            },
+            {
+              "lessonId": "49e6de274eb95c14e754bf50572bc250",
+              "lessonLabel": "力（第二课时）",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/60f9ea10-0f59-490f-befc-f04158b58844/af5b72b9-3180-438d-9182-b8c38b71bd19",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "60f9ea10-0f59-490f-befc-f04158b58844",
+                  "label": "第七章 力"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "af5b72b9-3180-438d-9182-b8c38b71bd19",
+                  "label": "力（第二课时）"
+                }
+              ],
+              "sortKey": "001_002"
+            },
+            {
+              "lessonId": "75816310a1116090e5d3404672490b5d",
+              "lessonLabel": "弹力（第一课时）",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/60f9ea10-0f59-490f-befc-f04158b58844/4fc1c581-069b-4dcf-943a-86d1d132eb1c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "60f9ea10-0f59-490f-befc-f04158b58844",
+                  "label": "第七章 力"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "4fc1c581-069b-4dcf-943a-86d1d132eb1c",
+                  "label": "弹力（第一课时）"
+                }
+              ],
+              "sortKey": "001_003"
+            },
+            {
+              "lessonId": "ca9102627c11d1606ecde7f427b8c1c9",
+              "lessonLabel": "弹力（第二课时）",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/60f9ea10-0f59-490f-befc-f04158b58844/cb04ec30-0dad-43ae-b482-764da1ed9752",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "60f9ea10-0f59-490f-befc-f04158b58844",
+                  "label": "第七章 力"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "cb04ec30-0dad-43ae-b482-764da1ed9752",
+                  "label": "弹力（第二课时）"
+                }
+              ],
+              "sortKey": "001_004"
+            },
+            {
+              "lessonId": "106d4e63fe4460626a52e4ea12dd7a71",
+              "lessonLabel": "重力（第一课时）",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/60f9ea10-0f59-490f-befc-f04158b58844/3581c26b-9915-4c75-a248-a4864ec8bc4b",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "60f9ea10-0f59-490f-befc-f04158b58844",
+                  "label": "第七章 力"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3581c26b-9915-4c75-a248-a4864ec8bc4b",
+                  "label": "重力（第一课时）"
+                }
+              ],
+              "sortKey": "001_005"
+            },
+            {
+              "lessonId": "63596fd4ed6cb73a40a89c7dc0e03973",
+              "lessonLabel": "重力（第二课时）",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/60f9ea10-0f59-490f-befc-f04158b58844/954c6c4d-3f49-4e92-9c3e-8fd471bc5acf",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "60f9ea10-0f59-490f-befc-f04158b58844",
+                  "label": "第七章 力"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "954c6c4d-3f49-4e92-9c3e-8fd471bc5acf",
+                  "label": "重力（第二课时）"
+                }
+              ],
+              "sortKey": "001_006"
+            }
+          ]
+        },
+        {
+          "chapterId": "52044302-447d-49d0-8d31-37557896170c",
+          "chapterLabel": "第八章 运动和力",
+          "chapterOrder": 2,
+          "lessons": [
+            {
+              "lessonId": "cd13413d6cc42c5cedc45819e244bc13",
+              "lessonLabel": "牛顿第一定律（第一课时）",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/52044302-447d-49d0-8d31-37557896170c/2740d8aa-c3f8-4ffe-985e-d194ecba1de2",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "52044302-447d-49d0-8d31-37557896170c",
+                  "label": "第八章 运动和力"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "2740d8aa-c3f8-4ffe-985e-d194ecba1de2",
+                  "label": "牛顿第一定律（第一课时）"
+                }
+              ],
+              "sortKey": "002_001"
+            },
+            {
+              "lessonId": "d68334840ca580633d1246afd63a0f4b",
+              "lessonLabel": "牛顿第一定律（第二课时）",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/52044302-447d-49d0-8d31-37557896170c/a2010b21-f23a-456f-b340-7ccc8854fdfa",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "52044302-447d-49d0-8d31-37557896170c",
+                  "label": "第八章 运动和力"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "a2010b21-f23a-456f-b340-7ccc8854fdfa",
+                  "label": "牛顿第一定律（第二课时）"
+                }
+              ],
+              "sortKey": "002_002"
+            },
+            {
+              "lessonId": "54d1d4f73b40c93871493be217c82690",
+              "lessonLabel": "二力平衡（第一课时）",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/52044302-447d-49d0-8d31-37557896170c/29b42ebb-fcca-4624-a69a-29dc5e8bb2a9",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "52044302-447d-49d0-8d31-37557896170c",
+                  "label": "第八章 运动和力"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "29b42ebb-fcca-4624-a69a-29dc5e8bb2a9",
+                  "label": "二力平衡（第一课时）"
+                }
+              ],
+              "sortKey": "002_003"
+            },
+            {
+              "lessonId": "63ba6484437d6c5035a2a16148eee367",
+              "lessonLabel": "二力平衡（第二课时）",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/52044302-447d-49d0-8d31-37557896170c/51631cab-3afd-45b8-b6d7-b677be7560dd",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "52044302-447d-49d0-8d31-37557896170c",
+                  "label": "第八章 运动和力"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "51631cab-3afd-45b8-b6d7-b677be7560dd",
+                  "label": "二力平衡（第二课时）"
+                }
+              ],
+              "sortKey": "002_004"
+            },
+            {
+              "lessonId": "86746403acb987f5c9093320e7aad23c",
+              "lessonLabel": "摩擦力（第一课时）",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/52044302-447d-49d0-8d31-37557896170c/0be6d716-e930-4589-b4c9-defdc46d2715",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "52044302-447d-49d0-8d31-37557896170c",
+                  "label": "第八章 运动和力"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "0be6d716-e930-4589-b4c9-defdc46d2715",
+                  "label": "摩擦力（第一课时）"
+                }
+              ],
+              "sortKey": "002_005"
+            },
+            {
+              "lessonId": "fac2351f0739cfbbe7567c60926f2f26",
+              "lessonLabel": "摩擦力（第二课时）",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/52044302-447d-49d0-8d31-37557896170c/49569385-c98c-4465-a714-4ff794057346",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "52044302-447d-49d0-8d31-37557896170c",
+                  "label": "第八章 运动和力"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "49569385-c98c-4465-a714-4ff794057346",
+                  "label": "摩擦力（第二课时）"
+                }
+              ],
+              "sortKey": "002_006"
+            }
+          ]
+        },
+        {
+          "chapterId": "63f95294-60bb-48de-b9aa-f5e3ac0a4203",
+          "chapterLabel": "第九章 压强",
+          "chapterOrder": 3,
+          "lessons": [
+            {
+              "lessonId": "eff4d5602f50c26555e0e330af4f9fd7",
+              "lessonLabel": "压强（第一课时）",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/63f95294-60bb-48de-b9aa-f5e3ac0a4203/1a47d668-11f1-4032-b5e1-e3b97e30ffd1",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "63f95294-60bb-48de-b9aa-f5e3ac0a4203",
+                  "label": "第九章 压强"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "1a47d668-11f1-4032-b5e1-e3b97e30ffd1",
+                  "label": "压强（第一课时）"
+                }
+              ],
+              "sortKey": "003_001"
+            },
+            {
+              "lessonId": "22a22333c389cf4c7f07165fe6108699",
+              "lessonLabel": "压强（第二课时）",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/63f95294-60bb-48de-b9aa-f5e3ac0a4203/2dd93e82-296e-4853-958d-d61acae3ca23",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "63f95294-60bb-48de-b9aa-f5e3ac0a4203",
+                  "label": "第九章 压强"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "2dd93e82-296e-4853-958d-d61acae3ca23",
+                  "label": "压强（第二课时）"
+                }
+              ],
+              "sortKey": "003_002"
+            },
+            {
+              "lessonId": "471a1273a73360d03b4721370d88f9e1",
+              "lessonLabel": "液体压强（第一课时）",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/63f95294-60bb-48de-b9aa-f5e3ac0a4203/53704286-8972-4e9d-a2a2-a187ead84850",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "63f95294-60bb-48de-b9aa-f5e3ac0a4203",
+                  "label": "第九章 压强"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "53704286-8972-4e9d-a2a2-a187ead84850",
+                  "label": "液体压强（第一课时）"
+                }
+              ],
+              "sortKey": "003_003"
+            },
+            {
+              "lessonId": "7c102c60b037ab4a762fc89ac39ae381",
+              "lessonLabel": "液体压强（第二课时）",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/63f95294-60bb-48de-b9aa-f5e3ac0a4203/4891b35c-2f38-43f3-a340-4b244626949a",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "63f95294-60bb-48de-b9aa-f5e3ac0a4203",
+                  "label": "第九章 压强"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "4891b35c-2f38-43f3-a340-4b244626949a",
+                  "label": "液体压强（第二课时）"
+                }
+              ],
+              "sortKey": "003_004"
+            },
+            {
+              "lessonId": "7b71fbab79e8e5927fe58b06273d40d7",
+              "lessonLabel": "大气压强（第一课时）",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/63f95294-60bb-48de-b9aa-f5e3ac0a4203/56cf5b4c-314c-4d82-ad82-4d3a7ee169f4",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "63f95294-60bb-48de-b9aa-f5e3ac0a4203",
+                  "label": "第九章 压强"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "56cf5b4c-314c-4d82-ad82-4d3a7ee169f4",
+                  "label": "大气压强（第一课时）"
+                }
+              ],
+              "sortKey": "003_005"
+            },
+            {
+              "lessonId": "9d5e4081256f4d23eb68ae801d1720c3",
+              "lessonLabel": "大气压强（第二课时）",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/63f95294-60bb-48de-b9aa-f5e3ac0a4203/6dd00fea-28e8-4c35-b223-8232e7fb1474",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "63f95294-60bb-48de-b9aa-f5e3ac0a4203",
+                  "label": "第九章 压强"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "6dd00fea-28e8-4c35-b223-8232e7fb1474",
+                  "label": "大气压强（第二课时）"
+                }
+              ],
+              "sortKey": "003_006"
+            },
+            {
+              "lessonId": "982a17f7317ad6ddef87a0a2ed788dbe",
+              "lessonLabel": "流体压强与流速的关系（第一课时）",
+              "lessonOrder": 7,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/63f95294-60bb-48de-b9aa-f5e3ac0a4203/43240c04-cb19-483e-97b0-1011aab679ce",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "63f95294-60bb-48de-b9aa-f5e3ac0a4203",
+                  "label": "第九章 压强"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "43240c04-cb19-483e-97b0-1011aab679ce",
+                  "label": "流体压强与流速的关系（第一课时）"
+                }
+              ],
+              "sortKey": "003_007"
+            },
+            {
+              "lessonId": "b40d22ec5d8a0a1840cd89dbc9f45898",
+              "lessonLabel": "流体压强与流速的关系（第二课时）",
+              "lessonOrder": 8,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/63f95294-60bb-48de-b9aa-f5e3ac0a4203/f6d43c92-4dae-459f-9e46-435ae96b17a6",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "63f95294-60bb-48de-b9aa-f5e3ac0a4203",
+                  "label": "第九章 压强"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "f6d43c92-4dae-459f-9e46-435ae96b17a6",
+                  "label": "流体压强与流速的关系（第二课时）"
+                }
+              ],
+              "sortKey": "003_008"
+            }
+          ]
+        },
+        {
+          "chapterId": "6d9bc546-d3b7-4f00-a22a-65f190dedf2e",
+          "chapterLabel": "第十章 浮力",
+          "chapterOrder": 4,
+          "lessons": [
+            {
+              "lessonId": "53b1dd0d69c93322080621d59573b811",
+              "lessonLabel": "浮力（第一课时）",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/6d9bc546-d3b7-4f00-a22a-65f190dedf2e/efc3e75c-a653-4bc9-8cac-6efe4462c710",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "6d9bc546-d3b7-4f00-a22a-65f190dedf2e",
+                  "label": "第十章 浮力"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "efc3e75c-a653-4bc9-8cac-6efe4462c710",
+                  "label": "浮力（第一课时）"
+                }
+              ],
+              "sortKey": "004_001"
+            },
+            {
+              "lessonId": "f163a2a592e34afda617618e1bdda8b0",
+              "lessonLabel": "浮力（第二课时）",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/6d9bc546-d3b7-4f00-a22a-65f190dedf2e/67c67973-2db1-4221-8e4d-a161ab6e7751",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "6d9bc546-d3b7-4f00-a22a-65f190dedf2e",
+                  "label": "第十章 浮力"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "67c67973-2db1-4221-8e4d-a161ab6e7751",
+                  "label": "浮力（第二课时）"
+                }
+              ],
+              "sortKey": "004_002"
+            },
+            {
+              "lessonId": "2df0a230d01e737d8f71f56e4d7d3498",
+              "lessonLabel": "阿基米德原理（第一课时）",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/6d9bc546-d3b7-4f00-a22a-65f190dedf2e/2105789a-ef8b-45de-b722-77cab7ff862c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "6d9bc546-d3b7-4f00-a22a-65f190dedf2e",
+                  "label": "第十章 浮力"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "2105789a-ef8b-45de-b722-77cab7ff862c",
+                  "label": "阿基米德原理（第一课时）"
+                }
+              ],
+              "sortKey": "004_003"
+            },
+            {
+              "lessonId": "d55bec8094bd7cd0fc165f74cefed1b3",
+              "lessonLabel": "阿基米德原理（第二课时）",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/6d9bc546-d3b7-4f00-a22a-65f190dedf2e/722d9c77-e657-4ff7-8c0a-35c5219aba32",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "6d9bc546-d3b7-4f00-a22a-65f190dedf2e",
+                  "label": "第十章 浮力"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "722d9c77-e657-4ff7-8c0a-35c5219aba32",
+                  "label": "阿基米德原理（第二课时）"
+                }
+              ],
+              "sortKey": "004_004"
+            },
+            {
+              "lessonId": "87296c8211c1b740f431a62894bb0fba",
+              "lessonLabel": "物体的浮沉条件及应用（第一课时）",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/6d9bc546-d3b7-4f00-a22a-65f190dedf2e/4336f862-0c8f-4786-b8e1-ea6812a6241a",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "6d9bc546-d3b7-4f00-a22a-65f190dedf2e",
+                  "label": "第十章 浮力"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "4336f862-0c8f-4786-b8e1-ea6812a6241a",
+                  "label": "物体的浮沉条件及应用（第一课时）"
+                }
+              ],
+              "sortKey": "004_005"
+            },
+            {
+              "lessonId": "775c79050da0999c216d708d691bb9fa",
+              "lessonLabel": "物体的浮沉条件及应用（第二课时）",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/6d9bc546-d3b7-4f00-a22a-65f190dedf2e/08da0abc-43d8-4629-a93f-132ebbf81480",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "6d9bc546-d3b7-4f00-a22a-65f190dedf2e",
+                  "label": "第十章 浮力"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "08da0abc-43d8-4629-a93f-132ebbf81480",
+                  "label": "物体的浮沉条件及应用（第二课时）"
+                }
+              ],
+              "sortKey": "004_006"
+            }
+          ]
+        },
+        {
+          "chapterId": "8c17f5eb-f2e4-4189-af2e-d8db8c30788f",
+          "chapterLabel": "第十一章 功和机械能",
+          "chapterOrder": 5,
+          "lessons": [
+            {
+              "lessonId": "7b54026223be338065e90b9e8eb62965",
+              "lessonLabel": "功",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/8c17f5eb-f2e4-4189-af2e-d8db8c30788f/6718e32f-751b-4578-bf5d-cb2e4f2bc80f",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "8c17f5eb-f2e4-4189-af2e-d8db8c30788f",
+                  "label": "第十一章 功和机械能"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "6718e32f-751b-4578-bf5d-cb2e4f2bc80f",
+                  "label": "功"
+                }
+              ],
+              "sortKey": "005_001"
+            },
+            {
+              "lessonId": "77aca2b1cbd5a3baddc0b3a56c1cf12b",
+              "lessonLabel": "功率",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/8c17f5eb-f2e4-4189-af2e-d8db8c30788f/92daecec-c7bd-4d15-b560-65d2ee1da538",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "8c17f5eb-f2e4-4189-af2e-d8db8c30788f",
+                  "label": "第十一章 功和机械能"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "92daecec-c7bd-4d15-b560-65d2ee1da538",
+                  "label": "功率"
+                }
+              ],
+              "sortKey": "005_002"
+            },
+            {
+              "lessonId": "4e2f7f7f1651bdbb03d63db067ea0412",
+              "lessonLabel": "动能和势能",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/8c17f5eb-f2e4-4189-af2e-d8db8c30788f/7894f468-53c3-45c5-a514-3166c2c5c9e9",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "8c17f5eb-f2e4-4189-af2e-d8db8c30788f",
+                  "label": "第十一章 功和机械能"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "7894f468-53c3-45c5-a514-3166c2c5c9e9",
+                  "label": "动能和势能"
+                }
+              ],
+              "sortKey": "005_003"
+            },
+            {
+              "lessonId": "d54e05ca6262c8e55fa8886962d511cc",
+              "lessonLabel": "机械能及其转化",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/8c17f5eb-f2e4-4189-af2e-d8db8c30788f/ec446560-b344-43ce-9807-ce122725fbdf",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "8c17f5eb-f2e4-4189-af2e-d8db8c30788f",
+                  "label": "第十一章 功和机械能"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "ec446560-b344-43ce-9807-ce122725fbdf",
+                  "label": "机械能及其转化"
+                }
+              ],
+              "sortKey": "005_004"
+            }
+          ]
+        },
+        {
+          "chapterId": "4fe431f8-7ec2-4921-8b6f-5118eb7a0f81",
+          "chapterLabel": "第十二章 简单机械",
+          "chapterOrder": 6,
+          "lessons": [
+            {
+              "lessonId": "bd25b0032a769b2012baa3f2206e6e46",
+              "lessonLabel": "杠杆",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/4fe431f8-7ec2-4921-8b6f-5118eb7a0f81/3e66e0a5-c405-4299-81fa-a11d9d410fa0",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "4fe431f8-7ec2-4921-8b6f-5118eb7a0f81",
+                  "label": "第十二章 简单机械"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3e66e0a5-c405-4299-81fa-a11d9d410fa0",
+                  "label": "杠杆"
+                }
+              ],
+              "sortKey": "006_001"
+            },
+            {
+              "lessonId": "38372f6dea80f3745830dd3529732125",
+              "lessonLabel": "滑轮",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/4fe431f8-7ec2-4921-8b6f-5118eb7a0f81/d858a401-6f34-4f53-9b4a-e9fb203da4bc",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "4fe431f8-7ec2-4921-8b6f-5118eb7a0f81",
+                  "label": "第十二章 简单机械"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "d858a401-6f34-4f53-9b4a-e9fb203da4bc",
+                  "label": "滑轮"
+                }
+              ],
+              "sortKey": "006_002"
+            },
+            {
+              "lessonId": "b9f9572582885cee48b745230a9e27c9",
+              "lessonLabel": "机械效率",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec67a-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390fcdce504bd/4fe431f8-7ec2-4921-8b6f-5118eb7a0f81/13649330-90fe-4232-a2c4-5c84576624a5",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec67a-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "八年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390fcdce504bd",
+                  "label": "下册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "4fe431f8-7ec2-4921-8b6f-5118eb7a0f81",
+                  "label": "第十二章 简单机械"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "13649330-90fe-4232-a2c4-5c84576624a5",
+                  "label": "机械效率"
+                }
+              ],
+              "sortKey": "006_003"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

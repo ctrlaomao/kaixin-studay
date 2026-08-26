@@ -1,0 +1,3729 @@
+{
+  "schemaVersion": 1,
+  "syncAt": "2026-08-26T13:43:59.774Z",
+  "source": "smartedu-syncClassroom",
+  "editions": [
+    {
+      "editionId": "366abfd72a595552628ce3f2e37316eb",
+      "stageId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+      "stageLabel": "初中",
+      "gradeId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+      "gradeLabel": "九年级",
+      "subjectId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+      "subjectLabel": "化学",
+      "versionId": "ff8080814371757b01437c363a187b0a",
+      "versionLabel": "人教版",
+      "volumeId": "ff8080814371757b014390f883db0453",
+      "volumeLabel": "上册",
+      "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453",
+      "platformTagPath": [
+        {
+          "level": "stage",
+          "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+          "label": "初中"
+        },
+        {
+          "level": "grade",
+          "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+          "label": "九年级"
+        },
+        {
+          "level": "subject",
+          "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+          "label": "化学"
+        },
+        {
+          "level": "version",
+          "tagId": "ff8080814371757b01437c363a187b0a",
+          "label": "人教版"
+        },
+        {
+          "level": "volume",
+          "tagId": "ff8080814371757b014390f883db0453",
+          "label": "上册"
+        }
+      ],
+      "online": true,
+      "sourceUrl": "https://basic.smartedu.cn/syncClassroom?defaultTag=e7bbce2c-0590-11ed-9c79-92fc3b3249d5%2F44bec0c6-54e6-11ed-9c34-850ba61fa9f4%2Fe7bbd05c-0590-11ed-9c79-92fc3b3249d5%2Fff8080814371757b01437c363a187b0a%2Fff8080814371757b014390f883db0453",
+      "chapters": [
+        {
+          "chapterId": "856f721d-72d7-452a-aa4f-398b9218a0bc",
+          "chapterLabel": "绪言",
+          "chapterOrder": 1,
+          "lessons": [
+            {
+              "lessonId": "0453d8579f3aaf08b9c597e635c381f1",
+              "lessonLabel": "绪言化学使世界变得更加绚丽多彩",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/856f721d-72d7-452a-aa4f-398b9218a0bc/83ac07c6-300b-4801-835d-9118cb9cbc43",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "856f721d-72d7-452a-aa4f-398b9218a0bc",
+                  "label": "绪言"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "83ac07c6-300b-4801-835d-9118cb9cbc43",
+                  "label": "绪言化学使世界变得更加绚丽多彩"
+                }
+              ],
+              "sortKey": "001_001"
+            }
+          ]
+        },
+        {
+          "chapterId": "b79221de-102b-46d4-b321-7874e9376591",
+          "chapterLabel": "第一单元 走进化学世界",
+          "chapterOrder": 2,
+          "lessons": [
+            {
+              "lessonId": "1e73ceab84a27fa05310f4d9fcdaa9c7",
+              "lessonLabel": "物质的变化和性质",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/b79221de-102b-46d4-b321-7874e9376591/f5c741db-0b0f-463d-b52c-e8c5b946675a",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "b79221de-102b-46d4-b321-7874e9376591",
+                  "label": "第一单元 走进化学世界"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "f5c741db-0b0f-463d-b52c-e8c5b946675a",
+                  "label": "物质的变化和性质"
+                }
+              ],
+              "sortKey": "002_001"
+            },
+            {
+              "lessonId": "eb7904274b8a396acca60b63ca921c69",
+              "lessonLabel": "化学是一门以实验为基础的科学(第一课时）",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/b79221de-102b-46d4-b321-7874e9376591/427dae04-7f16-417c-9582-cee52f2a511f",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "b79221de-102b-46d4-b321-7874e9376591",
+                  "label": "第一单元 走进化学世界"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "427dae04-7f16-417c-9582-cee52f2a511f",
+                  "label": "化学是一门以实验为基础的科学(第一课时）"
+                }
+              ],
+              "sortKey": "002_002"
+            },
+            {
+              "lessonId": "31b4ea92a2e9a227764af58607a43d95",
+              "lessonLabel": "化学是一门以实验为基础的科学(第二课时）",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/b79221de-102b-46d4-b321-7874e9376591/45928a3c-ae6d-485c-8cb3-a0a0bd594825",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "b79221de-102b-46d4-b321-7874e9376591",
+                  "label": "第一单元 走进化学世界"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "45928a3c-ae6d-485c-8cb3-a0a0bd594825",
+                  "label": "化学是一门以实验为基础的科学(第二课时）"
+                }
+              ],
+              "sortKey": "002_003"
+            },
+            {
+              "lessonId": "055c4f14c3740ac10132c87de5e951b9",
+              "lessonLabel": "走进化学实验室",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/b79221de-102b-46d4-b321-7874e9376591/4197cfeb-35e4-4617-b4e3-1dbf553a3293",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "b79221de-102b-46d4-b321-7874e9376591",
+                  "label": "第一单元 走进化学世界"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "4197cfeb-35e4-4617-b4e3-1dbf553a3293",
+                  "label": "走进化学实验室"
+                }
+              ],
+              "sortKey": "002_004"
+            }
+          ]
+        },
+        {
+          "chapterId": "a8e9b5ca-f451-4ab9-ab4d-3e9680465760",
+          "chapterLabel": "第二单元 我们周围的空气",
+          "chapterOrder": 3,
+          "lessons": [
+            {
+              "lessonId": "fb529be2ca2977c8c06de4e0b7de27b6",
+              "lessonLabel": "空气（第一课时）",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/a8e9b5ca-f451-4ab9-ab4d-3e9680465760/2de26412-dfdf-42f0-9e06-49c0f4cfae06",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a8e9b5ca-f451-4ab9-ab4d-3e9680465760",
+                  "label": "第二单元 我们周围的空气"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "2de26412-dfdf-42f0-9e06-49c0f4cfae06",
+                  "label": "空气（第一课时）"
+                }
+              ],
+              "sortKey": "003_001"
+            },
+            {
+              "lessonId": "24630a9166718b0f3ab5ed16033e15b3",
+              "lessonLabel": "空气（第二课时）",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/a8e9b5ca-f451-4ab9-ab4d-3e9680465760/61817594-3341-4c94-8d20-7cd0ba0e4a5c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a8e9b5ca-f451-4ab9-ab4d-3e9680465760",
+                  "label": "第二单元 我们周围的空气"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "61817594-3341-4c94-8d20-7cd0ba0e4a5c",
+                  "label": "空气（第二课时）"
+                }
+              ],
+              "sortKey": "003_002"
+            },
+            {
+              "lessonId": "5d92c037ff4fcf329ba0333f042d9da1",
+              "lessonLabel": "氧气",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/a8e9b5ca-f451-4ab9-ab4d-3e9680465760/cb61a856-867b-416f-9206-7d9f61338c68",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a8e9b5ca-f451-4ab9-ab4d-3e9680465760",
+                  "label": "第二单元 我们周围的空气"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "cb61a856-867b-416f-9206-7d9f61338c68",
+                  "label": "氧气"
+                }
+              ],
+              "sortKey": "003_003"
+            },
+            {
+              "lessonId": "052198541b654c740eb788ddb8fd0287",
+              "lessonLabel": "制取氧气（第一课时）",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/a8e9b5ca-f451-4ab9-ab4d-3e9680465760/e1c1ead8-b696-4df9-b16d-291564e2d750",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a8e9b5ca-f451-4ab9-ab4d-3e9680465760",
+                  "label": "第二单元 我们周围的空气"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "e1c1ead8-b696-4df9-b16d-291564e2d750",
+                  "label": "制取氧气（第一课时）"
+                }
+              ],
+              "sortKey": "003_004"
+            },
+            {
+              "lessonId": "e136e9e237f0e20097c61e453879b872",
+              "lessonLabel": "制取氧气（第二课时）",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/a8e9b5ca-f451-4ab9-ab4d-3e9680465760/f4912cbe-e685-4179-a883-5dbc2701a70f",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a8e9b5ca-f451-4ab9-ab4d-3e9680465760",
+                  "label": "第二单元 我们周围的空气"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "f4912cbe-e685-4179-a883-5dbc2701a70f",
+                  "label": "制取氧气（第二课时）"
+                }
+              ],
+              "sortKey": "003_005"
+            },
+            {
+              "lessonId": "570d36bf4cfb295950443d849b5fba91",
+              "lessonLabel": "制取氧气（第三课时）",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/a8e9b5ca-f451-4ab9-ab4d-3e9680465760/54eae309-7091-40d4-8112-205125752f24",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a8e9b5ca-f451-4ab9-ab4d-3e9680465760",
+                  "label": "第二单元 我们周围的空气"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "54eae309-7091-40d4-8112-205125752f24",
+                  "label": "制取氧气（第三课时）"
+                }
+              ],
+              "sortKey": "003_006"
+            },
+            {
+              "lessonId": "8f31a99623ad76c011b6047c217ba606",
+              "lessonLabel": "我们周围的空气复习（第一课时）",
+              "lessonOrder": 7,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/a8e9b5ca-f451-4ab9-ab4d-3e9680465760/11d3095d-ff91-46c5-b2f1-f316e1c029f3",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a8e9b5ca-f451-4ab9-ab4d-3e9680465760",
+                  "label": "第二单元 我们周围的空气"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "11d3095d-ff91-46c5-b2f1-f316e1c029f3",
+                  "label": "我们周围的空气复习（第一课时）"
+                }
+              ],
+              "sortKey": "003_007"
+            },
+            {
+              "lessonId": "b166b826d9c3e94ade99c0997e1b1825",
+              "lessonLabel": "我们周围的空气复习（第二课时）",
+              "lessonOrder": 8,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/a8e9b5ca-f451-4ab9-ab4d-3e9680465760/f870793e-d462-4742-acf1-939a203a9be6",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a8e9b5ca-f451-4ab9-ab4d-3e9680465760",
+                  "label": "第二单元 我们周围的空气"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "f870793e-d462-4742-acf1-939a203a9be6",
+                  "label": "我们周围的空气复习（第二课时）"
+                }
+              ],
+              "sortKey": "003_008"
+            }
+          ]
+        },
+        {
+          "chapterId": "61cf3795-e2a9-46a3-83d2-0848da737846",
+          "chapterLabel": "第三单元 物质构成的奥秘",
+          "chapterOrder": 4,
+          "lessons": [
+            {
+              "lessonId": "165c1bd23f55b73cb6ded42b9646b6eb",
+              "lessonLabel": "分子和原子",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/61cf3795-e2a9-46a3-83d2-0848da737846/5f5ceb25-009a-40f7-8d45-76bd96ac1bab",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "61cf3795-e2a9-46a3-83d2-0848da737846",
+                  "label": "第三单元 物质构成的奥秘 "
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "5f5ceb25-009a-40f7-8d45-76bd96ac1bab",
+                  "label": "分子和原子"
+                }
+              ],
+              "sortKey": "004_001"
+            },
+            {
+              "lessonId": "3b1807de95260bf843cd748bac44880e",
+              "lessonLabel": "原子的结构（第一课时）",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/61cf3795-e2a9-46a3-83d2-0848da737846/c0b2ed6b-5ef0-4b68-8c11-9f81b290151f",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "61cf3795-e2a9-46a3-83d2-0848da737846",
+                  "label": "第三单元 物质构成的奥秘 "
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "c0b2ed6b-5ef0-4b68-8c11-9f81b290151f",
+                  "label": "原子的结构（第一课时）"
+                }
+              ],
+              "sortKey": "004_002"
+            },
+            {
+              "lessonId": "18064c869fc659a959df4d4c77a3b937",
+              "lessonLabel": "原子的结构（第二课时）",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/61cf3795-e2a9-46a3-83d2-0848da737846/d2eeba95-9a1a-4d1d-8c54-f4f3b5ddbe04",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "61cf3795-e2a9-46a3-83d2-0848da737846",
+                  "label": "第三单元 物质构成的奥秘 "
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "d2eeba95-9a1a-4d1d-8c54-f4f3b5ddbe04",
+                  "label": "原子的结构（第二课时）"
+                }
+              ],
+              "sortKey": "004_003"
+            },
+            {
+              "lessonId": "bcea4730b7ba24344035e33611b49313",
+              "lessonLabel": "元素（第一课时）",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/61cf3795-e2a9-46a3-83d2-0848da737846/f3f4bdbf-b991-4077-b3ee-77a285b0909c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "61cf3795-e2a9-46a3-83d2-0848da737846",
+                  "label": "第三单元 物质构成的奥秘 "
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "f3f4bdbf-b991-4077-b3ee-77a285b0909c",
+                  "label": "元素（第一课时）"
+                }
+              ],
+              "sortKey": "004_004"
+            },
+            {
+              "lessonId": "44e5aa45d81591d53e049450688686cf",
+              "lessonLabel": "元素（第二课时）",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/61cf3795-e2a9-46a3-83d2-0848da737846/d2f7012c-4a52-4d7e-8cb8-897968e77365",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "61cf3795-e2a9-46a3-83d2-0848da737846",
+                  "label": "第三单元 物质构成的奥秘 "
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "d2f7012c-4a52-4d7e-8cb8-897968e77365",
+                  "label": "元素（第二课时）"
+                }
+              ],
+              "sortKey": "004_005"
+            },
+            {
+              "lessonId": "59c6ee1824bbca403204d537f0585366",
+              "lessonLabel": "物质构成的奥秘 复习",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/61cf3795-e2a9-46a3-83d2-0848da737846/23c5c631-9d7e-4e9f-8fb2-f44df9f016be",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "61cf3795-e2a9-46a3-83d2-0848da737846",
+                  "label": "第三单元 物质构成的奥秘 "
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "23c5c631-9d7e-4e9f-8fb2-f44df9f016be",
+                  "label": "物质构成的奥秘 复习"
+                }
+              ],
+              "sortKey": "004_006"
+            }
+          ]
+        },
+        {
+          "chapterId": "1e8f698b-75df-45a6-be78-87434c617ab6",
+          "chapterLabel": "第四单元 自然界的水",
+          "chapterOrder": 5,
+          "lessons": [
+            {
+              "lessonId": "03036bd913e6f2169d6c67f1c006f6d7",
+              "lessonLabel": "爱护水资源",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/1e8f698b-75df-45a6-be78-87434c617ab6/8af01df5-6332-4010-bcb5-0cebbe388e93",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "1e8f698b-75df-45a6-be78-87434c617ab6",
+                  "label": "第四单元 自然界的水"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "8af01df5-6332-4010-bcb5-0cebbe388e93",
+                  "label": "爱护水资源"
+                }
+              ],
+              "sortKey": "005_001"
+            },
+            {
+              "lessonId": "a59e0447969b828d8f5a8b5e5872d1c4",
+              "lessonLabel": "水的净化",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/1e8f698b-75df-45a6-be78-87434c617ab6/e0d2a293-993d-4fcd-a840-094710c4468b",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "1e8f698b-75df-45a6-be78-87434c617ab6",
+                  "label": "第四单元 自然界的水"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "e0d2a293-993d-4fcd-a840-094710c4468b",
+                  "label": "水的净化"
+                }
+              ],
+              "sortKey": "005_002"
+            },
+            {
+              "lessonId": "7140d978f78a9c6ded8a8901e4db340d",
+              "lessonLabel": "水的组成",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/1e8f698b-75df-45a6-be78-87434c617ab6/de4b1582-957d-4221-a00d-2fe166128467",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "1e8f698b-75df-45a6-be78-87434c617ab6",
+                  "label": "第四单元 自然界的水"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "de4b1582-957d-4221-a00d-2fe166128467",
+                  "label": "水的组成"
+                }
+              ],
+              "sortKey": "005_003"
+            },
+            {
+              "lessonId": "52ae638c505ade373dc458e62bffdd1c",
+              "lessonLabel": "化学式与化合价（第一课时）",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/1e8f698b-75df-45a6-be78-87434c617ab6/24c52666-612a-46f8-8087-66f9ee5de9b0",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "1e8f698b-75df-45a6-be78-87434c617ab6",
+                  "label": "第四单元 自然界的水"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "24c52666-612a-46f8-8087-66f9ee5de9b0",
+                  "label": "化学式与化合价（第一课时）"
+                }
+              ],
+              "sortKey": "005_004"
+            },
+            {
+              "lessonId": "ca2c8c8ea6afa3c3031aaa226b4fdb04",
+              "lessonLabel": "化学式与化合价（第二课时）",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/1e8f698b-75df-45a6-be78-87434c617ab6/6a1e04b3-59af-44bc-8cee-65b1054b26f8",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "1e8f698b-75df-45a6-be78-87434c617ab6",
+                  "label": "第四单元 自然界的水"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "6a1e04b3-59af-44bc-8cee-65b1054b26f8",
+                  "label": "化学式与化合价（第二课时）"
+                }
+              ],
+              "sortKey": "005_005"
+            },
+            {
+              "lessonId": "b2bfaf55be2de4a687519406162e048b",
+              "lessonLabel": "自然界的水复习",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/1e8f698b-75df-45a6-be78-87434c617ab6/bba48012-53a7-4f9c-a0f9-67f559937471",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "1e8f698b-75df-45a6-be78-87434c617ab6",
+                  "label": "第四单元 自然界的水"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "bba48012-53a7-4f9c-a0f9-67f559937471",
+                  "label": "自然界的水复习"
+                }
+              ],
+              "sortKey": "005_006"
+            }
+          ]
+        },
+        {
+          "chapterId": "38ef3277-d48b-449b-a5d1-01333b65e134",
+          "chapterLabel": "第五单元 化学方程式",
+          "chapterOrder": 6,
+          "lessons": [
+            {
+              "lessonId": "23232253c156d1b215fd2a3c1bd491ac",
+              "lessonLabel": "质量守恒定律（第一课时）",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/38ef3277-d48b-449b-a5d1-01333b65e134/c3fe25ee-ab89-4c50-b691-f64a9d7637f7",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "38ef3277-d48b-449b-a5d1-01333b65e134",
+                  "label": "第五单元 化学方程式"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "c3fe25ee-ab89-4c50-b691-f64a9d7637f7",
+                  "label": "质量守恒定律（第一课时）"
+                }
+              ],
+              "sortKey": "006_001"
+            },
+            {
+              "lessonId": "718d04bb765f7e5bdce95e143774f56c",
+              "lessonLabel": "质量守恒定律（第二课时）",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/38ef3277-d48b-449b-a5d1-01333b65e134/74a82dec-6e87-4e54-8cc1-2bc6cdb696a6",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "38ef3277-d48b-449b-a5d1-01333b65e134",
+                  "label": "第五单元 化学方程式"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "74a82dec-6e87-4e54-8cc1-2bc6cdb696a6",
+                  "label": "质量守恒定律（第二课时）"
+                }
+              ],
+              "sortKey": "006_002"
+            },
+            {
+              "lessonId": "0084a074acdd39c5332f42ae7fc40c5e",
+              "lessonLabel": "如何正确书写化学方程式（第一课时）",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/38ef3277-d48b-449b-a5d1-01333b65e134/0344db75-ec97-4e37-a248-0bba4afe013e",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "38ef3277-d48b-449b-a5d1-01333b65e134",
+                  "label": "第五单元 化学方程式"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "0344db75-ec97-4e37-a248-0bba4afe013e",
+                  "label": "如何正确书写化学方程式（第一课时）"
+                }
+              ],
+              "sortKey": "006_003"
+            },
+            {
+              "lessonId": "18380f03d58be5ea059a45187b2386f2",
+              "lessonLabel": "如何正确书写化学方程式（第二课时）",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/38ef3277-d48b-449b-a5d1-01333b65e134/b70e6b71-df6d-495e-8612-9fcb905a99f6",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "38ef3277-d48b-449b-a5d1-01333b65e134",
+                  "label": "第五单元 化学方程式"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "b70e6b71-df6d-495e-8612-9fcb905a99f6",
+                  "label": "如何正确书写化学方程式（第二课时）"
+                }
+              ],
+              "sortKey": "006_004"
+            },
+            {
+              "lessonId": "93ebce9ff5a31e62310fd711098c722a",
+              "lessonLabel": "利用化学方程式的简单计算（第一课时）",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/38ef3277-d48b-449b-a5d1-01333b65e134/fa94dc58-1621-449f-b04d-b274f77ab457",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "38ef3277-d48b-449b-a5d1-01333b65e134",
+                  "label": "第五单元 化学方程式"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "fa94dc58-1621-449f-b04d-b274f77ab457",
+                  "label": "利用化学方程式的简单计算（第一课时）"
+                }
+              ],
+              "sortKey": "006_005"
+            },
+            {
+              "lessonId": "a706ab940a6dba79592c21a0003c0e84",
+              "lessonLabel": "利用化学方程式的简单计算（第二课时）",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/38ef3277-d48b-449b-a5d1-01333b65e134/98729603-ac56-48e6-8bfa-8bbffb6637d1",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "38ef3277-d48b-449b-a5d1-01333b65e134",
+                  "label": "第五单元 化学方程式"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "98729603-ac56-48e6-8bfa-8bbffb6637d1",
+                  "label": "利用化学方程式的简单计算（第二课时）"
+                }
+              ],
+              "sortKey": "006_006"
+            },
+            {
+              "lessonId": "43e6335d59422493028d7542f5f0ea1b",
+              "lessonLabel": "化学方程式复习",
+              "lessonOrder": 7,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/38ef3277-d48b-449b-a5d1-01333b65e134/907118d8-4984-4094-bc5e-69dc86e7c7e4",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "38ef3277-d48b-449b-a5d1-01333b65e134",
+                  "label": "第五单元 化学方程式"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "907118d8-4984-4094-bc5e-69dc86e7c7e4",
+                  "label": "化学方程式复习"
+                }
+              ],
+              "sortKey": "006_007"
+            }
+          ]
+        },
+        {
+          "chapterId": "106b1fb8-2e0b-4744-9cec-698293a00f7f",
+          "chapterLabel": "第六单元  碳和碳的氧化物",
+          "chapterOrder": 7,
+          "lessons": [
+            {
+              "lessonId": "671832fa0c032a5e6131a20a6afbea3a",
+              "lessonLabel": "金刚石、石墨和C60",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/106b1fb8-2e0b-4744-9cec-698293a00f7f/72e9bbfd-f457-4c90-bad4-d0414ad56e52",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "106b1fb8-2e0b-4744-9cec-698293a00f7f",
+                  "label": "第六单元  碳和碳的氧化物"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "72e9bbfd-f457-4c90-bad4-d0414ad56e52",
+                  "label": "金刚石、石墨和C60"
+                }
+              ],
+              "sortKey": "007_001"
+            },
+            {
+              "lessonId": "fb72eed225a98e610b1914c5ce88e19b",
+              "lessonLabel": "二氧化碳制取的研究（第一课时）",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/106b1fb8-2e0b-4744-9cec-698293a00f7f/455fed75-cd5b-4155-bf88-768d2e6a59c1",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "106b1fb8-2e0b-4744-9cec-698293a00f7f",
+                  "label": "第六单元  碳和碳的氧化物"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "455fed75-cd5b-4155-bf88-768d2e6a59c1",
+                  "label": "二氧化碳制取的研究（第一课时）"
+                }
+              ],
+              "sortKey": "007_002"
+            },
+            {
+              "lessonId": "562d264351bc8ca6d0c3ea2e6a3a3cf9",
+              "lessonLabel": "二氧化碳制取的研究（第二课时）",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/106b1fb8-2e0b-4744-9cec-698293a00f7f/64c6e1fd-855c-4721-83b0-1f0e1e66c6d7",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "106b1fb8-2e0b-4744-9cec-698293a00f7f",
+                  "label": "第六单元  碳和碳的氧化物"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "64c6e1fd-855c-4721-83b0-1f0e1e66c6d7",
+                  "label": "二氧化碳制取的研究（第二课时）"
+                }
+              ],
+              "sortKey": "007_003"
+            },
+            {
+              "lessonId": "763f6ebd48b0e77e068fd23a1ceff677",
+              "lessonLabel": "二氧化碳和一氧化碳（第一课时）",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/106b1fb8-2e0b-4744-9cec-698293a00f7f/95cf5cd8-8eea-4973-a7a1-687f359aa2d3",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "106b1fb8-2e0b-4744-9cec-698293a00f7f",
+                  "label": "第六单元  碳和碳的氧化物"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "95cf5cd8-8eea-4973-a7a1-687f359aa2d3",
+                  "label": "二氧化碳和一氧化碳（第一课时）"
+                }
+              ],
+              "sortKey": "007_004"
+            },
+            {
+              "lessonId": "23ef66269ed302a774c3f612b120da50",
+              "lessonLabel": "二氧化碳和一氧化碳（第二课时）",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/106b1fb8-2e0b-4744-9cec-698293a00f7f/c1168dff-0bdc-4268-a4c0-6de01ab4f889",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "106b1fb8-2e0b-4744-9cec-698293a00f7f",
+                  "label": "第六单元  碳和碳的氧化物"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "c1168dff-0bdc-4268-a4c0-6de01ab4f889",
+                  "label": "二氧化碳和一氧化碳（第二课时）"
+                }
+              ],
+              "sortKey": "007_005"
+            },
+            {
+              "lessonId": "f6dc9b5fb8defe4add398455ddaae02c",
+              "lessonLabel": "碳和碳的氧化物复习",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/106b1fb8-2e0b-4744-9cec-698293a00f7f/219f1291-d128-4472-bf2c-1543606d2c73",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "106b1fb8-2e0b-4744-9cec-698293a00f7f",
+                  "label": "第六单元  碳和碳的氧化物"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "219f1291-d128-4472-bf2c-1543606d2c73",
+                  "label": "碳和碳的氧化物复习"
+                }
+              ],
+              "sortKey": "007_006"
+            }
+          ]
+        },
+        {
+          "chapterId": "96a8fc1a-b480-44e5-932e-227411482722",
+          "chapterLabel": "第七单元 燃料及其利用",
+          "chapterOrder": 8,
+          "lessons": [
+            {
+              "lessonId": "721984f762f7a4cf711a1b32943a4e4e",
+              "lessonLabel": "燃烧和灭火（第一课时）",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/96a8fc1a-b480-44e5-932e-227411482722/66e3316a-7325-4728-80c2-0c7b3f2958b4",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "96a8fc1a-b480-44e5-932e-227411482722",
+                  "label": "第七单元 燃料及其利用"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "66e3316a-7325-4728-80c2-0c7b3f2958b4",
+                  "label": "燃烧和灭火（第一课时）"
+                }
+              ],
+              "sortKey": "008_001"
+            },
+            {
+              "lessonId": "407791f202df841f74bd9533de6ebcf7",
+              "lessonLabel": "燃烧和灭火（第二课时）",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/96a8fc1a-b480-44e5-932e-227411482722/0de532ba-d55e-4237-8bea-af84947c5595",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "96a8fc1a-b480-44e5-932e-227411482722",
+                  "label": "第七单元 燃料及其利用"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "0de532ba-d55e-4237-8bea-af84947c5595",
+                  "label": "燃烧和灭火（第二课时）"
+                }
+              ],
+              "sortKey": "008_002"
+            },
+            {
+              "lessonId": "0771822ae26dd558f249e77c8ed57a19",
+              "lessonLabel": "燃料的合理利用与开发",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/96a8fc1a-b480-44e5-932e-227411482722/b58b407a-2dce-483f-83c0-410894e508f6",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "96a8fc1a-b480-44e5-932e-227411482722",
+                  "label": "第七单元 燃料及其利用"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "b58b407a-2dce-483f-83c0-410894e508f6",
+                  "label": "燃料的合理利用与开发"
+                }
+              ],
+              "sortKey": "008_003"
+            },
+            {
+              "lessonId": "a7902107154fdca63df4cf9a6cd23bd4",
+              "lessonLabel": "燃料及其利用复习",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/ff8080814371757b014390f883db0453/96a8fc1a-b480-44e5-932e-227411482722/b49b6c43-799a-4949-9dfc-6c8845f323e8",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "96a8fc1a-b480-44e5-932e-227411482722",
+                  "label": "第七单元 燃料及其利用"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "b49b6c43-799a-4949-9dfc-6c8845f323e8",
+                  "label": "燃料及其利用复习"
+                }
+              ],
+              "sortKey": "008_004"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "editionId": "d5c3f10077e809da96069f880581a137",
+      "stageId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+      "stageLabel": "初中",
+      "gradeId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+      "gradeLabel": "九年级",
+      "subjectId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+      "subjectLabel": "化学",
+      "versionId": "ff808081439f924c0143a40bfce722d4",
+      "versionLabel": "北京版",
+      "volumeId": "ff8080814371757b014390f883db0453",
+      "volumeLabel": "上册",
+      "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453",
+      "platformTagPath": [
+        {
+          "level": "stage",
+          "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+          "label": "初中"
+        },
+        {
+          "level": "grade",
+          "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+          "label": "九年级"
+        },
+        {
+          "level": "subject",
+          "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+          "label": "化学"
+        },
+        {
+          "level": "version",
+          "tagId": "ff808081439f924c0143a40bfce722d4",
+          "label": "北京版"
+        },
+        {
+          "level": "volume",
+          "tagId": "ff8080814371757b014390f883db0453",
+          "label": "上册"
+        }
+      ],
+      "online": true,
+      "sourceUrl": "https://basic.smartedu.cn/syncClassroom?defaultTag=e7bbce2c-0590-11ed-9c79-92fc3b3249d5%2F44bec0c6-54e6-11ed-9c34-850ba61fa9f4%2Fe7bbd05c-0590-11ed-9c79-92fc3b3249d5%2Fff808081439f924c0143a40bfce722d4%2Fff8080814371757b014390f883db0453",
+      "chapters": [
+        {
+          "chapterId": "c07aeb03-8c05-4a07-b7b9-bbc960ccba70",
+          "chapterLabel": "第1章 走进化学",
+          "chapterOrder": 1,
+          "lessons": [
+            {
+              "lessonId": "3fa75abe2e57679a9c49b29111e62d11",
+              "lessonLabel": "化学让世界更美好",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/c07aeb03-8c05-4a07-b7b9-bbc960ccba70/3cac68e3-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "c07aeb03-8c05-4a07-b7b9-bbc960ccba70",
+                  "label": "第1章 走进化学"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac68e3-9879-11ec-92ef-246e9675e50c",
+                  "label": "化学让世界更美好"
+                }
+              ],
+              "sortKey": "001_001"
+            },
+            {
+              "lessonId": "50207bfb6cd13383d885ffd2624baf92",
+              "lessonLabel": "物质的性质和变化",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/c07aeb03-8c05-4a07-b7b9-bbc960ccba70/3cac6c0e-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "c07aeb03-8c05-4a07-b7b9-bbc960ccba70",
+                  "label": "第1章 走进化学"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac6c0e-9879-11ec-92ef-246e9675e50c",
+                  "label": "物质的性质和变化"
+                }
+              ],
+              "sortKey": "001_002"
+            },
+            {
+              "lessonId": "b22ab882bfa10f77c8a34a6064596de5",
+              "lessonLabel": "走进化学实验室",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/c07aeb03-8c05-4a07-b7b9-bbc960ccba70/3cac6ca5-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "c07aeb03-8c05-4a07-b7b9-bbc960ccba70",
+                  "label": "第1章 走进化学"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac6ca5-9879-11ec-92ef-246e9675e50c",
+                  "label": "走进化学实验室"
+                }
+              ],
+              "sortKey": "001_003"
+            }
+          ]
+        },
+        {
+          "chapterId": "6743f0c7-cc9e-451d-acc0-301e7ca0ce00",
+          "chapterLabel": "第2章 空气之谜",
+          "chapterOrder": 2,
+          "lessons": [
+            {
+              "lessonId": "8b817ebc2e152517f41a2a2d02d4f638",
+              "lessonLabel": "空气",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/6743f0c7-cc9e-451d-acc0-301e7ca0ce00/3cac6cf0-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "6743f0c7-cc9e-451d-acc0-301e7ca0ce00",
+                  "label": "第2章 空气之谜"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac6cf0-9879-11ec-92ef-246e9675e50c",
+                  "label": "空气"
+                }
+              ],
+              "sortKey": "002_001"
+            },
+            {
+              "lessonId": "b7ced521f8fb3120e697d20de64a1cfd",
+              "lessonLabel": "第二节 氧气的制法(1)",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/6743f0c7-cc9e-451d-acc0-301e7ca0ce00/3cac6dee-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "6743f0c7-cc9e-451d-acc0-301e7ca0ce00",
+                  "label": "第2章 空气之谜"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac6dee-9879-11ec-92ef-246e9675e50c",
+                  "label": "第二节 氧气的制法(1)"
+                }
+              ],
+              "sortKey": "002_002"
+            },
+            {
+              "lessonId": "263951c1d1f0f90229175cb75bf804a5",
+              "lessonLabel": "第二节 氧气的制法(2)",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/6743f0c7-cc9e-451d-acc0-301e7ca0ce00/3cac6e49-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "6743f0c7-cc9e-451d-acc0-301e7ca0ce00",
+                  "label": "第2章 空气之谜"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac6e49-9879-11ec-92ef-246e9675e50c",
+                  "label": "第二节 氧气的制法(2)"
+                }
+              ],
+              "sortKey": "002_003"
+            },
+            {
+              "lessonId": "2112556b7f7d4cc64104c5628ecf5615",
+              "lessonLabel": "第三节 氧气的性质(1)",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/6743f0c7-cc9e-451d-acc0-301e7ca0ce00/3cac6d75-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "6743f0c7-cc9e-451d-acc0-301e7ca0ce00",
+                  "label": "第2章 空气之谜"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac6d75-9879-11ec-92ef-246e9675e50c",
+                  "label": "第三节 氧气的性质(1)"
+                }
+              ],
+              "sortKey": "002_004"
+            },
+            {
+              "lessonId": "4792d38a94dc6fca0fcb5c699602e503",
+              "lessonLabel": "第三节 氧气的性质(2)",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/6743f0c7-cc9e-451d-acc0-301e7ca0ce00/3cac6db5-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "6743f0c7-cc9e-451d-acc0-301e7ca0ce00",
+                  "label": "第2章 空气之谜"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac6db5-9879-11ec-92ef-246e9675e50c",
+                  "label": "第三节 氧气的性质(2)"
+                }
+              ],
+              "sortKey": "002_005"
+            },
+            {
+              "lessonId": "5073d7de8df4b700d852f45303f782f4",
+              "lessonLabel": "第2章 空气之谜 章复习",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/6743f0c7-cc9e-451d-acc0-301e7ca0ce00/3cac6d32-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "6743f0c7-cc9e-451d-acc0-301e7ca0ce00",
+                  "label": "第2章 空气之谜"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac6d32-9879-11ec-92ef-246e9675e50c",
+                  "label": "第2章 空气之谜 章复习"
+                }
+              ],
+              "sortKey": "002_006"
+            }
+          ]
+        },
+        {
+          "chapterId": "b9bd6c81-e6df-4df1-9671-4da573a5d8ab",
+          "chapterLabel": "第3章 构成物质的微粒",
+          "chapterOrder": 3,
+          "lessons": [
+            {
+              "lessonId": "a695d7b81b3d62e00f5132a1f2ddf3a1",
+              "lessonLabel": "第一节 原子",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/b9bd6c81-e6df-4df1-9671-4da573a5d8ab/3cac6ee7-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "b9bd6c81-e6df-4df1-9671-4da573a5d8ab",
+                  "label": "第3章 构成物质的微粒"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac6ee7-9879-11ec-92ef-246e9675e50c",
+                  "label": "第一节 原子"
+                }
+              ],
+              "sortKey": "003_001"
+            },
+            {
+              "lessonId": "59b1c22a1008047b834530ebfb2a45f6",
+              "lessonLabel": "第二节 原子核外电子排布 离子",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/b9bd6c81-e6df-4df1-9671-4da573a5d8ab/3cac6f9e-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "b9bd6c81-e6df-4df1-9671-4da573a5d8ab",
+                  "label": "第3章 构成物质的微粒"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac6f9e-9879-11ec-92ef-246e9675e50c",
+                  "label": "第二节 原子核外电子排布 离子"
+                }
+              ],
+              "sortKey": "003_002"
+            },
+            {
+              "lessonId": "a8b8cc25d5a4899c03f7e155a2180b55",
+              "lessonLabel": "第三节 分子(1)",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/b9bd6c81-e6df-4df1-9671-4da573a5d8ab/3cac6f25-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "b9bd6c81-e6df-4df1-9671-4da573a5d8ab",
+                  "label": "第3章 构成物质的微粒"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac6f25-9879-11ec-92ef-246e9675e50c",
+                  "label": "第三节 分子(1)"
+                }
+              ],
+              "sortKey": "003_003"
+            },
+            {
+              "lessonId": "a4ce73553249999607aa66a738082696",
+              "lessonLabel": "第三节 分子(2)",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/b9bd6c81-e6df-4df1-9671-4da573a5d8ab/3cac6f61-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "b9bd6c81-e6df-4df1-9671-4da573a5d8ab",
+                  "label": "第3章 构成物质的微粒"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac6f61-9879-11ec-92ef-246e9675e50c",
+                  "label": "第三节 分子(2)"
+                }
+              ],
+              "sortKey": "003_004"
+            },
+            {
+              "lessonId": "1274f19d59992f463915d325b2ad8287",
+              "lessonLabel": "第3章 构成物质的微粒 章复习",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/b9bd6c81-e6df-4df1-9671-4da573a5d8ab/3cac6e8d-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "b9bd6c81-e6df-4df1-9671-4da573a5d8ab",
+                  "label": "第3章 构成物质的微粒"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac6e8d-9879-11ec-92ef-246e9675e50c",
+                  "label": "第3章 构成物质的微粒 章复习"
+                }
+              ],
+              "sortKey": "003_005"
+            }
+          ]
+        },
+        {
+          "chapterId": "b9a3dfab-3b10-41bf-aa9f-e97ba607dd58",
+          "chapterLabel": "第4章 最常见的液体——水",
+          "chapterOrder": 4,
+          "lessons": [
+            {
+              "lessonId": "c2ae1c2a81aca308951250eaf4b7b433",
+              "lessonLabel": "第一节 水的净化",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/b9a3dfab-3b10-41bf-aa9f-e97ba607dd58/3cac714a-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "b9a3dfab-3b10-41bf-aa9f-e97ba607dd58",
+                  "label": "第4章 最常见的液体——水"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac714a-9879-11ec-92ef-246e9675e50c",
+                  "label": "第一节 水的净化"
+                }
+              ],
+              "sortKey": "004_001"
+            },
+            {
+              "lessonId": "e8926540838fec8907060fb4557b6f28",
+              "lessonLabel": "第二节 水的变化",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/b9a3dfab-3b10-41bf-aa9f-e97ba607dd58/3cac889d-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "b9a3dfab-3b10-41bf-aa9f-e97ba607dd58",
+                  "label": "第4章 最常见的液体——水"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac889d-9879-11ec-92ef-246e9675e50c",
+                  "label": "第二节 水的变化"
+                }
+              ],
+              "sortKey": "004_002"
+            },
+            {
+              "lessonId": "e5b03d590de01f16733f2e6df2c47f20",
+              "lessonLabel": "第三节 水资源的开发、利用和保护",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/b9a3dfab-3b10-41bf-aa9f-e97ba607dd58/3cac7302-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "b9a3dfab-3b10-41bf-aa9f-e97ba607dd58",
+                  "label": "第4章 最常见的液体——水"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac7302-9879-11ec-92ef-246e9675e50c",
+                  "label": "第三节 水资源的开发、利用和保护"
+                }
+              ],
+              "sortKey": "004_003"
+            },
+            {
+              "lessonId": "b33bc1d49311e8ce02fbc7956862a3e0",
+              "lessonLabel": "第4章 最常见的液体——水 复习",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/b9a3dfab-3b10-41bf-aa9f-e97ba607dd58/3cac7053-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "b9a3dfab-3b10-41bf-aa9f-e97ba607dd58",
+                  "label": "第4章 最常见的液体——水"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac7053-9879-11ec-92ef-246e9675e50c",
+                  "label": "第4章 最常见的液体——水 复习"
+                }
+              ],
+              "sortKey": "004_004"
+            }
+          ]
+        },
+        {
+          "chapterId": "16c95309-947d-42ca-bc39-8c4dfe0147db",
+          "chapterLabel": "第5章 化学元素与物质组成的表示",
+          "chapterOrder": 5,
+          "lessons": [
+            {
+              "lessonId": "50bd5ea0d7210826d4fcfd9167b28b17",
+              "lessonLabel": "第一节 初步认识化学元素（1）",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/16c95309-947d-42ca-bc39-8c4dfe0147db/3cac8926-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "16c95309-947d-42ca-bc39-8c4dfe0147db",
+                  "label": "第5章 化学元素与物质组成的表示"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac8926-9879-11ec-92ef-246e9675e50c",
+                  "label": "第一节 初步认识化学元素（1）"
+                }
+              ],
+              "sortKey": "005_001"
+            },
+            {
+              "lessonId": "f8aacba76388bada76754ef3fee90cd7",
+              "lessonLabel": "第一节 初步认识化学元素（2）",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/16c95309-947d-42ca-bc39-8c4dfe0147db/3cac8963-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "16c95309-947d-42ca-bc39-8c4dfe0147db",
+                  "label": "第5章 化学元素与物质组成的表示"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac8963-9879-11ec-92ef-246e9675e50c",
+                  "label": "第一节 初步认识化学元素（2）"
+                }
+              ],
+              "sortKey": "005_002"
+            },
+            {
+              "lessonId": "80fd1fa22e28f0b828a02a7ffbd2bff2",
+              "lessonLabel": "第二节 物质组成的表示-化学式（1）",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/16c95309-947d-42ca-bc39-8c4dfe0147db/3cac8a0f-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "16c95309-947d-42ca-bc39-8c4dfe0147db",
+                  "label": "第5章 化学元素与物质组成的表示"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac8a0f-9879-11ec-92ef-246e9675e50c",
+                  "label": "第二节 物质组成的表示-化学式（1）"
+                }
+              ],
+              "sortKey": "005_003"
+            },
+            {
+              "lessonId": "69645ab51c3289b8eda6d6cd71f98124",
+              "lessonLabel": "第二节 物质组成的表示-化学式（2）",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/16c95309-947d-42ca-bc39-8c4dfe0147db/3cac8a4d-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "16c95309-947d-42ca-bc39-8c4dfe0147db",
+                  "label": "第5章 化学元素与物质组成的表示"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac8a4d-9879-11ec-92ef-246e9675e50c",
+                  "label": "第二节 物质组成的表示-化学式（2）"
+                }
+              ],
+              "sortKey": "005_004"
+            },
+            {
+              "lessonId": "c7aa5748f8b2b62187b7ef997139a19a",
+              "lessonLabel": "第三节 化合价",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/16c95309-947d-42ca-bc39-8c4dfe0147db/3cac89cd-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "16c95309-947d-42ca-bc39-8c4dfe0147db",
+                  "label": "第5章 化学元素与物质组成的表示"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac89cd-9879-11ec-92ef-246e9675e50c",
+                  "label": "第三节 化合价"
+                }
+              ],
+              "sortKey": "005_005"
+            },
+            {
+              "lessonId": "f57fc3269ea6c61cec3e7983c655997a",
+              "lessonLabel": "第5章 化学元素与物质组成的表示 章复习",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/16c95309-947d-42ca-bc39-8c4dfe0147db/3cac88e4-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "16c95309-947d-42ca-bc39-8c4dfe0147db",
+                  "label": "第5章 化学元素与物质组成的表示"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac88e4-9879-11ec-92ef-246e9675e50c",
+                  "label": "第5章 化学元素与物质组成的表示 章复习"
+                }
+              ],
+              "sortKey": "005_006"
+            }
+          ]
+        },
+        {
+          "chapterId": "00b0ebbc-b7d2-4f9b-b12d-4975916ccb38",
+          "chapterLabel": "第6章 燃烧的学问",
+          "chapterOrder": 6,
+          "lessons": [
+            {
+              "lessonId": "f1cbe911540a8c4998312adeae808ae8",
+              "lessonLabel": "第一节 探索燃烧与灭火(1)",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/00b0ebbc-b7d2-4f9b-b12d-4975916ccb38/3cac8b05-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "00b0ebbc-b7d2-4f9b-b12d-4975916ccb38",
+                  "label": "第6章 燃烧的学问"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac8b05-9879-11ec-92ef-246e9675e50c",
+                  "label": "第一节 探索燃烧与灭火(1)"
+                }
+              ],
+              "sortKey": "006_001"
+            },
+            {
+              "lessonId": "650f5d8e3ff35ddbc98617debc9260df",
+              "lessonLabel": "第一节 探索燃烧与灭火(2）",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/00b0ebbc-b7d2-4f9b-b12d-4975916ccb38/3cac8b42-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "00b0ebbc-b7d2-4f9b-b12d-4975916ccb38",
+                  "label": "第6章 燃烧的学问"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac8b42-9879-11ec-92ef-246e9675e50c",
+                  "label": "第一节 探索燃烧与灭火(2）"
+                }
+              ],
+              "sortKey": "006_002"
+            },
+            {
+              "lessonId": "0926d7ba16ec5561eab0f3e083f6828d",
+              "lessonLabel": "第二节 化学反应中的能量变化",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/00b0ebbc-b7d2-4f9b-b12d-4975916ccb38/3cac8bbe-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "00b0ebbc-b7d2-4f9b-b12d-4975916ccb38",
+                  "label": "第6章 燃烧的学问"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac8bbe-9879-11ec-92ef-246e9675e50c",
+                  "label": "第二节 化学反应中的能量变化"
+                }
+              ],
+              "sortKey": "006_003"
+            },
+            {
+              "lessonId": "9165f095685b3a96389d2fc935a076af",
+              "lessonLabel": "第三节 化石燃料",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/00b0ebbc-b7d2-4f9b-b12d-4975916ccb38/3cac8b7b-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "00b0ebbc-b7d2-4f9b-b12d-4975916ccb38",
+                  "label": "第6章 燃烧的学问"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac8b7b-9879-11ec-92ef-246e9675e50c",
+                  "label": "第三节 化石燃料"
+                }
+              ],
+              "sortKey": "006_004"
+            },
+            {
+              "lessonId": "c139694e822803f71d3178ca3243e2c0",
+              "lessonLabel": "第6章 燃烧的学问 章复习",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/00b0ebbc-b7d2-4f9b-b12d-4975916ccb38/3cac8aca-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "00b0ebbc-b7d2-4f9b-b12d-4975916ccb38",
+                  "label": "第6章 燃烧的学问"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac8aca-9879-11ec-92ef-246e9675e50c",
+                  "label": "第6章 燃烧的学问 章复习"
+                }
+              ],
+              "sortKey": "006_005"
+            }
+          ]
+        },
+        {
+          "chapterId": "1bcba06d-c8cd-4edb-bf5a-4bbe21e4973a",
+          "chapterLabel": "第7章 化学反应的定量研究",
+          "chapterOrder": 7,
+          "lessons": [
+            {
+              "lessonId": "5edfb50045dcffaf2e6d5f7630eb01cc",
+              "lessonLabel": "第一节 质量守恒定律",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/1bcba06d-c8cd-4edb-bf5a-4bbe21e4973a/3cac8c51-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "1bcba06d-c8cd-4edb-bf5a-4bbe21e4973a",
+                  "label": "第7章 化学反应的定量研究"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac8c51-9879-11ec-92ef-246e9675e50c",
+                  "label": "第一节 质量守恒定律"
+                }
+              ],
+              "sortKey": "007_001"
+            },
+            {
+              "lessonId": "5687ae3412cc9b5882107f60657765de",
+              "lessonLabel": "第二节 化学方程式",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/1bcba06d-c8cd-4edb-bf5a-4bbe21e4973a/3cac8cc5-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "1bcba06d-c8cd-4edb-bf5a-4bbe21e4973a",
+                  "label": "第7章 化学反应的定量研究"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac8cc5-9879-11ec-92ef-246e9675e50c",
+                  "label": "第二节 化学方程式"
+                }
+              ],
+              "sortKey": "007_002"
+            },
+            {
+              "lessonId": "6207f912ff8e216e39f2cc3c97156d9b",
+              "lessonLabel": "第三节 依据化学方程式的简单计算",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/1bcba06d-c8cd-4edb-bf5a-4bbe21e4973a/3cac8c8c-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "1bcba06d-c8cd-4edb-bf5a-4bbe21e4973a",
+                  "label": "第7章 化学反应的定量研究"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac8c8c-9879-11ec-92ef-246e9675e50c",
+                  "label": "第三节 依据化学方程式的简单计算"
+                }
+              ],
+              "sortKey": "007_003"
+            },
+            {
+              "lessonId": "0123ef6618fcf8af090b9bfdc92055fc",
+              "lessonLabel": "第7章 化学反应的定量研究 章复习",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/1bcba06d-c8cd-4edb-bf5a-4bbe21e4973a/3cac8c17-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "1bcba06d-c8cd-4edb-bf5a-4bbe21e4973a",
+                  "label": "第7章 化学反应的定量研究"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac8c17-9879-11ec-92ef-246e9675e50c",
+                  "label": "第7章 化学反应的定量研究 章复习"
+                }
+              ],
+              "sortKey": "007_004"
+            }
+          ]
+        },
+        {
+          "chapterId": "e2b0b266-3817-4ba5-9bb6-f5fca51b34e5",
+          "chapterLabel": "第8章 碳的世界",
+          "chapterOrder": 8,
+          "lessons": [
+            {
+              "lessonId": "7fcbf7371d3842cd14fc7b1c8317a1e7",
+              "lessonLabel": "第一节 碳的单质",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/e2b0b266-3817-4ba5-9bb6-f5fca51b34e5/3cac8d86-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "e2b0b266-3817-4ba5-9bb6-f5fca51b34e5",
+                  "label": "第8章 碳的世界"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac8d86-9879-11ec-92ef-246e9675e50c",
+                  "label": "第一节 碳的单质"
+                }
+              ],
+              "sortKey": "008_001"
+            },
+            {
+              "lessonId": "2f05e4ecb6a17519fc599d18bc8443ff",
+              "lessonLabel": "第二节 二氧化碳的性质和用途(1)",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/e2b0b266-3817-4ba5-9bb6-f5fca51b34e5/3cac8e02-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "e2b0b266-3817-4ba5-9bb6-f5fca51b34e5",
+                  "label": "第8章 碳的世界"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac8e02-9879-11ec-92ef-246e9675e50c",
+                  "label": "第二节 二氧化碳的性质和用途(1)"
+                }
+              ],
+              "sortKey": "008_002"
+            },
+            {
+              "lessonId": "50258b35b7a8d25384132912fabe43cd",
+              "lessonLabel": "第二节 二氧化碳的性质和用途(2)",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/e2b0b266-3817-4ba5-9bb6-f5fca51b34e5/3cac8e3b-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "e2b0b266-3817-4ba5-9bb6-f5fca51b34e5",
+                  "label": "第8章 碳的世界"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac8e3b-9879-11ec-92ef-246e9675e50c",
+                  "label": "第二节 二氧化碳的性质和用途(2)"
+                }
+              ],
+              "sortKey": "008_003"
+            },
+            {
+              "lessonId": "04350b9e32576fa965591e2383573b46",
+              "lessonLabel": "第三节 二氧化碳的实验室制法",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/e2b0b266-3817-4ba5-9bb6-f5fca51b34e5/3cac8dc6-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "e2b0b266-3817-4ba5-9bb6-f5fca51b34e5",
+                  "label": "第8章 碳的世界"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac8dc6-9879-11ec-92ef-246e9675e50c",
+                  "label": "第三节 二氧化碳的实验室制法"
+                }
+              ],
+              "sortKey": "008_004"
+            },
+            {
+              "lessonId": "5feeb4720c5c34717015012e3cb5e5b2",
+              "lessonLabel": "第8章 碳的世界 章复习",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbd05c-0590-11ed-9c79-92fc3b3249d5/ff808081439f924c0143a40bfce722d4/ff8080814371757b014390f883db0453/e2b0b266-3817-4ba5-9bb6-f5fca51b34e5/3cac8d4b-9879-11ec-92ef-246e9675e50c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbd05c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "化学"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff808081439f924c0143a40bfce722d4",
+                  "label": "北京版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "ff8080814371757b014390f883db0453",
+                  "label": "上册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "e2b0b266-3817-4ba5-9bb6-f5fca51b34e5",
+                  "label": "第8章 碳的世界"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3cac8d4b-9879-11ec-92ef-246e9675e50c",
+                  "label": "第8章 碳的世界 章复习"
+                }
+              ],
+              "sortKey": "008_005"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
