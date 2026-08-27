@@ -1,7 +1,8 @@
 const cloud = require("wx-server-sdk");
+const http = require("http");
 const https = require("https");
 const { URL } = require("url");
-const { parseQuestions, mockQuestions } = require("./parse");
+const Jimp = require("jimp");
 const { normalizeGrade, normalizeVolume, subjectKeyFromLabel, pickEdition, matchLesson, attachMatch } = require("./matchCatalog");
 
 cloud.init({
@@ -15,10 +16,11 @@ const EDITION_COL = "catalog_edition";
 const LESSON_COL = "catalog_lesson";
 const JOB_COL = "recognize_job";
 
-const DEFAULT_VISION_MODEL = "deepseek-v4-flash-vision-exp";
+const DEFAULT_VISION_MODEL = "glm-5v-turbo";
 const DEFAULT_TEXT_MODEL = "hy3";
-const DEEPSEEK_BASE = "https://api.deepseek.com";
-const MAX_BASE64_CHARS = 7 * 1024 * 1024;
+const GATEWAY_BASE = "http://119.45.25.177:3000/v1";
+const PROVIDER = "glm";
+const MAX_INLINE_JPEG = 58 * 1024;
 
 const HOMEWORK_PROMPT = `你是家庭作业错题识别助手。只根据图片作答。
 只输出一个 JSON 对象，不要 markdown 围栏，不要其它说明。格式：
@@ -33,11 +35,37 @@ function asDataUrl(base64, mime) {
   return `data:${mime || "image/jpeg"};base64,${raw}`;
 }
 
+async function compressToJpegDataUrl(buf, tag) {
+  const input = Buffer.isBuffer(buf) ? buf : Buffer.from(buf);
+  const img = await Jimp.read(input);
+  const maxSide = 1024;
+  if (img.bitmap.width > maxSide || img.bitmap.height > maxSide) {
+    img.scaleToFit(maxSide, maxSide);
+  }
+  let quality = 70;
+  let out = await img.clone().quality(quality).getBufferAsync(Jimp.MIME_JPEG);
+  while (out.length > MAX_INLINE_JPEG && quality > 35) {
+    quality -= 10;
+    out = await img.clone().quality(quality).getBufferAsync(Jimp.MIME_JPEG);
+  }
+  if (out.length > MAX_INLINE_JPEG) {
+    img.scaleToFit(720, 720);
+    out = await img.quality(40).getBufferAsync(Jimp.MIME_JPEG);
+  }
+  logDs("image_compressed", {
+    tag,
+    inBytes: input.length,
+    outBytes: out.length,
+    quality,
+    w: img.bitmap.width,
+    h: img.bitmap.height,
+  });
+  return asDataUrl(out.toString("base64"), "image/jpeg");
+}
+
 async function downloadFileId(fileID) {
   const dl = await cloud.downloadFile({ fileID: String(fileID) });
-  const buf = dl.fileContent;
-  const b64 = Buffer.isBuffer(buf) ? buf.toString("base64") : Buffer.from(buf).toString("base64");
-  return asDataUrl(b64, "image/jpeg");
+  return compressToJpegDataUrl(dl.fileContent, "fileID");
 }
 
 function collectFileIds(event) {
@@ -53,8 +81,16 @@ function collectFileIds(event) {
 
 async function resolveImageUrls(event) {
   const urls = [];
-  if (event.imageUrl) urls.push(String(event.imageUrl));
-  if (event.imageBase64) urls.push(asDataUrl(event.imageBase64, event.mime));
+  if (event.imageUrl) {
+    const src = String(event.imageUrl);
+    if (/^https?:\/\//i.test(src)) {
+      urls.push(src);
+    }
+  }
+  if (event.imageBase64) {
+    const raw = String(event.imageBase64).replace(/^data:image\/[a-zA-Z0-9+.-]+;base64,/, "");
+    urls.push(await compressToJpegDataUrl(Buffer.from(raw, "base64"), "base64"));
+  }
   for (const id of collectFileIds(event)) {
     urls.push(await downloadFileId(id));
   }
@@ -76,8 +112,14 @@ function formatAiError(err) {
     detail = detail.slice(0, 2000);
   }
   let message = err && err.message ? String(err.message) : "ai_failed";
-  if (status === 402 || /Insufficient Balance/i.test(detail)) {
-    message = "DeepSeek 余额不足，请到 platform.deepseek.com 充值后再识别";
+  if (status === 401 || status === 403) {
+    message = "模型中台鉴权失败，请检查云函数环境变量 AI_GATEWAY_API_KEY";
+  }
+  if (status === 413) {
+    message = "模型中台拒绝过大请求（413）。图片需压缩到约 60KB 以内";
+  }
+  if (!status && /timeout/i.test(message)) {
+    message = "模型中台 50 秒无响应（常见原因：中台拉不了微信图片链）";
   }
   return {
     message,
@@ -86,13 +128,53 @@ function formatAiError(err) {
   };
 }
 
-function httpsJson({ url, headers, body, timeoutMs }) {
+function logDs(msg, extra) {
+  if (extra !== undefined) console.log("[kx-ds]", msg, extra);
+  else console.log("[kx-ds]", msg);
+}
+
+function logDrain(msg, extra) {
+  if (extra !== undefined) console.log("[kx-drain]", msg, extra);
+  else console.log("[kx-drain]", msg);
+}
+
+function countVisionImages(messages) {
+  let n = 0;
+  for (const m of messages || []) {
+    const c = m.content;
+    if (!Array.isArray(c)) continue;
+    for (const p of c) {
+      if (p && p.type === "image_url") n += 1;
+    }
+  }
+  return n;
+}
+function gatewayKey() {
+  return String(process.env.AI_GATEWAY_API_KEY || process.env.DEEPSEEK_API_KEY || "").trim();
+}
+
+function gatewayBase() {
+  return String(process.env.AI_GATEWAY_BASE_URL || GATEWAY_BASE).replace(/\/$/, "");
+}
+
+function postJson({ url, headers, body, timeoutMs }) {
   return new Promise((resolve, reject) => {
     const u = new URL(url);
     const payload = body || "";
-    const req = https.request(
+    const startedAt = Date.now();
+    const isHttp = u.protocol === "http:";
+    const lib = isHttp ? http : https;
+    const port = u.port ? Number(u.port) : isHttp ? 80 : 443;
+    logDs("http_begin", {
+      host: u.hostname,
+      port,
+      path: u.pathname,
+      bodyBytes: Buffer.byteLength(payload),
+    });
+    const req = lib.request(
       {
         hostname: u.hostname,
+        port,
         path: u.pathname + u.search,
         method: "POST",
         headers: {
@@ -107,13 +189,15 @@ function httpsJson({ url, headers, body, timeoutMs }) {
           raw += chunk;
         });
         res.on("end", () => {
+          const elapsed = Date.now() - startedAt;
+          logDs("http_end", { status: res.statusCode, elapsedMs: elapsed, bytes: raw.length });
           let data;
           try {
             data = JSON.parse(raw);
           } catch (e) {
             data = { raw: raw.slice(0, 2000) };
           }
-  if (res.statusCode >= 400) {
+          if (res.statusCode >= 400) {
             const err = new Error(`Request failed with status code ${res.statusCode}`);
             err.response = { status: res.statusCode, data };
             reject(err);
@@ -123,8 +207,12 @@ function httpsJson({ url, headers, body, timeoutMs }) {
         });
       }
     );
-    req.on("error", reject);
+    req.on("error", (err) => {
+      logDs("http_error", { message: String(err && err.message) });
+      reject(err);
+    });
     req.on("timeout", () => {
+      logDs("http_timeout", { timeoutMs: timeoutMs || 50000 });
       req.destroy();
       reject(new Error("timeout"));
     });
@@ -133,49 +221,64 @@ function httpsJson({ url, headers, body, timeoutMs }) {
   });
 }
 
-async function generateDeepseek(modelName, messages, extra = {}) {
-  const apiKey = process.env.DEEPSEEK_API_KEY;
+async function generateChat(modelName, messages, extra = {}) {
+  const apiKey = gatewayKey();
   if (!apiKey) {
-    return { ok: false, error: "missing_deepseek_key", model: modelName };
+    logDs("skip_no_key", { model: modelName });
+    return { ok: false, error: "missing_ai_key", model: modelName };
   }
-  const base = (process.env.DEEPSEEK_BASE_URL || DEEPSEEK_BASE).replace(/\/$/, "");
+  const base = gatewayBase();
+  logDs("request", {
+    model: modelName,
+    images: countVisionImages(messages),
+    hasKey: true,
+    base,
+  });
   try {
-    const data = await httpsJson({
+    const data = await postJson({
       url: `${base}/chat/completions`,
-      headers: {
-        Authorization: `Bearer ${apiKey}`,
-        "Content-Type": "application/json",
-      },
+        headers: {
+          Authorization: `Bearer ${apiKey}`,
+          "Content-Type": "application/json",
+          Accept: "application/json",
+          "Accept-Encoding": "identity",
+        },
       body: JSON.stringify({
         model: modelName,
         messages,
         ...extra,
       }),
     });
-    const text =
+    const content =
       data &&
       data.choices &&
       data.choices[0] &&
       data.choices[0].message &&
-      data.choices[0].message.content
-        ? String(data.choices[0].message.content)
+      data.choices[0].message.content;
+    const text = Array.isArray(content)
+      ? content.map((p) => (p && p.text ? p.text : "")).join("")
+      : content
+        ? String(content)
         : "";
+    logDs("ok", { model: modelName, textLen: text.length, usage: data && data.usage });
     return {
       ok: true,
       mocked: false,
-      provider: "deepseek",
+      provider: PROVIDER,
       model: modelName,
       text: text.slice(0, 4000),
       usage: data && data.usage ? data.usage : undefined,
     };
   } catch (err) {
+    const formatted = formatAiError(err);
+    logDs("fail", { model: modelName, ...formatted });
     return {
       ok: false,
       mocked: false,
       error: "ai_failed",
-      provider: "deepseek",
+      provider: PROVIDER,
       model: modelName,
-      ...formatAiError(err),
+      ...formatted,
     };
   }
 }
@@ -211,10 +314,10 @@ async function generate(modelName, messages, extra = {}) {
   }
 }
 
-function imageContentParts(imageUrls, detail) {
+function imageContentParts(imageUrls) {
   return imageUrls.map((url) => ({
     type: "image_url",
-    image_url: { url, detail },
+    image_url: { url },
   }));
 }
 
@@ -343,6 +446,7 @@ async function startJob(event, openid) {
     },
   });
   const jobId = add._id;
+  logDrain("start_created", { jobId, batchId, fileCount: fileIDs.length, mock });
   await syncBatch(batchId, { jobId, jobStatus: "pending" });
   return { ok: true, jobId, batchId, status: "pending" };
 }
@@ -383,11 +487,14 @@ async function runJob(event) {
   }
   if (!doc) return { ok: false, error: "job_not_found" };
   if (doc.status === "done") {
+    logDrain("run_skip", { jobId, reason: "done" });
     return { ok: true, jobId, status: "done", skipped: true };
   }
   if ((Number(doc.deepseekCalls) || 0) >= 1) {
+    logDrain("run_skip", { jobId, reason: "quota_1", status: doc.status, deepseekCalls: doc.deepseekCalls });
     return { ok: true, jobId, status: doc.status, skipped: true, reason: "quota_1" };
   }
+  logDrain("run_begin", { jobId, mock: !!doc.mock, files: (doc.fileIDs || []).length });
   await db.collection(JOB_COL).doc(jobId).update({
     data: { deepseekCalls: 1, status: "running", updatedAt: nowIso() },
   });
@@ -400,7 +507,7 @@ async function runJob(event) {
   let result;
   try {
     result = await processRecognize(payload);
-    if (!result.ok && result.error === "missing_deepseek_key") {
+    if (!result.ok && (result.error === "missing_ai_key" || result.error === "missing_deepseek_key")) {
       result = await processRecognize({ mock: true });
       result.message = "无模型密钥，已用演示结果";
     }
@@ -431,7 +538,51 @@ async function runJob(event) {
     questionCount: (patch.questions || []).length,
     jobError: result.ok ? "" : [patch.error, patch.message].filter(Boolean).join(" ").slice(0, 240),
   });
+  logDrain("run_end", { jobId, status: patch.status, questions: (patch.questions || []).length, error: patch.error });
   return { ok: true, jobId, status: patch.status };
+}
+
+async function drainPending() {
+  logDrain("tick", { at: nowIso() });
+  await ensureJobCol();
+  const now = Date.now();
+  let stuck = [];
+  try {
+    const res = await db.collection(JOB_COL).where({ status: "running" }).limit(20).get();
+    stuck = res.data || [];
+  } catch (e) {
+    logDrain("query_running_fail", { message: String((e && e.message) || e) });
+    stuck = [];
+  }
+  logDrain("query_running", { count: stuck.length, ids: stuck.map((x) => x._id) });
+  for (const row of stuck) {
+    const qs = row.questions || [];
+    const age = now - Date.parse(row.updatedAt || 0);
+    if (qs.length || !Number.isFinite(age) || age < 20000) {
+      logDrain("stuck_keep", { jobId: row._id, ageMs: age, questions: qs.length });
+      continue;
+    }
+    logDrain("stuck_reset", { jobId: row._id, ageMs: age });
+    await db.collection(JOB_COL).doc(row._id).update({
+      data: { status: "pending", deepseekCalls: 0, updatedAt: nowIso() },
+    });
+    await syncBatch(row.batchId, { jobStatus: "pending", jobError: "" });
+  }
+  let pending = [];
+  try {
+    const res = await db.collection(JOB_COL).where({ status: "pending" }).limit(1).get();
+    pending = res.data || [];
+  } catch (e) {
+    logDrain("query_pending_fail", { message: String((e && e.message) || e) });
+    return { ok: false, error: "drain_query_failed" };
+  }
+  logDrain("query_pending", { count: pending.length, ids: pending.map((x) => x._id) });
+  if (!pending.length) {
+    logDrain("idle");
+    return { ok: true, drained: 0 };
+  }
+  logDrain("pick", { jobId: pending[0]._id });
+  return runJob({ jobId: pending[0]._id });
 }
 
 async function processRecognize(event = {}) {
@@ -462,7 +613,7 @@ async function processRecognize(event = {}) {
     return generate(modelName, [{ role: "user", content: prompt }]);
   }
 
-  const modelName = event.model || DEFAULT_VISION_MODEL;
+  const modelName = event.model || process.env.VISION_MODEL || DEFAULT_VISION_MODEL;
 
   let imageUrls;
   try {
@@ -476,18 +627,12 @@ async function processRecognize(event = {}) {
 
   const smoke = event.smoke === true;
   const prompt = event.prompt || (smoke ? "用一两句话描述这张图片里有什么。" : HOMEWORK_PROMPT);
-  const extra = {};
-  if (smoke) extra.thinking = { type: "disabled" };
-  const result = await generateDeepseek(
-    modelName,
-    [
-      {
-        role: "user",
-        content: [{ type: "text", text: prompt }, ...imageContentParts(imageUrls, smoke ? "low" : "low")],
-      },
-    ],
-    extra
-  );
+  const result = await generateChat(modelName, [
+    {
+      role: "user",
+      content: [{ type: "text", text: prompt }, ...imageContentParts(imageUrls)],
+    },
+  ]);
   if (!result.ok) {
     return result;
   }
@@ -501,7 +646,7 @@ async function processRecognize(event = {}) {
       ok: false,
       mocked: false,
       error: "parse_failed",
-      provider: "deepseek",
+      provider: PROVIDER,
       model: modelName,
       message: "模型未返回合法 JSON（需含 questions 数组）",
       preview: String(result.text || "").slice(0, 240),
@@ -516,7 +661,7 @@ async function processRecognize(event = {}) {
   return {
     ok: true,
     mocked: false,
-    provider: "deepseek",
+    provider: PROVIDER,
     model: modelName,
     questions,
     parseOk: true,
@@ -524,11 +669,31 @@ async function processRecognize(event = {}) {
   };
 }
 
-exports.main = async (event = {}) => {
+function remainMs(context) {
+  try {
+    if (context && typeof context.getRemainingTimeInMillis === "function") {
+      return context.getRemainingTimeInMillis();
+    }
+  } catch (e) {
+    return undefined;
+  }
+  return undefined;
+}
+
+exports.main = async (event = {}, context) => {
   const e = event && typeof event === "object" ? event : {};
   const action = String(e.action || "").trim();
   const { OPENID } = cloud.getWXContext();
   try {
+    if (e.Type === "Timer" || e.TriggerName || action === "drain") {
+      logDrain("invoke", {
+        Type: e.Type,
+        TriggerName: e.TriggerName,
+        action,
+        remainMs: remainMs(context),
+      });
+      return await drainPending();
+    }
     if (action === "start") return await startJob(e, OPENID);
     if (action === "poll") return await pollJob(e);
     if (action === "run") return await runJob(e);

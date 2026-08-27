@@ -13,7 +13,7 @@
 | 云函数 | 说明 |
 | --- | --- |
 | `ping` | 健康检查。云端测试验收。 |
-| `recognizeHomework` | F07 识图。默认外部 DeepSeek `deepseek-v4-flash-vision-exp`（环境变量 `DEEPSEEK_API_KEY`）。`textSmoke` 仍测云开发 `hy3`。`mock:true` 走样例。 |
+| `recognizeHomework` | F07 识图。默认模型中台 `glm-5v-turbo`（环境变量 `AI_GATEWAY_API_KEY`）。`textSmoke` 仍测云开发 `hy3`。`mock:true` 走样例。 |
 | `catalogImport` | F00g 目录导入。`action`: `ping` / `importEdition` / `importTree`；分批 upsert `catalog_edition`、`catalog_lesson`，写 `catalog_sync_log`。见 `cloudfunctions/catalogImport/README.md`。 |
 | `childProfile` | F01A/F02A 孩子档案。`action`: `create` / `list` / `update` / `setTextbook` / `setProgress` / `getTextbooks`。集合 `child` 按 `familyId` 多条。无 `familyId` 时用 `tmp:<OPENID>` 占位（F03A 替换）。见 `cloudfunctions/childProfile/README.md`。 |
 | `catalogRead` | F02A 目录只读。`action`: `listEditions` / `listLessons`。读 `catalog_edition`、`catalog_lesson`。见 `cloudfunctions/catalogRead/README.md`。 |

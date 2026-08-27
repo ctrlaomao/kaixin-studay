@@ -110,8 +110,7 @@ Page({
             this.setData({ busy: false, msg: "无法创建识别任务 " + ((started && started.error) || "") });
             return;
           }
-          api.homework.kickRecognize(started.jobId);
-          this.setData({ busy: false, msg: "已提交识别，完成后下拉刷新即可查看。" });
+          this.setData({ busy: false, msg: "已提交。识别在云端进行，约一分钟内下拉刷新查看。" });
           await this.loadRecords();
           this.scheduleStatusRefresh();
         } catch (e) {

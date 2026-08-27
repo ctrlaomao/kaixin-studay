@@ -5,6 +5,7 @@
   "description": "Homework image recognition via external DeepSeek vision",
   "main": "index.js",
   "dependencies": {
+    "jimp": "0.22.12",
     "wx-server-sdk": "3.0.5-beta.1"
   }
 }

@@ -3,5 +3,12 @@
     "openapi": []
   },
   "timeout": 60,
-  "memorySize": 256
+  "memorySize": 256,
+  "triggers": [
+    {
+      "name": "drainRecognize",
+      "type": "timer",
+      "config": "0 * * * * * *"
+    }
+  ]
 }

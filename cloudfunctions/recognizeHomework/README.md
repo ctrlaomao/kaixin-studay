@@ -1,22 +1,38 @@
 # recognizeHomework（F07 识图）
 
-识图走 **外部 DeepSeek 官方 API**（不走云开发托管多模态）。Key 只放云函数环境变量 `DEEPSEEK_API_KEY`，禁止进 git、禁止前端持 Key。  
+识图走 **模型中台** OpenAI 兼容接口（不走云开发托管多模态、不走 DeepSeek 官方）。  
+默认模型：智谱 **`glm-5v-turbo`**。  
+默认地址：`http://119.45.25.177:3000/v1/chat/completions`。
+
+**Key 只放云函数环境变量，禁止进 git、禁止前端持 Key。**  
 文本探测仍可用已开通的云开发 `hy3`。
 
-官方识图：https://api-docs.deepseek.com/guides/vision  
-型号：`deepseek-v4-flash-vision-exp`  
-接口：`https://api.deepseek.com/chat/completions`
+本卡调用方可直接传 `fileID` / `fileIDs`，或公网 `imageUrl` / `imageBase64`。  
+`fileID` 由云函数下载后压成约 60KB JPEG，再以 `data:` base64 发给中台。中台 JSON 默认大约 100KB（超出会 413）；微信临时链中台往往拉不到（会一直等到 50 秒超时）。部署时需 **云端安装依赖**（含 `jimp`）。
 
-本卡 **未接线 F06A `homeworkBatch`**。调用方可直接传 `fileID` / `fileIDs`，或公网 `imageUrl` / `imageBase64`。
+## 密钥与地址
 
-## 密钥
+1. 开发者工具 → 云函数 `recognizeHomework` → 配置 / 环境变量：
+   - **必填** `AI_GATEWAY_API_KEY`（中台 Bearer Token，如 `sk-chat-…`）
+   - 兼容：若未设 `AI_GATEWAY_API_KEY`，会读旧变量 `DEEPSEEK_API_KEY`
+   - 可选 `AI_GATEWAY_BASE_URL`（默认 `http://119.45.25.177:3000/v1`，不要带末尾 `/chat/completions`）
+   - 可选 `VISION_MODEL`（默认 `glm-5v-turbo`）
+2. 保存后重新上传并部署。不要把 Key 写进代码或 `config.json`。
 
-1. [DeepSeek 开放平台](https://platform.deepseek.com) 创建 API Key。
-2. 开发者工具 → 云函数 `recognizeHomework` → 配置 / 环境变量：`DEEPSEEK_API_KEY`  
-   可选：`DEEPSEEK_BASE_URL`（默认 `https://api.deepseek.com`）
-3. 保存后重新上传并部署。
+识图不能由小程序同步等待（客户端默认 3 秒会掐死云函数）。拍照只调用 `action=start` 建任务；**定时触发器每分钟** `drain` 在云端跑 `run`。
 
-无 Key 且非 mock 时识图返回 `error: "missing_deepseek_key"`。
+**必须把线上超时改成 60 秒。** 平台默认是 3 秒；只改本地 `config.json` 或只上传代码，控制台仍可能是 3 秒。定时器也会被掐，日志会出现 `Invoking task timed out after 3 seconds`，且停在 `[kx-ds] http_begin` 之后、没有 `http_end`。
+
+改法（任选其一，改完再部署一次核对）：
+
+1. 微信开发者工具 → 云开发 → 云函数 → `recognizeHomework` → 版本与配置 / 配置 → **超时时间 60 秒** → 保存。
+2. 对函数右键「上传并部署：云端安装依赖」，确认 `config.json` 的 `"timeout": 60` 一并上传（不要只上传文件）。
+
+部署后看 `[kx-drain] invoke` 的 `remainMs`：应接近 60000，而不是 3000。
+
+部署后若无触发器：云函数 → 触发器 → 定时触发，Cron `0 * * * * * *`（每分钟），指向本函数。
+
+云开发出网需能访问该中台 IP:3000。无 Key 且非 mock 时返回 `error: "missing_ai_key"`。
 
 ## 契约（补充；不改 api.md）
 
@@ -32,7 +48,7 @@
 | `fileIDs` | 云存储 fileID 数组（可与 `fileID` 同时给） |
 | `imageUrl` | 公网图片 URL |
 | `imageBase64` | 内联图 |
-| `model` | 可选，默认 `deepseek-v4-flash-vision-exp` |
+| `model` | 可选，默认 `glm-5v-turbo` |
 
 ### 成功（作业 JSON，非 smoke）
 
@@ -40,8 +56,8 @@
 {
   "ok": true,
   "mocked": false,
-  "provider": "deepseek",
-  "model": "deepseek-v4-flash-vision-exp",
+  "provider": "glm",
+  "model": "glm-5v-turbo",
   "questions": [
     {
       "stem": "题干",
@@ -70,7 +86,7 @@
 
 不把整段散文当作题目返回。
 
-其它错误：`need_image`、`missing_deepseek_key`、`image_too_large`、`ai_failed`。
+其它错误：`need_image`、`missing_ai_key`、`image_too_large`、`ai_failed`。
 
 ## 云端测试
 
