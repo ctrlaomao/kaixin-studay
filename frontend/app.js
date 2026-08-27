@@ -8,6 +8,7 @@ App({
     wx.cloud.init({
       env: this.globalData.env,
       traceUser: true,
+      timeout: 60000,
     });
   },
 });

@@ -105,13 +105,13 @@ Page({
             return;
           }
           const batchId = batch.batch.id;
-          this.setData({ msg: "正在识别，请稍候（可能要一分钟）…" });
           const started = await api.homework.recognizeStart({ fileIDs, childId, batchId });
           if (!started || !started.ok || !started.jobId) {
             this.setData({ busy: false, msg: "无法创建识别任务 " + ((started && started.error) || "") });
             return;
           }
-          this.setData({ busy: false, msg: "已提交，完成后可点开。也可下拉刷新状态。" });
+          api.homework.kickRecognize(started.jobId);
+          this.setData({ busy: false, msg: "已提交识别，完成后下拉刷新即可查看。" });
           await this.loadRecords();
           this.scheduleStatusRefresh();
         } catch (e) {

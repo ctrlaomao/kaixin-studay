@@ -41,7 +41,15 @@ module.exports = {
     createBatch: (data) => call("homeworkBatch", { action: "create", ...data }),
     listBatches: (data) => call("homeworkBatch", { action: "list", ...data }),
     getBatch: (data) => call("homeworkBatch", { action: "get", ...data }),
-    recognizeStart: (data) => call("recognizeHomework", { action: "start", ...data }, 60000),
+    recognizeStart: (data) => call("recognizeHomework", { action: "start", ...data }),
+    kickRecognize: (jobId) => {
+      wx.cloud.callFunction({
+        name: "recognizeHomework",
+        data: { action: "run", jobId },
+        timeout: 60000,
+        config: { env: ENV, timeout: 60000 },
+      });
+    },
   },
   catalog: {
     editions: (data) => call("catalogRead", { action: "listEditions", ...data }),

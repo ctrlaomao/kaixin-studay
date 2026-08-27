@@ -344,8 +344,7 @@ async function startJob(event, openid) {
   });
   const jobId = add._id;
   await syncBatch(batchId, { jobId, jobStatus: "pending" });
-  const ran = await runJob({ jobId });
-  return { ok: true, jobId, batchId, status: ran.status || "pending" };
+  return { ok: true, jobId, batchId, status: "pending" };
 }
 
 async function pollJob(event) {
