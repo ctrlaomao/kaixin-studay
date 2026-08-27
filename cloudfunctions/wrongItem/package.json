@@ -1,0 +1,10 @@
+{
+  "name": "wrongItem",
+  "version": "1.0.0",
+  "private": true,
+  "description": "F09A/F11/F12A/F13A wrong_item create list updateLesson",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.4.0"
+  }
+}

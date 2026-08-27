@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "syncAt": "2026-08-26T13:43:59.774Z",
+  "syncAt": "2026-08-27T02:17:08.042Z",
   "source": "smartedu-syncClassroom",
   "editions": [
     {
@@ -3039,6 +3039,2226 @@
                 }
               ],
               "sortKey": "006_003"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "editionId": "a079c4a21595abb8772bc626d934627a",
+      "stageId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+      "stageLabel": "初中",
+      "gradeId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+      "gradeLabel": "九年级",
+      "subjectId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+      "subjectLabel": "物理",
+      "versionId": "ff8080814371757b01437c363a187b0a",
+      "versionLabel": "人教版",
+      "volumeId": "8ae7e58b77b3bac901783dd80dee0c44",
+      "volumeLabel": "全一册",
+      "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44",
+      "platformTagPath": [
+        {
+          "level": "stage",
+          "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+          "label": "初中"
+        },
+        {
+          "level": "grade",
+          "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+          "label": "九年级"
+        },
+        {
+          "level": "subject",
+          "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+          "label": "物理"
+        },
+        {
+          "level": "version",
+          "tagId": "ff8080814371757b01437c363a187b0a",
+          "label": "人教版"
+        },
+        {
+          "level": "volume",
+          "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+          "label": "全一册"
+        }
+      ],
+      "online": true,
+      "sourceUrl": "https://basic.smartedu.cn/syncClassroom?defaultTag=e7bbce2c-0590-11ed-9c79-92fc3b3249d5%2F44bec0c6-54e6-11ed-9c34-850ba61fa9f4%2Fe7bbcfee-0590-11ed-9c79-92fc3b3249d5%2Fff8080814371757b01437c363a187b0a%2F8ae7e58b77b3bac901783dd80dee0c44",
+      "chapters": [
+        {
+          "chapterId": "7d728f28-6c87-4acd-8c5d-d7137ec4cf2d",
+          "chapterLabel": "第十三章 内能",
+          "chapterOrder": 1,
+          "lessons": [
+            {
+              "lessonId": "15e5e1d33dd610167576ea9b6b3c762f",
+              "lessonLabel": "分子热运动",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/7d728f28-6c87-4acd-8c5d-d7137ec4cf2d/3236cf95-a073-4a09-97de-827ead9da019",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "7d728f28-6c87-4acd-8c5d-d7137ec4cf2d",
+                  "label": "第十三章 内能"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3236cf95-a073-4a09-97de-827ead9da019",
+                  "label": "分子热运动"
+                }
+              ],
+              "sortKey": "001_001"
+            },
+            {
+              "lessonId": "b84104dcb26b84dceb53fa9e2627d5b4",
+              "lessonLabel": "内能（第一课时）",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/7d728f28-6c87-4acd-8c5d-d7137ec4cf2d/c08c2ae0-bc27-41ab-b89d-ce57cee26976",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "7d728f28-6c87-4acd-8c5d-d7137ec4cf2d",
+                  "label": "第十三章 内能"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "c08c2ae0-bc27-41ab-b89d-ce57cee26976",
+                  "label": "内能（第一课时）"
+                }
+              ],
+              "sortKey": "001_002"
+            },
+            {
+              "lessonId": "c4ff91b12a66b75d223a048ceee2b541",
+              "lessonLabel": "内能（第二课时）",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/7d728f28-6c87-4acd-8c5d-d7137ec4cf2d/46a9d940-425b-4504-bb52-a80a0d6fe246",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "7d728f28-6c87-4acd-8c5d-d7137ec4cf2d",
+                  "label": "第十三章 内能"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "46a9d940-425b-4504-bb52-a80a0d6fe246",
+                  "label": "内能（第二课时）"
+                }
+              ],
+              "sortKey": "001_003"
+            },
+            {
+              "lessonId": "b8e1a97c0ef1e538aa08ddd159068f6b",
+              "lessonLabel": "比热容（第一课时）",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/7d728f28-6c87-4acd-8c5d-d7137ec4cf2d/2da2378f-1f2e-46e0-ab7a-ae1b4bbc261d",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "7d728f28-6c87-4acd-8c5d-d7137ec4cf2d",
+                  "label": "第十三章 内能"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "2da2378f-1f2e-46e0-ab7a-ae1b4bbc261d",
+                  "label": "比热容（第一课时）"
+                }
+              ],
+              "sortKey": "001_004"
+            },
+            {
+              "lessonId": "d7449a88927b1a027e80ea9078209f3d",
+              "lessonLabel": "比热容（第二课时）",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/7d728f28-6c87-4acd-8c5d-d7137ec4cf2d/09d5bd59-b1e6-447f-ba00-cb792e2305a4",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "7d728f28-6c87-4acd-8c5d-d7137ec4cf2d",
+                  "label": "第十三章 内能"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "09d5bd59-b1e6-447f-ba00-cb792e2305a4",
+                  "label": "比热容（第二课时）"
+                }
+              ],
+              "sortKey": "001_005"
+            }
+          ]
+        },
+        {
+          "chapterId": "0de84b98-ec60-47ed-96c8-2329ba020abc",
+          "chapterLabel": "第十四章 内能的利用",
+          "chapterOrder": 2,
+          "lessons": [
+            {
+              "lessonId": "1f1a9834ac1cd690a3afe705d708b2ac",
+              "lessonLabel": "热机",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/0de84b98-ec60-47ed-96c8-2329ba020abc/cca2b9b2-62fa-4ef2-ac57-74055091e12b",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "0de84b98-ec60-47ed-96c8-2329ba020abc",
+                  "label": "第十四章 内能的利用"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "cca2b9b2-62fa-4ef2-ac57-74055091e12b",
+                  "label": "热机"
+                }
+              ],
+              "sortKey": "002_001"
+            },
+            {
+              "lessonId": "4a61d4a818360f39847677e808b4f25d",
+              "lessonLabel": "热机的效率",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/0de84b98-ec60-47ed-96c8-2329ba020abc/0bfa430e-390a-4eb3-a19a-86de3e4c1d82",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "0de84b98-ec60-47ed-96c8-2329ba020abc",
+                  "label": "第十四章 内能的利用"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "0bfa430e-390a-4eb3-a19a-86de3e4c1d82",
+                  "label": "热机的效率"
+                }
+              ],
+              "sortKey": "002_002"
+            },
+            {
+              "lessonId": "df1c69fbd2e67c12867d35000a04504a",
+              "lessonLabel": "能量的转化和守恒",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/0de84b98-ec60-47ed-96c8-2329ba020abc/ff41846c-2d7a-448b-97ca-6978fdccc8cd",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "0de84b98-ec60-47ed-96c8-2329ba020abc",
+                  "label": "第十四章 内能的利用"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "ff41846c-2d7a-448b-97ca-6978fdccc8cd",
+                  "label": "能量的转化和守恒"
+                }
+              ],
+              "sortKey": "002_003"
+            }
+          ]
+        },
+        {
+          "chapterId": "a612d3e8-de00-4de6-aac3-ab020918cd52",
+          "chapterLabel": "第十五章 电流和电路",
+          "chapterOrder": 3,
+          "lessons": [
+            {
+              "lessonId": "8dd33c112a3b1313380e8f328d9248b4",
+              "lessonLabel": "两种电荷",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/a612d3e8-de00-4de6-aac3-ab020918cd52/1c39a750-1693-4a6d-bca1-4bee62030c06",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a612d3e8-de00-4de6-aac3-ab020918cd52",
+                  "label": "第十五章 电流和电路"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "1c39a750-1693-4a6d-bca1-4bee62030c06",
+                  "label": "两种电荷　"
+                }
+              ],
+              "sortKey": "003_001"
+            },
+            {
+              "lessonId": "6de99bf700ef2a14d896402167b8258e",
+              "lessonLabel": "电流和电路（第一课时）",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/a612d3e8-de00-4de6-aac3-ab020918cd52/f80676de-9512-4d44-9426-d279418e9b93",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a612d3e8-de00-4de6-aac3-ab020918cd52",
+                  "label": "第十五章 电流和电路"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "f80676de-9512-4d44-9426-d279418e9b93",
+                  "label": "电流和电路（第一课时）"
+                }
+              ],
+              "sortKey": "003_002"
+            },
+            {
+              "lessonId": "711cae43e4f54de8937918213dfd624b",
+              "lessonLabel": "电流和电路（第二课时）",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/a612d3e8-de00-4de6-aac3-ab020918cd52/fc78b7cb-020d-4c80-a392-ddf97d5640ef",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a612d3e8-de00-4de6-aac3-ab020918cd52",
+                  "label": "第十五章 电流和电路"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "fc78b7cb-020d-4c80-a392-ddf97d5640ef",
+                  "label": "电流和电路（第二课时）"
+                }
+              ],
+              "sortKey": "003_003"
+            },
+            {
+              "lessonId": "0ecc26c26e0fc9d675dcfd82d58ca4ef",
+              "lessonLabel": "串联和并联（第一课时）",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/a612d3e8-de00-4de6-aac3-ab020918cd52/cf14830a-a155-4461-a1d1-df5926ea11e8",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a612d3e8-de00-4de6-aac3-ab020918cd52",
+                  "label": "第十五章 电流和电路"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "cf14830a-a155-4461-a1d1-df5926ea11e8",
+                  "label": "串联和并联（第一课时）"
+                }
+              ],
+              "sortKey": "003_004"
+            },
+            {
+              "lessonId": "daf22206fe5ee46b08118654e9919a43",
+              "lessonLabel": "串联和并联（第二课时）",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/a612d3e8-de00-4de6-aac3-ab020918cd52/70ee91d9-a8d5-44b9-9c87-a598cd41b8ee",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a612d3e8-de00-4de6-aac3-ab020918cd52",
+                  "label": "第十五章 电流和电路"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "70ee91d9-a8d5-44b9-9c87-a598cd41b8ee",
+                  "label": "串联和并联（第二课时）"
+                }
+              ],
+              "sortKey": "003_005"
+            },
+            {
+              "lessonId": "74baff0129ae6a4bb4823a5be915474e",
+              "lessonLabel": "电流的测量",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/a612d3e8-de00-4de6-aac3-ab020918cd52/d0649e38-9cce-4096-a3e7-1ad41c9c9b72",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a612d3e8-de00-4de6-aac3-ab020918cd52",
+                  "label": "第十五章 电流和电路"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "d0649e38-9cce-4096-a3e7-1ad41c9c9b72",
+                  "label": "电流的测量"
+                }
+              ],
+              "sortKey": "003_006"
+            },
+            {
+              "lessonId": "3d5a7468bb4aff1df00575222e9bbbcb",
+              "lessonLabel": "串、并联电路中电流的规律（第一课时）",
+              "lessonOrder": 7,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/a612d3e8-de00-4de6-aac3-ab020918cd52/9a74681d-3791-4f8e-bca8-0afdb3f7dd04",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a612d3e8-de00-4de6-aac3-ab020918cd52",
+                  "label": "第十五章 电流和电路"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "9a74681d-3791-4f8e-bca8-0afdb3f7dd04",
+                  "label": "串、并联电路中电流的规律（第一课时）"
+                }
+              ],
+              "sortKey": "003_007"
+            },
+            {
+              "lessonId": "28897def91814e752d80e6eb6dd07e6f",
+              "lessonLabel": "串、并联电路中电流的规律（第二课时）",
+              "lessonOrder": 8,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/a612d3e8-de00-4de6-aac3-ab020918cd52/8652d042-865b-430c-9e6b-6b8dd3b00da3",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a612d3e8-de00-4de6-aac3-ab020918cd52",
+                  "label": "第十五章 电流和电路"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "8652d042-865b-430c-9e6b-6b8dd3b00da3",
+                  "label": "串、并联电路中电流的规律（第二课时）"
+                }
+              ],
+              "sortKey": "003_008"
+            }
+          ]
+        },
+        {
+          "chapterId": "a834e15e-1752-42c2-ba0c-571e386c73b2",
+          "chapterLabel": "第十六章 电压 电阻",
+          "chapterOrder": 4,
+          "lessons": [
+            {
+              "lessonId": "ee0bcf66f739ba630ca4012f767ea87f",
+              "lessonLabel": "电压",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/a834e15e-1752-42c2-ba0c-571e386c73b2/63015034-f639-4239-b775-18891fba697a",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a834e15e-1752-42c2-ba0c-571e386c73b2",
+                  "label": "第十六章 电压 电阻"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "63015034-f639-4239-b775-18891fba697a",
+                  "label": "电压"
+                }
+              ],
+              "sortKey": "004_001"
+            },
+            {
+              "lessonId": "f789aba754c26d475f862dfc8b695c2c",
+              "lessonLabel": "串、并联电路中电压的规律",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/a834e15e-1752-42c2-ba0c-571e386c73b2/d5d37a93-ca08-4255-a649-32b415aaa7c5",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a834e15e-1752-42c2-ba0c-571e386c73b2",
+                  "label": "第十六章 电压 电阻"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "d5d37a93-ca08-4255-a649-32b415aaa7c5",
+                  "label": "串、并联电路中电压的规律"
+                }
+              ],
+              "sortKey": "004_002"
+            },
+            {
+              "lessonId": "1a25336aa344c0312117b21db310337e",
+              "lessonLabel": "电阻",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/a834e15e-1752-42c2-ba0c-571e386c73b2/9aa0bce5-00e1-47c4-ab19-3f50d0dc6e16",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a834e15e-1752-42c2-ba0c-571e386c73b2",
+                  "label": "第十六章 电压 电阻"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "9aa0bce5-00e1-47c4-ab19-3f50d0dc6e16",
+                  "label": "电阻　"
+                }
+              ],
+              "sortKey": "004_003"
+            },
+            {
+              "lessonId": "4e5bf5c0f578fcafb98663a6ab0b81bd",
+              "lessonLabel": "变阻器（第一课时）",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/a834e15e-1752-42c2-ba0c-571e386c73b2/a464391e-10c7-427c-8e3f-a2657995c575",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a834e15e-1752-42c2-ba0c-571e386c73b2",
+                  "label": "第十六章 电压 电阻"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "a464391e-10c7-427c-8e3f-a2657995c575",
+                  "label": "变阻器（第一课时）"
+                }
+              ],
+              "sortKey": "004_004"
+            },
+            {
+              "lessonId": "c663fb2a54ec9de708b3350a2109d8fe",
+              "lessonLabel": "变阻器（第二课时）",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/a834e15e-1752-42c2-ba0c-571e386c73b2/4cadd886-5aa5-4e77-8273-d3f3ca937323",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "a834e15e-1752-42c2-ba0c-571e386c73b2",
+                  "label": "第十六章 电压 电阻"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "4cadd886-5aa5-4e77-8273-d3f3ca937323",
+                  "label": "变阻器（第二课时）"
+                }
+              ],
+              "sortKey": "004_005"
+            }
+          ]
+        },
+        {
+          "chapterId": "f5424425-1e8d-47a6-9bce-670ef9d1d8ec",
+          "chapterLabel": "第十七章 欧姆定律",
+          "chapterOrder": 5,
+          "lessons": [
+            {
+              "lessonId": "8605d570b9ffc09d54288ce8a85119e4",
+              "lessonLabel": "电流与电压和电阻的关系（第一课时）",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/f5424425-1e8d-47a6-9bce-670ef9d1d8ec/9f2a9b61-c160-4b1d-aa8f-605ae78425f3",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "f5424425-1e8d-47a6-9bce-670ef9d1d8ec",
+                  "label": "第十七章 欧姆定律"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "9f2a9b61-c160-4b1d-aa8f-605ae78425f3",
+                  "label": "电流与电压和电阻的关系（第一课时）"
+                }
+              ],
+              "sortKey": "005_001"
+            },
+            {
+              "lessonId": "056af441354f08e605aeb21141cd2e44",
+              "lessonLabel": "电流与电压和电阻的关系（第二课时）",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/f5424425-1e8d-47a6-9bce-670ef9d1d8ec/73bdc37c-0e11-4285-ae00-bbcbbb0e0899",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "f5424425-1e8d-47a6-9bce-670ef9d1d8ec",
+                  "label": "第十七章 欧姆定律"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "73bdc37c-0e11-4285-ae00-bbcbbb0e0899",
+                  "label": "电流与电压和电阻的关系（第二课时）"
+                }
+              ],
+              "sortKey": "005_002"
+            },
+            {
+              "lessonId": "2d388c2f6295a9e2f9dc317719f7c785",
+              "lessonLabel": "欧姆定律",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/f5424425-1e8d-47a6-9bce-670ef9d1d8ec/0a46663b-e2d6-45fc-be42-a4d70f394302",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "f5424425-1e8d-47a6-9bce-670ef9d1d8ec",
+                  "label": "第十七章 欧姆定律"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "0a46663b-e2d6-45fc-be42-a4d70f394302",
+                  "label": "欧姆定律"
+                }
+              ],
+              "sortKey": "005_003"
+            },
+            {
+              "lessonId": "2d59fc8647569aca7f48e671db3e81f3",
+              "lessonLabel": "电阻的测量（第一课时）",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/f5424425-1e8d-47a6-9bce-670ef9d1d8ec/e2f0c90a-bffb-450f-a6a5-8f5719c84e2c",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "f5424425-1e8d-47a6-9bce-670ef9d1d8ec",
+                  "label": "第十七章 欧姆定律"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "e2f0c90a-bffb-450f-a6a5-8f5719c84e2c",
+                  "label": "电阻的测量（第一课时）"
+                }
+              ],
+              "sortKey": "005_004"
+            },
+            {
+              "lessonId": "dc1fa9a93ccb05194945b610c6850ea7",
+              "lessonLabel": "电阻的测量（第二课时）",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/f5424425-1e8d-47a6-9bce-670ef9d1d8ec/5cacdf0e-02c7-417b-860e-29be0c8777ae",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "f5424425-1e8d-47a6-9bce-670ef9d1d8ec",
+                  "label": "第十七章 欧姆定律"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "5cacdf0e-02c7-417b-860e-29be0c8777ae",
+                  "label": "电阻的测量（第二课时）"
+                }
+              ],
+              "sortKey": "005_005"
+            },
+            {
+              "lessonId": "70a1a4fc73ea5e9e2c0e1fabcdd42ab8",
+              "lessonLabel": "欧姆定律在串、并联电路中的应用（第一课时）",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/f5424425-1e8d-47a6-9bce-670ef9d1d8ec/937e08b0-94fe-4c18-9854-c9a7a1c0528e",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "f5424425-1e8d-47a6-9bce-670ef9d1d8ec",
+                  "label": "第十七章 欧姆定律"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "937e08b0-94fe-4c18-9854-c9a7a1c0528e",
+                  "label": "欧姆定律在串、并联电路中的应用（第一课时）"
+                }
+              ],
+              "sortKey": "005_006"
+            },
+            {
+              "lessonId": "aa72b2b60238d1ef91395d8d2281d6df",
+              "lessonLabel": "欧姆定律在串、并联电路中的应用（第二课时）",
+              "lessonOrder": 7,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/f5424425-1e8d-47a6-9bce-670ef9d1d8ec/9574dea7-b762-4cc9-bcca-5c7dd3ee0d1d",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "f5424425-1e8d-47a6-9bce-670ef9d1d8ec",
+                  "label": "第十七章 欧姆定律"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "9574dea7-b762-4cc9-bcca-5c7dd3ee0d1d",
+                  "label": "欧姆定律在串、并联电路中的应用（第二课时）"
+                }
+              ],
+              "sortKey": "005_007"
+            }
+          ]
+        },
+        {
+          "chapterId": "5dc47c31-4d6b-4074-807c-1a935e9274ed",
+          "chapterLabel": "第十八章 电功率",
+          "chapterOrder": 6,
+          "lessons": [
+            {
+              "lessonId": "8e8b0e98ecb21cd16ccb47046d015c44",
+              "lessonLabel": "电能　电功",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/5dc47c31-4d6b-4074-807c-1a935e9274ed/7917696e-9175-4418-a29b-9cf97b7c5e0d",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "5dc47c31-4d6b-4074-807c-1a935e9274ed",
+                  "label": "第十八章 电功率"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "7917696e-9175-4418-a29b-9cf97b7c5e0d",
+                  "label": "电能　电功"
+                }
+              ],
+              "sortKey": "006_001"
+            },
+            {
+              "lessonId": "c079a3d9fa586ab4639653908b4adf23",
+              "lessonLabel": "电功率",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/5dc47c31-4d6b-4074-807c-1a935e9274ed/15e4c61d-15e3-440a-b21f-62c0422ff173",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "5dc47c31-4d6b-4074-807c-1a935e9274ed",
+                  "label": "第十八章 电功率"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "15e4c61d-15e3-440a-b21f-62c0422ff173",
+                  "label": "电功率"
+                }
+              ],
+              "sortKey": "006_002"
+            },
+            {
+              "lessonId": "f324a61071aba55866124fb5e828e40e",
+              "lessonLabel": "测量小灯泡的电功率",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/5dc47c31-4d6b-4074-807c-1a935e9274ed/e7249da9-f723-4295-82c6-2d646fab7aaf",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "5dc47c31-4d6b-4074-807c-1a935e9274ed",
+                  "label": "第十八章 电功率"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "e7249da9-f723-4295-82c6-2d646fab7aaf",
+                  "label": "测量小灯泡的电功率"
+                }
+              ],
+              "sortKey": "006_003"
+            },
+            {
+              "lessonId": "4bf63d982fde7339c0768adc612d6ed1",
+              "lessonLabel": "焦耳定律",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/5dc47c31-4d6b-4074-807c-1a935e9274ed/7899e688-10fd-4eb1-98fa-20d6ba8c37b2",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "5dc47c31-4d6b-4074-807c-1a935e9274ed",
+                  "label": "第十八章 电功率"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "7899e688-10fd-4eb1-98fa-20d6ba8c37b2",
+                  "label": "焦耳定律"
+                }
+              ],
+              "sortKey": "006_004"
+            }
+          ]
+        },
+        {
+          "chapterId": "d4c8cda2-5970-4181-9b2a-29944c712a69",
+          "chapterLabel": "第十九章 生活用电",
+          "chapterOrder": 7,
+          "lessons": [
+            {
+              "lessonId": "b40c3884c0158126d213b7b236347f34",
+              "lessonLabel": "家庭电路（第一课时）",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/d4c8cda2-5970-4181-9b2a-29944c712a69/47b25f5f-5904-44af-8f1b-2f8a0f0c2c52",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "d4c8cda2-5970-4181-9b2a-29944c712a69",
+                  "label": "第十九章 生活用电"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "47b25f5f-5904-44af-8f1b-2f8a0f0c2c52",
+                  "label": "家庭电路（第一课时）"
+                }
+              ],
+              "sortKey": "007_001"
+            },
+            {
+              "lessonId": "b2a30d79ad6cf96ef9e203a2661fc4ea",
+              "lessonLabel": "家庭电路（第二课时）",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/d4c8cda2-5970-4181-9b2a-29944c712a69/20e34c98-d0b6-4345-9dc4-203d2fce73d7",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "d4c8cda2-5970-4181-9b2a-29944c712a69",
+                  "label": "第十九章 生活用电"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "20e34c98-d0b6-4345-9dc4-203d2fce73d7",
+                  "label": "家庭电路（第二课时）"
+                }
+              ],
+              "sortKey": "007_002"
+            },
+            {
+              "lessonId": "29f500c1e0f41885b3dfac5ab2cb08d8",
+              "lessonLabel": "家庭电路中电流过大的原因",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/d4c8cda2-5970-4181-9b2a-29944c712a69/fcb83318-043f-46aa-8783-6033c32063f6",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "d4c8cda2-5970-4181-9b2a-29944c712a69",
+                  "label": "第十九章 生活用电"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "fcb83318-043f-46aa-8783-6033c32063f6",
+                  "label": "家庭电路中电流过大的原因"
+                }
+              ],
+              "sortKey": "007_003"
+            },
+            {
+              "lessonId": "f1402ad031ec8970e67d529814c513a3",
+              "lessonLabel": "安全用电",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/d4c8cda2-5970-4181-9b2a-29944c712a69/afde9074-d4dc-4e6b-8dff-15fbe18fc230",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "d4c8cda2-5970-4181-9b2a-29944c712a69",
+                  "label": "第十九章 生活用电"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "afde9074-d4dc-4e6b-8dff-15fbe18fc230",
+                  "label": "安全用电"
+                }
+              ],
+              "sortKey": "007_004"
+            }
+          ]
+        },
+        {
+          "chapterId": "4f89b0b5-dd00-4f5b-9e59-9821ad6770f3",
+          "chapterLabel": "第二十章 电与磁",
+          "chapterOrder": 8,
+          "lessons": [
+            {
+              "lessonId": "de879c5e0ef0a2f2d166c891df6000c0",
+              "lessonLabel": "磁现象　磁场（第一课时）",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/4f89b0b5-dd00-4f5b-9e59-9821ad6770f3/0b5970ed-d719-468e-9460-b619456b64e8",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "4f89b0b5-dd00-4f5b-9e59-9821ad6770f3",
+                  "label": "第二十章 电与磁"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "0b5970ed-d719-468e-9460-b619456b64e8",
+                  "label": "磁现象　磁场（第一课时）"
+                }
+              ],
+              "sortKey": "008_001"
+            },
+            {
+              "lessonId": "01a8445833f49206765ca6252c0009ee",
+              "lessonLabel": "磁现象　磁场（第二课时）",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/4f89b0b5-dd00-4f5b-9e59-9821ad6770f3/cc8ea550-2c45-40a5-a41c-3e8b1c48f6a9",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "4f89b0b5-dd00-4f5b-9e59-9821ad6770f3",
+                  "label": "第二十章 电与磁"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "cc8ea550-2c45-40a5-a41c-3e8b1c48f6a9",
+                  "label": "磁现象　磁场（第二课时）"
+                }
+              ],
+              "sortKey": "008_002"
+            },
+            {
+              "lessonId": "7dc537ee284e13cc8523f980ff75f4ed",
+              "lessonLabel": "电生磁（第一课时）",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/4f89b0b5-dd00-4f5b-9e59-9821ad6770f3/1c0e0e8b-2075-49bc-a77b-992ce41550e1",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "4f89b0b5-dd00-4f5b-9e59-9821ad6770f3",
+                  "label": "第二十章 电与磁"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "1c0e0e8b-2075-49bc-a77b-992ce41550e1",
+                  "label": "电生磁（第一课时）"
+                }
+              ],
+              "sortKey": "008_003"
+            },
+            {
+              "lessonId": "648df27e0b20deedb99da780a1d8c392",
+              "lessonLabel": "电生磁（第二课时）",
+              "lessonOrder": 4,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/4f89b0b5-dd00-4f5b-9e59-9821ad6770f3/76b16d95-cc93-44db-8fb5-68f232296389",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "4f89b0b5-dd00-4f5b-9e59-9821ad6770f3",
+                  "label": "第二十章 电与磁"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "76b16d95-cc93-44db-8fb5-68f232296389",
+                  "label": "电生磁（第二课时）"
+                }
+              ],
+              "sortKey": "008_004"
+            },
+            {
+              "lessonId": "b0aa70618ae5682fdbf2f7cde83bc6d1",
+              "lessonLabel": "电磁铁　电磁继电器",
+              "lessonOrder": 5,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/4f89b0b5-dd00-4f5b-9e59-9821ad6770f3/97a26f85-662c-493d-8f5b-f0e8ff598a04",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "4f89b0b5-dd00-4f5b-9e59-9821ad6770f3",
+                  "label": "第二十章 电与磁"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "97a26f85-662c-493d-8f5b-f0e8ff598a04",
+                  "label": "电磁铁　电磁继电器"
+                }
+              ],
+              "sortKey": "008_005"
+            },
+            {
+              "lessonId": "65c065b3deda27de0fd5062f436a4bce",
+              "lessonLabel": "电动机（第一课时）",
+              "lessonOrder": 6,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/4f89b0b5-dd00-4f5b-9e59-9821ad6770f3/41d8204b-18fd-4d7b-80e1-7b83fcc53607",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "4f89b0b5-dd00-4f5b-9e59-9821ad6770f3",
+                  "label": "第二十章 电与磁"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "41d8204b-18fd-4d7b-80e1-7b83fcc53607",
+                  "label": "电动机（第一课时）"
+                }
+              ],
+              "sortKey": "008_006"
+            },
+            {
+              "lessonId": "d0033a88f81182e274081fbfbfaea1c4",
+              "lessonLabel": "电动机（第二课时）",
+              "lessonOrder": 7,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/4f89b0b5-dd00-4f5b-9e59-9821ad6770f3/52f3bd6b-246e-4ad0-8630-643986900f78",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "4f89b0b5-dd00-4f5b-9e59-9821ad6770f3",
+                  "label": "第二十章 电与磁"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "52f3bd6b-246e-4ad0-8630-643986900f78",
+                  "label": "电动机（第二课时）"
+                }
+              ],
+              "sortKey": "008_007"
+            },
+            {
+              "lessonId": "d8d9e6c06c0b05be8424f124bf191658",
+              "lessonLabel": "磁生电（第一课时）",
+              "lessonOrder": 8,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/4f89b0b5-dd00-4f5b-9e59-9821ad6770f3/e8b52fe7-ecb5-413e-bbde-df2e87e7e4cf",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "4f89b0b5-dd00-4f5b-9e59-9821ad6770f3",
+                  "label": "第二十章 电与磁"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "e8b52fe7-ecb5-413e-bbde-df2e87e7e4cf",
+                  "label": "磁生电（第一课时）"
+                }
+              ],
+              "sortKey": "008_008"
+            },
+            {
+              "lessonId": "05e9f6da34f0cd438c296f64a0f3daae",
+              "lessonLabel": "磁生电（第二课时）",
+              "lessonOrder": 9,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/4f89b0b5-dd00-4f5b-9e59-9821ad6770f3/69179132-a3cd-4d37-96c6-eec8315d68c9",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "4f89b0b5-dd00-4f5b-9e59-9821ad6770f3",
+                  "label": "第二十章 电与磁"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "69179132-a3cd-4d37-96c6-eec8315d68c9",
+                  "label": "磁生电（第二课时）"
+                }
+              ],
+              "sortKey": "008_009"
+            }
+          ]
+        },
+        {
+          "chapterId": "53632bf1-bf9b-4cb5-a877-ff7b83a960b5",
+          "chapterLabel": "科学探究",
+          "chapterOrder": 9,
+          "lessons": [
+            {
+              "lessonId": "bddbc22f648729092b3fa2b0613eb6a7",
+              "lessonLabel": "怎样提出可探究的科学问题",
+              "lessonOrder": 1,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/53632bf1-bf9b-4cb5-a877-ff7b83a960b5/3c6827e1-cd3d-4728-99df-ad2388d0aa18",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "53632bf1-bf9b-4cb5-a877-ff7b83a960b5",
+                  "label": "科学探究"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "3c6827e1-cd3d-4728-99df-ad2388d0aa18",
+                  "label": "怎样提出可探究的科学问题"
+                }
+              ],
+              "sortKey": "009_001"
+            },
+            {
+              "lessonId": "505814230ffcec43a057c3923d55e8d8",
+              "lessonLabel": "怎样设计实验",
+              "lessonOrder": 2,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/53632bf1-bf9b-4cb5-a877-ff7b83a960b5/781c6cf6-d0ff-4504-82c0-e1d8fe87d5e9",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "53632bf1-bf9b-4cb5-a877-ff7b83a960b5",
+                  "label": "科学探究"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "781c6cf6-d0ff-4504-82c0-e1d8fe87d5e9",
+                  "label": "怎样设计实验"
+                }
+              ],
+              "sortKey": "009_002"
+            },
+            {
+              "lessonId": "ca7f7183c434d6cfd83e3596e668d907",
+              "lessonLabel": "从电路开关走向人工智能",
+              "lessonOrder": 3,
+              "platformTag": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5/44bec0c6-54e6-11ed-9c34-850ba61fa9f4/e7bbcfee-0590-11ed-9c79-92fc3b3249d5/ff8080814371757b01437c363a187b0a/8ae7e58b77b3bac901783dd80dee0c44/53632bf1-bf9b-4cb5-a877-ff7b83a960b5/f9f69d47-86d5-438f-9909-41e0a2f22195",
+              "platformTagPath": [
+                {
+                  "level": "stage",
+                  "tagId": "e7bbce2c-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "初中"
+                },
+                {
+                  "level": "grade",
+                  "tagId": "44bec0c6-54e6-11ed-9c34-850ba61fa9f4",
+                  "label": "九年级"
+                },
+                {
+                  "level": "subject",
+                  "tagId": "e7bbcfee-0590-11ed-9c79-92fc3b3249d5",
+                  "label": "物理"
+                },
+                {
+                  "level": "version",
+                  "tagId": "ff8080814371757b01437c363a187b0a",
+                  "label": "人教版"
+                },
+                {
+                  "level": "volume",
+                  "tagId": "8ae7e58b77b3bac901783dd80dee0c44",
+                  "label": "全一册"
+                },
+                {
+                  "level": "chapter",
+                  "tagId": "53632bf1-bf9b-4cb5-a877-ff7b83a960b5",
+                  "label": "科学探究"
+                },
+                {
+                  "level": "lesson",
+                  "tagId": "f9f69d47-86d5-438f-9909-41e0a2f22195",
+                  "label": "从电路开关走向人工智能"
+                }
+              ],
+              "sortKey": "009_003"
             }
           ]
         }

@@ -1,0 +1,8 @@
+<view class="wrap">
+  <view class="h1">综合卷</view>
+  <view class="muted">中途不给解析。及格 80%，一期不兑心愿。</view>
+  <button class="btn" bindtap="compose">组卷</button>
+  <view class="card" wx:for="{{questions}}" wx:key="questionId">{{item.stem}}</view>
+  <button class="btn" bindtap="submit" wx:if="{{questions.length}}">交卷（按全对试）</button>
+  <view class="muted">{{msg}}</view>
+</view>

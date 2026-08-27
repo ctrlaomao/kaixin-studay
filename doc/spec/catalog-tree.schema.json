@@ -20,7 +20,7 @@
   "$defs": {
     "platformLevel": {
       "type": "string",
-      "enum": ["stage", "grade", "subject", "version", "volume", "chapter", "lesson"]
+      "enum": ["stage", "grade", "subject", "version", "volume", "textbookKind", "chapter", "lesson"]
     },
     "platformTagPathItem": {
       "type": "object",
@@ -103,6 +103,8 @@
         "versionLabel": { "type": "string", "minLength": 1 },
         "volumeId": { "type": "string", "minLength": 1 },
         "volumeLabel": { "type": "string", "minLength": 1 },
+        "textbookKindId": { "type": "string" },
+        "textbookKindLabel": { "type": "string" },
         "platformTag": {
           "type": "string",
           "minLength": 1,

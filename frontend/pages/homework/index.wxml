@@ -1,0 +1,7 @@
+<view class="wrap">
+  <view class="h1">拍照作业</view>
+  <button class="btn" bindtap="choose">选图并压缩上传</button>
+  <view class="muted">{{msg}}</view>
+  <button class="btn" bindtap="submit" wx:if="{{fileIDs.length}}">创建批次</button>
+  <button class="btn" bindtap="goRec" wx:if="{{fileIDs.length}}">去识别</button>
+</view>

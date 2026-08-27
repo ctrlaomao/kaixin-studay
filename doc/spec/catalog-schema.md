@@ -9,7 +9,7 @@
 与平台 P14 / P13 一致，**固定顺序**（不得自创层级名）：
 
 ```
-学段 → 年级 → 学科 → 版本 → 册次 → 章 → 课时
+学段 → 年级 → 学科 → 版本 → 册次 → 新旧教材 → 章 → 课时
 ```
 
 | 层级 | 字段前缀 | 说明 |
@@ -22,7 +22,7 @@
 | 章 | `chapter` | 章标题；仅出现在课时记录上 |
 | 课时 | `lesson` | **打星、错题绑定、组卷、遗漏窗口的唯一知识点粒度** |
 
-一期采集范围：初中 **数学 / 物理 / 化学 / 英语**，仅平台 **已上线** 的版本与册。
+一期目录采集：初中 **七 / 八 / 九年级**，按家庭教材对照（赤峰）**每科仅指定版本**，见 `scripts/catalog-sync/lib/policy.mjs`。不采外研英语、不采人教澳门版。
 
 ## 2. platformTag
 
@@ -56,13 +56,13 @@ ff8080814371757b014390f883db0453/
 
 `level` 枚举（与顺序一致）：
 
-`stage` | `grade` | `subject` | `version` | `volume` | `chapter` | `lesson`
+`stage` | `grade` | `subject` | `version` | `volume` | `textbookKind` | `chapter` | `lesson`
 
 ### 2.2 各层 platformTag 深度
 
 | 记录类型 | `platformTag` 应覆盖到 |
 | --- | --- |
-| `catalog_edition` | 学段 → 年级 → 学科 → 版本 → **册次**（5 段，不含章、课时） |
+| `catalog_edition` | 学段 → 年级 → 学科 → 版本 → **册次** → **新旧教材**（平台 `zxxxjjc`，与同步课堂 Tab 一致） |
 | `catalog_lesson` | 学段 → … → 册次 → **章 → 课时**（完整 7 段） |
 
 采集脚本若只能拿到章、课时的 id，须在写入前拼出完整 `platformTag`；`catalogImport` upsert 时以 `platformTag` + 业务 id 做幂等键。
@@ -84,7 +84,7 @@ ff8080814371757b014390f883db0453/
 
 ## 4. 云集合 `catalog_edition`
 
-**粒度：** 一个「版本 + 册次」一条（同年级同学科下多册各一条）。
+**粒度：** 一个「版本 + 册次 + 新旧教材」一条。平台同一册分「新教材 / 旧教材」两个 Tab，各采各存。
 
 | 字段 | 类型 | 必填 | 说明 |
 | --- | --- | --- | --- |
@@ -100,8 +100,10 @@ ff8080814371757b014390f883db0453/
 | `versionLabel` | string | 是 | 版本展示名 |
 | `volumeId` | string | 是 | 平台册次 tagId |
 | `volumeLabel` | string | 是 | 册次展示名 |
-| `platformTag` | string | 是 | 至册次的 tag 路径 |
-| `platformTagPath` | array | 否 | 见 §2.1，至多 5 层 |
+| `textbookKindId` | string | 否 | 平台新旧教材 tagId（`zxxxjjc`） |
+| `textbookKindLabel` | string | 否 | `新教材` / `旧教材` |
+| `platformTag` | string | 是 | 至册次（含新旧教材）的 tag 路径 |
+| `platformTagPath` | array | 否 | 见 §2.1 |
 | `online` | boolean | 是 | 平台是否已上线；`false` 时 P13/P14 不展示 |
 | `syncAt` | Date / ISO string | 是 | 本条最后同步时间 |
 | `sourceUrl` | string | 否 | 采集复检用同步课堂 URL（含 defaultTag） |

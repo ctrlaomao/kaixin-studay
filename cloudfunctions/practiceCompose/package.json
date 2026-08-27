@@ -1,0 +1,10 @@
+{
+  "name": "practiceCompose",
+  "version": "1.0.0",
+  "private": true,
+  "description": "F14/F14b compose 3-8 practice questions, optional gaps",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.4.0"
+  }
+}

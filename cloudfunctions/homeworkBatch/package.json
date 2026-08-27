@@ -1,0 +1,10 @@
+{
+  "name": "homeworkBatch",
+  "version": "1.0.0",
+  "private": true,
+  "description": "F06A homework batch create, status 待核对",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.4.0"
+  }
+}

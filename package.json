@@ -1,0 +1,8 @@
+{
+  "name": "kaixin-studay",
+  "private": true,
+  "description": "开心补漏：纯函数测试入口（F10）",
+  "scripts": {
+    "test": "node --test tests/**/*.test.js"
+  }
+}

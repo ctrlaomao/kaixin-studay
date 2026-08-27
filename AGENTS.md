@@ -2,7 +2,7 @@
 
 ## 这是什么
 
-家庭自用微信小程序「开心补漏」：拍照错题 → 同步课堂课时打星 → 补练 → 心愿综合卷。体验版不发布。
+家庭自用微信小程序「开心补漏」：拍照错题 → 同步课堂课时打星 → 补练 → 综合卷检验。体验版不发布。一期不做兑心愿、不做费曼。
 
 ## 必读
 
@@ -12,7 +12,7 @@
 - `doc/spec/ADR-004-同步课堂目录采集.md`
 - `doc/spec/ADR-005-前端只走HTTP后端.md`
 
-云开发实现前必读技能：`C:/Users/admin/.agents/skills/cloudbase/SKILL.md`，以及 `references/cloud-functions`、`http-api-cloudbase`、`auth-wechat-miniprogram`。**本产品前端仍禁止 callFunction，以 ADR-005 为准。**
+云开发实现前必读技能：`C:/Users/admin/.agents/skills/cloudbase/SKILL.md`，以及 `references/cloud-functions`、`http-api-cloudbase`、`auth-wechat-miniprogram`。**小程序经封装 `callFunction`，禁止客户端直写云库，以 ADR-005 为准。**
 
 安装（缺技能时）：
 
@@ -35,7 +35,7 @@ npx skills add tencentcloudbase/cloudbase-skills -g -y
 
 ## 实现纪律
 
-一次只做 `tasks/todo.md` 下一张未完成项。先波次 A（普通云函数），再波次 B。小程序对接云开发 `callFunction`，不自建服务器，禁止客户端直写云库。今日页只插槽。密钥不进 git。禁止微信提交审核。一期不做费曼模块。
+一次只做 `tasks/todo.md` 下一张未完成项。先波次 A（普通云函数），再波次 B。小程序对接云开发 `callFunction`，不自建服务器，禁止客户端直写云库。今日页只插槽。密钥不进 git。禁止微信提交审核。一期不做费曼模块、不做兑心愿。
 
 ## 官方文档（S4+）
 

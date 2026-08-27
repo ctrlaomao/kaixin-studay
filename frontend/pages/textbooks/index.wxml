@@ -1,0 +1,8 @@
+<view class="wrap">
+  <view class="h1">教材版本</view>
+  <input placeholder="subjectKey 如 math" bindinput="onS" />
+  <input placeholder="editionId" bindinput="onE" />
+  <input placeholder="chapterId" bindinput="onC" />
+  <button class="btn" bindtap="save">保存版本与进度章</button>
+  <view class="muted">{{msg}}</view>
+</view>

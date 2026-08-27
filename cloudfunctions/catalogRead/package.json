@@ -1,0 +1,10 @@
+{
+  "name": "catalogRead",
+  "version": "1.0.0",
+  "private": true,
+  "description": "F02A read-only catalog_edition / catalog_lesson queries",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.4.0"
+  }
+}

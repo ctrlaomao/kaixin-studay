@@ -1,0 +1,10 @@
+<view class="wrap">
+  <view class="h1">补练</view>
+  <button class="btn" bindtap="compose">组卷</button>
+  <view class="card" wx:for="{{questions}}" wx:key="questionId">
+    <view>{{item.stem}}</view>
+    <switch bindchange="mark" data-id="{{item.questionId}}" /> 我答对了
+  </view>
+  <button class="btn" bindtap="submit" wx:if="{{questions.length}}">交卷</button>
+  <view class="muted">{{msg}}</view>
+</view>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>开心补漏 · 项目进度</title>
+  <style>
+    :root {
+      --teal: #0f766e;
+      --teal-d: #115e59;
+      --amber: #d97706;
+      --bg: #f4f1ea;
+      --card: #fff;
+      --ink: #1c1917;
+      --muted: #78716c;
+      --line: #e7e5e4;
+      --ok: #0f766e;
+      --run: #d97706;
+      --wait: #a8a29e;
+      --skip: #64748b;
+      --p2: #7c3aed;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.45;
+    }
+    header {
+      background: linear-gradient(135deg, var(--teal-d), var(--teal));
+      color: #fff;
+      padding: 28px 24px 36px;
+    }
+    header h1 { margin: 0 0 8px; font-size: 1.55rem; font-weight: 700; }
+    header p { margin: 0; opacity: 0.9; font-size: 0.95rem; }
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 0 16px 48px; }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-top: -22px;
+    }
+    .stat {
+      background: var(--card);
+      border-radius: 16px;
+      padding: 16px;
+      box-shadow: 0 8px 24px rgba(15, 118, 110, 0.08);
+    }
+    .stat b { display: block; font-size: 1.6rem; color: var(--teal); }
+    .stat span { color: var(--muted); font-size: 0.82rem; }
+    .bar-wrap { margin-top: 20px; background: var(--card); border-radius: 16px; padding: 18px 20px; }
+    .bar-wrap h2 { margin: 0 0 10px; font-size: 1rem; }
+    .bar { height: 14px; background: #e7e5e4; border-radius: 99px; overflow: hidden; display: flex; }
+    .bar i { display: block; height: 100%; }
+    .bar .done { background: var(--ok); }
+    .bar .run { background: var(--amber); }
+    .legend { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 10px; font-size: 0.8rem; color: var(--muted); }
+    .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 4px; vertical-align: middle; }
+    .pipe {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      margin-top: 16px;
+    }
+    .pipe div {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 12px;
+      font-size: 0.85rem;
+      border-left: 4px solid var(--line);
+    }
+    .pipe .on { border-left-color: var(--amber); }
+    .pipe .ok { border-left-color: var(--ok); }
+    .pipe .later { border-left-color: var(--p2); opacity: 0.85; }
+    .pipe strong { display: block; margin-bottom: 4px; }
+    .next {
+      margin-top: 16px;
+      background: #fff7ed;
+      border: 1px solid #fdba74;
+      border-radius: 12px;
+      padding: 14px 16px;
+    }
+    .filters { display: flex; gap: 8px; flex-wrap: wrap; margin: 22px 0 12px; }
+    .filters button {
+      border: 1px solid var(--line);
+      background: #fff;
+      border-radius: 999px;
+      padding: 6px 12px;
+      cursor: pointer;
+      font-size: 0.85rem;
+    }
+    .filters button.on { background: var(--teal); color: #fff; border-color: var(--teal); }
+    h2.sec { font-size: 1.05rem; margin: 22px 0 10px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
+    .card {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+    }
+    .card .id { font-weight: 700; font-size: 0.82rem; }
+    .card .name { font-size: 0.9rem; margin: 4px 0 8px; }
+    .tag {
+      display: inline-block;
+      font-size: 0.72rem;
+      padding: 2px 8px;
+      border-radius: 999px;
+      color: #fff;
+    }
+    .s-done { background: var(--ok); }
+    .s-run { background: var(--amber); }
+    .s-todo { background: var(--wait); }
+    .s-ready { background: #0ea5e9; }
+    .s-skip { background: var(--skip); }
+    .s-p2 { background: var(--p2); }
+    footer { text-align: center; color: var(--muted); font-size: 0.8rem; padding: 8px 16px 32px; }
+    @media (max-width: 720px) {
+      .stats, .pipe { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>开心补漏 · 项目进度</h1>
+      <p>家庭错题补漏体验版 · 一期：拍照 → 课时打星 → 补练 → 综合卷检验 · 兑心愿/费曼为二期</p>
+    </div>
+  </header>
+  <div class="wrap">
+    <div class="stats" id="stats"></div>
+    <div class="bar-wrap">
+      <h2>一期任务完成度（不含二期、不含已取消卡）</h2>
+      <div class="bar" id="bar"></div>
+      <div class="legend">
+        <span><i style="background:var(--ok)"></i>已完成</span>
+        <span><i style="background:var(--amber)"></i>进行中</span>
+        <span><i style="background:#0ea5e9"></i>代码就绪待验收</span>
+        <span><i style="background:var(--wait)"></i>未开始</span>
+        <span><i style="background:var(--skip)"></i>跳过/取消</span>
+        <span><i style="background:var(--p2)"></i>二期</span>
+      </div>
+      <div class="pipe">
+        <div class="ok"><strong>1. 地基</strong>目录已导入云库</div>
+        <div class="ok"><strong>2. 识图</strong>DeepSeek + mock 结构化 JSON</div>
+        <div class="ok"><strong>3. 家庭与打星</strong>档案/角色/计时/错题/组卷/综合卷云函数已写</div>
+        <div class="ok"><strong>4. 页面</strong>四 Tab + 作业/核对/补练/综合卷已接线</div>
+      </div>
+      <div class="next">
+        <strong>建议下一步：</strong>按 <code>doc/plan/S10-体验版交付清单.md</code> 上传全部云函数并走通预览。一期代码卡已齐。
+      </div>
+    </div>
+    <div class="filters" id="filters"></div>
+    <h2 class="sec">波次 A · 后端</h2>
+    <div class="grid" id="gridA"></div>
+    <h2 class="sec">波次 B · 前端</h2>
+    <div class="grid" id="gridB"></div>
+    <h2 class="sec">交付</h2>
+    <div class="grid" id="gridS"></div>
+    <h2 class="sec">二期（不进当前队列）</h2>
+    <div class="grid" id="grid2"></div>
+  </div>
+  <footer>数据与 <code>tasks/todo.md</code> / 阶段日志对齐 · 更新 2026-08-27 · 勾选变化后请改本页 CARDS 数组</footer>
+  <script>
+    const CARDS = [
+      { id: "F00b", name: "云开发 ping", wave: "A", status: "done" },
+      { id: "F00d", name: "目录数据模型", wave: "A", status: "done" },
+      { id: "F00e", name: "采集公开目录样本", wave: "A", status: "done" },
+      { id: "F00g", name: "目录写入云数据库", wave: "A", status: "done" },
+      { id: "F00c", name: "示例目录 JSON", wave: "A", status: "skip" },
+      { id: "F00h", name: "HTTP 网关", wave: "A", status: "skip" },
+      { id: "F10", name: "打星纯函数+测试", wave: "A", status: "done" },
+      { id: "F01A", name: "孩子档案 API", wave: "A", status: "done" },
+      { id: "F02A", name: "教材版本/进度章", wave: "A", status: "done" },
+      { id: "F03A", name: "家庭成员与角色", wave: "A", status: "done" },
+      { id: "F04A", name: "计时云函数", wave: "A", status: "done" },
+      { id: "F06A", name: "作业批次", wave: "A", status: "done" },
+      { id: "F07", name: "AI 识图 DeepSeek", wave: "A", status: "done" },
+      { id: "F09A", name: "错题入库", wave: "A", status: "done" },
+      { id: "F11", name: "新错写 1 星", wave: "A", status: "done" },
+      { id: "F12A", name: "错题列表", wave: "A", status: "done" },
+      { id: "F13A", name: "改绑课时", wave: "A", status: "done" },
+      { id: "F14", name: "今日待练组卷", wave: "A", status: "done" },
+      { id: "F17", name: "遗漏探测", wave: "A", status: "done" },
+      { id: "F14b", name: "并入遗漏题", wave: "A", status: "done" },
+      { id: "F16A", name: "补练交卷", wave: "A", status: "done" },
+      { id: "F18A", name: "掌握度概览", wave: "A", status: "done" },
+      { id: "F20A", name: "在线练习时长", wave: "A", status: "done" },
+      { id: "F24A", name: "满星统计", wave: "A", status: "done" },
+      { id: "F25", name: "综合卷组卷", wave: "A", status: "done" },
+      { id: "F27A", name: "综合卷交卷", wave: "A", status: "done" },
+      { id: "F00a", name: "Uni-app 四 Tab", wave: "B", status: "done" },
+      { id: "F00f", name: "P14 目录展示", wave: "B", status: "done" },
+      { id: "F01B", name: "孩子档案页", wave: "B", status: "done" },
+      { id: "F02B", name: "教材版本页", wave: "B", status: "done" },
+      { id: "F03B", name: "家庭成员 UI", wave: "B", status: "done" },
+      { id: "F04B", name: "计时组件", wave: "B", status: "done" },
+      { id: "F05", name: "拍照上传压缩", wave: "B", status: "done" },
+      { id: "F06B", name: "批次提交按钮", wave: "B", status: "done" },
+      { id: "F08", name: "识别核对页", wave: "B", status: "done" },
+      { id: "F09B", name: "核对入库接线", wave: "B", status: "done" },
+      { id: "F12B", name: "错题本列表", wave: "B", status: "done" },
+      { id: "F13B", name: "错题详情", wave: "B", status: "done" },
+      { id: "F15", name: "补练答题页", wave: "B", status: "done" },
+      { id: "F16B", name: "补练结果小结", wave: "B", status: "done" },
+      { id: "F18B", name: "掌握度页", wave: "B", status: "done" },
+      { id: "F19", name: "章节课时树", wave: "B", status: "done" },
+      { id: "F20B", name: "在线时长文案", wave: "B", status: "done" },
+      { id: "F21", name: "今日待办聚合", wave: "B", status: "done" },
+      { id: "F24B", name: "满星可考入口", wave: "B", status: "done" },
+      { id: "F26", name: "综合卷作答", wave: "B", status: "done" },
+      { id: "F27B", name: "综合卷结果页", wave: "B", status: "done" },
+      { id: "S8", name: "验证报告", wave: "S", status: "done" },
+      { id: "S9", name: "评审报告", wave: "S", status: "done" },
+      { id: "S10", name: "体验版交付清单", wave: "S", status: "done" },
+      { id: "F22", name: "心愿保存 / UI", wave: "P2", status: "p2" },
+      { id: "F23", name: "许愿", wave: "P2", status: "p2" },
+      { id: "F28", name: "家长兑现", wave: "P2", status: "p2" }
+    ];
+    const LABEL = {
+      done: "已完成", run: "进行中", ready: "待验收", todo: "未开始", skip: "跳过/取消", p2: "二期"
+    };
+    const CLS = { done: "s-done", run: "s-run", ready: "s-ready", todo: "s-todo", skip: "s-skip", p2: "s-p2" };
+    const phase1 = CARDS.filter((c) => c.wave !== "P2");
+    const countable = phase1.filter((c) => c.status !== "skip");
+    const nDone = countable.filter((c) => c.status === "done").length;
+    const nRun = countable.filter((c) => c.status === "run" || c.status === "ready").length;
+    const nTodo = countable.filter((c) => c.status === "todo").length;
+    const pct = Math.round((nDone / countable.length) * 100);
+    document.getElementById("stats").innerHTML = [
+      ["一期完成", nDone + " / " + countable.length, pct + "%"],
+      ["进行中 / 待验收", String(nRun), "仅待开发者工具上传"],
+      ["未开始", String(nTodo), "含全部前端"],
+      ["二期搁置", "3 卡", "兑心愿"]
+    ].map(([k, v, s]) => `<div class="stat"><b>${v}</b><span>${k}<br>${s}</span></div>`).join("");
+    const wDone = (nDone / countable.length) * 100;
+    const wRun = (nRun / countable.length) * 100;
+    document.getElementById("bar").innerHTML =
+      `<i class="done" style="width:${wDone}%"></i><i class="run" style="width:${wRun}%"></i>`;
+    let filter = "all";
+    function paint() {
+      const show = (c) => filter === "all" || c.status === filter || (filter === "open" && (c.status === "todo" || c.status === "run" || c.status === "ready"));
+      const cardHtml = (c) =>
+        `<article class="card" data-s="${c.status}"><div class="id">${c.id}</div><div class="name">${c.name}</div><span class="tag ${CLS[c.status]}">${LABEL[c.status]}</span></article>`;
+      const fill = (id, wave) => {
+        document.getElementById(id).innerHTML = CARDS.filter((c) => c.wave === wave && show(c)).map(cardHtml).join("") || "<p style='color:#78716c'>无</p>";
+      };
+      fill("gridA", "A");
+      fill("gridB", "B");
+      fill("gridS", "S");
+      fill("grid2", "P2");
+    }
+    const filters = [
+      ["all", "全部"],
+      ["open", "进行中+未开始"],
+      ["done", "已完成"],
+      ["run", "进行中"],
+      ["ready", "待验收"],
+      ["todo", "未开始"],
+      ["p2", "二期"]
+    ];
+    const fl = document.getElementById("filters");
+    filters.forEach(([k, lab], i) => {
+      const b = document.createElement("button");
+      b.textContent = lab;
+      if (i === 0) b.className = "on";
+      b.onclick = () => {
+        filter = k;
+        [...fl.children].forEach((x) => x.classList.remove("on"));
+        b.classList.add("on");
+        paint();
+      };
+      fl.appendChild(b);
+    });
+    paint();
+  </script>
+</body>
+</html>

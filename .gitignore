@@ -5,3 +5,4 @@ node_modules/
 *.pem
 credentials.json
 cloudfunctions/**/node_modules/
+cloudfunctions/catalogImport/trees/

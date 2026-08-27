@@ -1,0 +1,10 @@
+{
+  "name": "examCompose",
+  "version": "1.0.0",
+  "private": true,
+  "description": "F25 exam compose 15-25 covering full-star lessons",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.4.0"
+  }
+}

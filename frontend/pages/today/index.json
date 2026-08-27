@@ -1,0 +1,6 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "检查",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark"
+}

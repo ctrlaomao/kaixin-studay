@@ -1,5 +1,13 @@
 App({
+  globalData: {
+    env: "cloudbase-d7ggaqrps717e5be9",
+    childId: "",
+  },
   onLaunch() {
-    // 一期禁止 wx.cloud.init / callFunction；业务只走 HTTP（ADR-005）
+    if (!wx.cloud) return;
+    wx.cloud.init({
+      env: this.globalData.env,
+      traceUser: true,
+    });
   },
 });

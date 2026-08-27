@@ -1,0 +1,10 @@
+{
+  "name": "examSubmit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "F27A exam submit pass/fail cooldown no wish",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.4.0"
+  }
+}

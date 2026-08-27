@@ -1,0 +1,14 @@
+<view class="wrap">
+  <view class="h1">批改结果</view>
+  <view class="muted" wx:if="{{mocked}}">演示识别（未走真实模型）</view>
+  <view class="card" wx:for="{{questions}}" wx:key="idx">
+    <view class="stem">{{item.stem}}</view>
+    <view class="muted">{{item.isWrong === false ? "判对，不入库" : "判错"}}</view>
+    <view class="muted">{{item.subject || ""}} · {{item.grade || ""}} · {{item.volume || ""}}</view>
+    <view>{{item.lessonLabel || item.lessonHint || "未挂课时"}}</view>
+    <view class="muted" wx:if="{{item.needConfirm}}">需确认后才作为高置信入库</view>
+  </view>
+  <view class="muted" wx:if="{{loading}}">加载中…</view>
+  <button class="btn" bindtap="save" wx:if="{{questions.length}}">记入错题本</button>
+  <view class="muted">{{msg}}</view>
+</view>

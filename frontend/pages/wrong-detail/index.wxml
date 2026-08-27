@@ -1,0 +1,11 @@
+<view class="wrap">
+  <view class="h1">错题详情</view>
+  <view class="card" wx:if="{{item}}">
+    <view>{{item.stem}}</view>
+    <view class="muted">{{item.gradeLabel}} {{item.volumeLabel}} {{item.subjectKey}}</view>
+    <view>{{item.lessonLabel || item.lessonId || "未挂课时"}}</view>
+  </view>
+  <input placeholder="改绑课时 lessonId（可选）" bindinput="onL" value="{{lessonId}}" />
+  <button class="btn" bindtap="save" wx:if="{{lessonId}}">改绑课时</button>
+  <view class="muted">{{msg}}</view>
+</view>

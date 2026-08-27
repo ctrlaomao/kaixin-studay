@@ -7,7 +7,11 @@ const TAG_DIM = {
   subject: "zxxxk",
   version: "zxxbb",
   volume: "zxxcc",
+  textbookKind: "zxxxjjc",
 };
+
+const BROWSER_UA =
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36";
 
 export function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
@@ -16,10 +20,15 @@ export function sleep(ms) {
 export async function fetchJson(url, { retries = 2 } = {}) {
   for (let i = 0; i <= retries; i++) {
     const res = await fetch(url, {
-      headers: { "user-agent": "kaixin-catalog-sync/1.0 (metadata only)" },
+      headers: { "user-agent": BROWSER_UA, accept: "application/json,*/*" },
     });
     if (res.ok) {
       return res.json();
+    }
+    if (res.status === 403 || res.status === 404) {
+      const err = new Error(`fetch_failed_${res.status}: ${url}`);
+      err.status = res.status;
+      throw err;
     }
     if (i < retries) await sleep(500 * (i + 1));
   }
@@ -46,18 +55,18 @@ export function pickEditionTags(tagList) {
   const subject = tagByDimension(tagList, TAG_DIM.subject);
   const version = tagByDimension(tagList, TAG_DIM.version);
   const volume = tagByDimension(tagList, TAG_DIM.volume);
+  const textbookKind = tagByDimension(tagList, TAG_DIM.textbookKind) || {
+    tag_dimension_id: TAG_DIM.textbookKind,
+    tag_id: "unknown",
+    tag_name: "未标注",
+  };
   if (!stage || !grade || !subject || !version || !volume) return null;
-  return { stage, grade, subject, version, volume };
+  return { stage, grade, subject, version, volume, textbookKind };
 }
 
-export function subjectKeyFromName(name) {
-  const n = String(name || "");
-  if (n.includes("数学")) return "math";
-  if (n.includes("物理")) return "physics";
-  if (n.includes("化学")) return "chemistry";
-  if (n === "英语" || n.startsWith("英语")) return "english";
-  return null;
-}
+import { gradeAllowed, subjectKeyFromName, versionAllowed } from "./policy.mjs";
+
+export { subjectKeyFromName };
 
 export function filterJuniorMaterials(items, subjectKeys) {
   const allowed = new Set(subjectKeys);
@@ -67,8 +76,10 @@ export function filterJuniorMaterials(items, subjectKeys) {
     const tags = pickEditionTags(item.tag_list);
     if (!tags) continue;
     if (tags.stage.tag_name !== "初中") continue;
+    if (!gradeAllowed(tags.grade.tag_name)) continue;
     const sk = subjectKeyFromName(tags.subject.tag_name);
     if (!sk || !allowed.has(sk)) continue;
+    if (!versionAllowed(sk, tags.version.tag_name)) continue;
     out.push({ item, tags });
   }
   return out;
@@ -76,9 +87,15 @@ export function filterJuniorMaterials(items, subjectKeys) {
 
 export async function fetchActivitySetId(teachingMaterialId, delayMs) {
   const url = `https://s-file-1.ykt.cbern.com.cn/zxx/s_course/v2/business_courses/${teachingMaterialId}/course_relative_infos/zh-CN.json`;
-  const data = await fetchJson(url);
-  await sleep(delayMs);
-  return data?.course_detail?.activity_set_id || null;
+  try {
+    const data = await fetchJson(url);
+    await sleep(delayMs);
+    return data?.course_detail?.activity_set_id || null;
+  } catch (e) {
+    await sleep(delayMs);
+    if (e.status === 403 || e.status === 404) return null;
+    throw e;
+  }
 }
 
 export async function fetchActivityTree(activitySetId, delayMs) {
@@ -86,6 +103,20 @@ export async function fetchActivityTree(activitySetId, delayMs) {
   const data = await fetchJson(url);
   await sleep(delayMs);
   return data;
+}
+
+/** 新教材课时清单（旧教材的 course_relative_infos 对该路径 AccessDenied）。 */
+export async function fetchNewTextbookLessons(teachingMaterialId, delayMs) {
+  const url = `https://s-file-1.ykt.cbern.com.cn/zxx/ndrs/national_lesson/teachingmaterials/${teachingMaterialId}/resources/part_100.json`;
+  try {
+    const data = await fetchJson(url);
+    await sleep(delayMs);
+    return Array.isArray(data) ? data : [];
+  } catch (e) {
+    await sleep(delayMs);
+    if (e.status === 403 || e.status === 404) return [];
+    throw e;
+  }
 }
 
 export function buildDefaultTagUrl(platformTag) {

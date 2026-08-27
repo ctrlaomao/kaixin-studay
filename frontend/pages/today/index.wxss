@@ -1,0 +1,13 @@
+.shoot {
+  margin-top: 32rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  font-size: 36rpx;
+}
+.err { color: #b45309; margin-top: 16rpx; }
+.h2 { margin-top: 40rpx; font-weight: 700; color: #0f766e; }
+.rec { margin-top: 16rpx; }
+.st { font-size: 24rpx; }
+.st-pending, .st-running, .st-queued { color: #d97706; }
+.st-done { color: #0f766e; }
+.st-error { color: #b91c1c; }

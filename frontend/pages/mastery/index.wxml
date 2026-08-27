@@ -1,0 +1,6 @@
+<view class="wrap">
+  <view class="h1">掌握度</view>
+  <button class="btn" bindtap="load">刷新</button>
+  <view class="card">{{summary}}</view>
+  <button class="btn" bindtap="goCatalog">目录与课时星</button>
+</view>

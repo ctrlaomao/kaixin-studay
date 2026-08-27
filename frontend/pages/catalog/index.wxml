@@ -1,0 +1,10 @@
+<view class="wrap">
+  <view class="h1">同步课堂目录</view>
+  <button class="btn" bindtap="loadEd">加载册次</button>
+  <view class="card" wx:for="{{editions}}" wx:key="editionId" bindtap="loadLs" data-id="{{item.editionId}}">
+    {{item.gradeLabel}} {{item.subjectLabel}} {{item.volumeLabel}} {{item.textbookKindLabel}}
+  </view>
+  <view class="card" wx:for="{{lessons}}" wx:key="lessonId">
+    {{item.chapterLabel}} · {{item.lessonLabel}}
+  </view>
+</view>

@@ -1,0 +1,9 @@
+<view class="wrap">
+  <view class="h1">错题本</view>
+  <view class="card" wx:for="{{list}}" wx:key="id" bindtap="open" data-id="{{item.id}}">
+    <view>{{item.stem}}</view>
+    <view class="muted">{{item.lessonLabel || "未挂课时"}} · {{item.subjectKey}}</view>
+    <view class="muted" wx:if="{{item.pending}}">待确认</view>
+  </view>
+  <view class="muted" wx:if="{{!list.length}}">还没有错题。去检查页拍照。</view>
+</view>

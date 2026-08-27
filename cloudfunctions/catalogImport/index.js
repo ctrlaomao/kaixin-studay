@@ -11,8 +11,9 @@ const EDITION_COL = "catalog_edition";
 const LESSON_COL = "catalog_lesson";
 const LOG_COL = "catalog_sync_log";
 
-const DEFAULT_LESSON_BATCH = 25;
+const DEFAULT_LESSON_BATCH = 80;
 const DEFAULT_EDITION_LIMIT = 1;
+const LESSON_CONCURRENCY = 8;
 
 function nowIso() {
   return new Date().toISOString();
@@ -36,6 +37,8 @@ function editionDocFromNode(edition, syncAt) {
     versionLabel: rest.versionLabel,
     volumeId: rest.volumeId,
     volumeLabel: rest.volumeLabel,
+    textbookKindId: rest.textbookKindId || "",
+    textbookKindLabel: rest.textbookKindLabel || "",
     platformTag: rest.platformTag,
     platformTagPath: rest.platformTagPath || [],
     online: rest.online !== false,
@@ -78,22 +81,50 @@ async function upsertEdition(editionFields) {
 
 async function upsertLessonsBatch(lessonDocs, offset, limit) {
   const slice = lessonDocs.slice(offset, offset + limit);
-  let upserted = 0;
-  for (const doc of slice) {
-    const id = doc.lessonId;
-    await db.collection(LESSON_COL).doc(id).set({
-      data: doc,
-    });
-    upserted += 1;
+  for (let i = 0; i < slice.length; i += LESSON_CONCURRENCY) {
+    const chunk = slice.slice(i, i + LESSON_CONCURRENCY);
+    await Promise.all(
+      chunk.map((doc) =>
+        db.collection(LESSON_COL).doc(doc.lessonId).set({
+          data: doc,
+        })
+      )
+    );
   }
-  return { upserted, total: lessonDocs.length, nextOffset: offset + upserted };
+  return { upserted: slice.length, total: lessonDocs.length, nextOffset: offset + slice.length };
+}
+
+async function ensureCollections() {
+  for (const name of [EDITION_COL, LESSON_COL, LOG_COL]) {
+    try {
+      await db.createCollection(name);
+    } catch (e) {
+      const msg = String(e.message || e);
+      if (!/already exist|已存在|-501001|DATABASE_COLLECTION_EXIST/i.test(msg)) {
+        // 集合已存在时忽略；其它错误继续尝试写入（部分环境 set 会隐式建表）
+      }
+    }
+  }
 }
 
 async function writeLog(entry) {
-  const res = await db.collection(LOG_COL).add({
-    data: entry,
-  });
-  return res._id;
+  try {
+    const res = await db.collection(LOG_COL).add({
+      data: entry,
+    });
+    return res._id;
+  } catch (e) {
+    try {
+      await db.createCollection(LOG_COL);
+      const res = await db.collection(LOG_COL).add({
+        data: entry,
+      });
+      return res._id;
+    } catch (e2) {
+      console.warn("writeLog skipped", String(e2.message || e2));
+      return null;
+    }
+  }
 }
 
 /**
@@ -109,8 +140,23 @@ exports.main = async (event = {}) => {
     return { ok: true, service: "catalogImport" };
   }
 
+  if (action === "stats") {
+    const [editions, lessons, logs] = await Promise.all([
+      db.collection(EDITION_COL).count(),
+      db.collection(LESSON_COL).count(),
+      db.collection(LOG_COL).count(),
+    ]);
+    return {
+      ok: true,
+      catalog_edition: editions.total,
+      catalog_lesson: lessons.total,
+      catalog_sync_log: logs.total,
+    };
+  }
+
   const wxContext = cloud.getWXContext();
   const operator = wxContext.OPENID || "unknown";
+  await ensureCollections();
   const syncAt = event.syncAt || nowIso();
   const lessonBatchSize = Number(event.lessonBatchSize) || DEFAULT_LESSON_BATCH;
   const editionLimit = Number(event.editionLimit) || DEFAULT_EDITION_LIMIT;
@@ -231,20 +277,110 @@ exports.main = async (event = {}) => {
       };
     }
 
+    if (action === "importBundled") {
+      const fs = require("fs");
+      const path = require("path");
+      const dir = path.join(__dirname, "trees");
+      if (!fs.existsSync(dir)) {
+        return fail("bundled_trees_missing");
+      }
+      const files = fs
+        .readdirSync(dir)
+        .filter((f) => f.startsWith("tree-") && f.endsWith(".json"))
+        .sort();
+      const idx = Number(event.fileIndex) || 0;
+      if (idx < 0 || idx >= files.length) {
+        return fail("file_index_out_of_range", { fileIndex: idx, files });
+      }
+      const sourceFile = files[idx];
+      const tree = JSON.parse(fs.readFileSync(path.join(dir, sourceFile), "utf8"));
+      const editions = tree.editions || [];
+      if (!editions.length) return fail("missing_editions", { sourceFile });
+
+      const bundledLimit =
+        event.editionLimit != null ? Number(event.editionLimit) : editions.length;
+      const slice = editions.slice(editionStart, editionStart + bundledLimit);
+      if (!slice.length) {
+        return fail("edition_range_empty", { editionStart, editionLimit: bundledLimit, sourceFile });
+      }
+
+      let editionUpserted = 0;
+      let lessonUpserted = 0;
+      let lessonTotal = 0;
+      const editionResults = [];
+
+      for (const edition of slice) {
+        await upsertEdition(editionDocFromNode(edition, syncAt));
+        editionUpserted += 1;
+        const allLessons = lessonDocsFromEdition(edition, syncAt);
+        lessonTotal += allLessons.length;
+        let offset = 0;
+        while (offset < allLessons.length) {
+          const batch = await upsertLessonsBatch(allLessons, offset, lessonBatchSize);
+          lessonUpserted += batch.upserted;
+          offset = batch.nextOffset;
+        }
+        editionResults.push({
+          editionId: edition.editionId,
+          lessons: allLessons.length,
+        });
+      }
+
+      const nextEditionStart = editionStart + slice.length;
+      const fileDone = nextEditionStart >= editions.length;
+      const finishedAt = nowIso();
+
+      if (fileDone) {
+        await writeLog({
+          batchId,
+          startedAt,
+          finishedAt,
+          editionUpserted,
+          lessonUpserted,
+          sourceFile,
+          ok: true,
+          operator,
+        });
+      }
+
+      return {
+        ok: true,
+        action: "importBundled",
+        batchId,
+        sourceFile,
+        files,
+        fileIndex: idx,
+        nextFileIndex: fileDone ? idx + 1 : idx,
+        editionUpserted,
+        lessonUpserted,
+        lessonTotal,
+        editionResults,
+        editionStart,
+        nextEditionStart,
+        fileDone,
+        allFilesDone: fileDone && idx + 1 >= files.length,
+        totalEditionsInFile: editions.length,
+      };
+    }
+
     return fail("unknown_action", { action });
   } catch (err) {
     const finishedAt = nowIso();
-    await writeLog({
-      batchId,
-      startedAt,
-      finishedAt,
-      editionUpserted: 0,
-      lessonUpserted: 0,
-      sourceFile: event.sourceFile || "",
-      ok: false,
-      error: String(err.message || err),
-      operator,
-    });
+    try {
+      await writeLog({
+        batchId,
+        startedAt,
+        finishedAt,
+        editionUpserted: 0,
+        lessonUpserted: 0,
+        sourceFile: event.sourceFile || "",
+        ok: false,
+        error: String(err.message || err),
+        operator,
+      });
+    } catch (logErr) {
+      console.warn("writeLog in catch", String(logErr.message || logErr));
+    }
     return fail("import_failed", { message: String(err.message || err) });
   }
 };

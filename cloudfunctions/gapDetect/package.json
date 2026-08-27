@@ -1,0 +1,10 @@
+{
+  "name": "gapDetect",
+  "version": "1.0.0",
+  "private": true,
+  "description": "F17 gap detect within progress chapter",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.4.0"
+  }
+}

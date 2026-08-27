@@ -1,0 +1,10 @@
+{
+  "name": "practiceSubmit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "F16A/F20A submit practice answers and durationSec",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.4.0"
+  }
+}

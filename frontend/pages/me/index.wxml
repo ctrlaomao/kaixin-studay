@@ -1,0 +1,20 @@
+<view class="wrap">
+  <view class="h1">我的</view>
+  <view class="muted">{{meText}}</view>
+  <view class="card">
+    <input placeholder="显示名" bindinput="onName" value="{{displayName}}" />
+    <input placeholder="年级 七年级" bindinput="onGrade" value="{{grade}}" />
+    <button class="btn" bindtap="addChild">添加孩子</button>
+    <button class="btn" bindtap="loadChildren">刷新孩子</button>
+    <view class="row" wx:for="{{children}}" wx:key="id" bindtap="pick" data-id="{{item.id}}">
+      <text>{{item.displayName}} {{item.grade}}</text>
+      <text class="muted">{{item.id === childId ? "当前" : "选用"}}</text>
+    </view>
+  </view>
+  <view class="card">
+    <button class="btn" bindtap="createFamily">创建家庭</button>
+    <input placeholder="邀请码" bindinput="onCode" />
+    <button class="btn" bindtap="joinFamily">加入家庭</button>
+    <button class="btn" bindtap="goTextbooks">分科教材 / 进度章</button>
+  </view>
+</view>
