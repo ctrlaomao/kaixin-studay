@@ -46,7 +46,7 @@ function jobCallLimit(doc) {
   return n > 0 ? n : 1;
 }
 
-/** keep in sync with recognizeHomework computeCanRetry */
+/** keep in sync with recognizeHomework computeCanRetry（SPEC-catalog-two-pass-vision 假设 5） */
 function computeCanRetry(job) {
   if (!job) return false;
   const status = job.status;
@@ -54,8 +54,10 @@ function computeCanRetry(job) {
   const qs = job.questions || [];
   const emptyDone = status === "done" && !qs.length;
   if (status !== "error" && !emptyDone) return false;
-  if ((Number(job.deepseekCalls) || 0) >= 2) return false;
-  if (jobCallLimit(job) !== 1) return false;
+  const limit = jobCallLimit(job);
+  const calls = Number(job.deepseekCalls) || 0;
+  if (calls < limit) return false;
+  if (limit >= 3) return false;
   return true;
 }
 

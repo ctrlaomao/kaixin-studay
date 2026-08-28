@@ -16,7 +16,9 @@ function normalizeQuestion(q) {
     }
   }
   if (!q || typeof q !== "object") return null;
-  const stem = String(q.stem || q.text || q.question || q.题干 || "").trim();
+  const stem = String(
+    q.stem || q.text || q.question || q.题干 || q.studentAnswer || q.answer || ""
+  ).trim();
   if (!stem) return null;
   const fromList = Array.isArray(q.lessonCandidates)
     ? q.lessonCandidates.map((x) => String(x).trim()).filter(Boolean)
@@ -44,10 +46,148 @@ function normalizeQuestion(q) {
     volume,
     subject,
     lessonHint,
+    lessonId: String(q.lessonId || "").trim(),
     lessonCandidates,
     confidence,
     isWrong,
   };
+}
+
+function sanitizeLessonId(id, closedList) {
+  const s = String(id || "").trim();
+  if (!s) return "";
+  return (closedList || []).some((x) => x && x.lessonId === s) ? s : "";
+}
+
+function probeFieldsFromText(text) {
+  const grab = (key) => {
+    const m = String(text).match(new RegExp('"' + key + '"\\s*:\\s*"([^"]*)'));
+    return m ? m[1].trim() : "";
+  };
+  const grade = grab("grade") || grab("gradeLabel");
+  let volume = grab("volume") || grab("volumeLabel");
+  if (volume === "上") volume = "上册";
+  if (volume === "下") volume = "下册";
+  const subject = grab("subject") || grab("subjectLabel");
+  const hints = [];
+  const hm = String(text).match(/"lessonHints"\s*:\s*\[([\s\S]*?)\]/);
+  if (hm) {
+    const inner = hm[1];
+    const re = /"([^"]+)"/g;
+    let x;
+    while ((x = re.exec(inner))) hints.push(x[1].trim());
+  }
+  return { grade, volume, subject, lessonHints: hints.filter(Boolean).slice(0, 3) };
+}
+
+function parseProbe(text) {
+  const empty = { parseOk: false, grade: "", volume: "", subject: "", lessonHints: [] };
+  if (!text || typeof text !== "string") return empty;
+  const stripped = stripFence(text);
+  const match = stripped.match(/\{[\s\S]*\}/);
+  if (match) {
+    try {
+      const obj = JSON.parse(match[0]);
+      if (obj && typeof obj === "object") {
+        const grade = String(obj.grade || obj.gradeLabel || "").trim();
+        const volume = String(obj.volume || obj.volumeLabel || "").trim();
+        const subject = String(obj.subject || obj.subjectLabel || "").trim();
+        let hints = obj.lessonHints;
+        if (typeof hints === "string") hints = [hints];
+        if (!Array.isArray(hints)) hints = [];
+        const lessonHints = hints.map((x) => String(x).trim()).filter(Boolean).slice(0, 3);
+        if (grade || volume || subject) {
+          return { parseOk: true, grade, volume, subject, lessonHints };
+        }
+      }
+    } catch (e) {
+      // 截断 JSON
+    }
+  }
+  const partial = probeFieldsFromText(stripped);
+  if (partial.grade || partial.volume || partial.subject) {
+    return { parseOk: true, ...partial };
+  }
+  return empty;
+}
+
+function questionsFromObj(obj) {
+  if (!obj || typeof obj !== "object") return null;
+  let list = obj.questions;
+  if (typeof list === "string") {
+    try {
+      list = JSON.parse(list);
+    } catch (e) {
+      list = null;
+    }
+  }
+  if (!Array.isArray(list)) return null;
+  const questions = list.map(normalizeQuestion).filter(Boolean);
+  return { questions, parseOk: true, rawCount: list.length };
+}
+
+function extractJsonSlice(str, start) {
+  let depth = 0;
+  let inStr = false;
+  let escape = false;
+  for (let i = start; i < str.length; i++) {
+    const c = str[i];
+    if (inStr) {
+      if (escape) {
+        escape = false;
+        continue;
+      }
+      if (c === "\\") {
+        escape = true;
+        continue;
+      }
+      if (c === '"') inStr = false;
+      continue;
+    }
+    if (c === '"') {
+      inStr = true;
+      continue;
+    }
+    if (c === "{") depth++;
+    else if (c === "}") {
+      depth--;
+      if (depth === 0) return str.slice(start, i + 1);
+    }
+  }
+  return "";
+}
+
+function repairJsonBackslashes(s) {
+  return String(s).replace(/\\(?!["\\/bfnrtu])/g, "\\\\");
+}
+
+function parseObject(slice) {
+  try {
+    return JSON.parse(slice);
+  } catch (e) {
+    try {
+      return JSON.parse(repairJsonBackslashes(slice));
+    } catch (e2) {
+      return null;
+    }
+  }
+}
+
+function unwrapToObject(v, depth) {
+  if (depth > 4 || v == null) return v;
+  if (typeof v === "string") {
+    const inner = parseObject(v.trim());
+    if (inner != null && inner !== v) return unwrapToObject(inner, depth + 1);
+    return v;
+  }
+  if (typeof v === "object" && !Array.isArray(v)) {
+    if (Array.isArray(v.questions)) return v;
+    if (typeof v.content === "string" || (v.content && typeof v.content === "object")) {
+      const inner = unwrapToObject(v.content, depth + 1);
+      if (inner && typeof inner === "object" && Array.isArray(inner.questions)) return inner;
+    }
+  }
+  return v;
 }
 
 function parseQuestions(text) {
@@ -55,28 +195,21 @@ function parseQuestions(text) {
     return { questions: [], parseOk: false };
   }
   const stripped = stripFence(text);
-  const match = stripped.match(/\{[\s\S]*\}/);
-  if (!match) {
-    return { questions: [], parseOk: false };
-  }
+  const tryHit = (raw) => questionsFromObj(unwrapToObject(raw, 0));
   try {
-    const obj = JSON.parse(match[0]);
-    let list = obj.questions;
-    if (typeof list === "string") {
-      try {
-        list = JSON.parse(list);
-      } catch (e) {
-        list = null;
-      }
-    }
-    if (!Array.isArray(list)) {
-      return { questions: [], parseOk: false, rawCount: 0 };
-    }
-    const questions = list.map(normalizeQuestion).filter(Boolean);
-    return { questions, parseOk: true, rawCount: list.length };
+    const hit = tryHit(parseObject(stripped) || stripped);
+    if (hit) return hit;
   } catch (e) {
-    return { questions: [], parseOk: false };
+    // 夹在思维链或 $\sqrt{x}$ 花括号里
   }
+  for (let i = 0; i < stripped.length; i++) {
+    if (stripped[i] !== "{") continue;
+    const slice = extractJsonSlice(stripped, i);
+    if (!slice) continue;
+    const hit = tryHit(parseObject(slice) || slice);
+    if (hit) return hit;
+  }
+  return { questions: [], parseOk: false };
 }
 
 function mockQuestions() {
@@ -94,4 +227,4 @@ function mockQuestions() {
   ];
 }
 
-module.exports = { parseQuestions, normalizeQuestion, mockQuestions };
+module.exports = { parseQuestions, normalizeQuestion, mockQuestions, parseProbe, sanitizeLessonId };

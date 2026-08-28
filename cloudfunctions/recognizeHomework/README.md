@@ -16,7 +16,7 @@
    - **必填** `AI_GATEWAY_API_KEY`（中台 Bearer Token，如 `sk-chat-…`）
    - 兼容：若未设 `AI_GATEWAY_API_KEY`，会读旧变量 `DEEPSEEK_API_KEY`
    - 可选 `AI_GATEWAY_BASE_URL`（默认 `http://119.45.25.177:3000/v1`，不要带末尾 `/chat/completions`）
-   - 可选 `VISION_MODEL`（默认 `glm-5v-turbo`）
+   - 可选 `VISION_MODEL`（默认 `glm-5v-turbo`）。**不要设 `glm-4v-turbo`**：TokenHub 常跑满 120 秒，云函数 60 秒会先断开，中台记 `chat_failed` 客户端断开/上游超时。
 2. 保存后重新上传并部署。不要把 Key 写进代码或 `config.json`。
 
 识图不能由小程序同步等待（客户端默认 3 秒会掐死云函数）。拍照只调用 `action=start` 建任务；**定时触发器每分钟** `drain` 在云端跑 `run`。

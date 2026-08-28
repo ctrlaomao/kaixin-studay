@@ -12,12 +12,12 @@
 2. 用户是家长；入口只在检查列表（`pages/today`），批改详情不做重试按钮。
 3. 成功 = 同一组 `fileIDs` 再跑识图后 `questions.length > 0`（或 `questionCount > 0`）。
 4. **允许重试的状态：** `job.status === "error"`，**或** `job.status === "done"` 且题目为空（`questions` 空且批次 `questionCount` 为 0）。这覆盖「中台有题、落库为空仍标 done」的现网坑。
-5. 每任务模型调用上限：默认 1；用户成功 `retry` 一次后上限为 2。`deepseekCalls` **不因 drain 超时自动清零**；仅 `runJob` 真正开跑时递增。
+5. 每任务模型调用上限：新任务自动两阶段为 `modelCallLimit = 2`（probe + grade，见 [`SPEC-catalog-two-pass-vision.md`](./SPEC-catalog-two-pass-vision.md)）；**无 `visionStage` 的旧 job 缺省仍为 1**。用户成功 `retry` 一次后把上限 **再 +1**（不超过 3）。`canRetry` **不得**再要求 `limit===1`（否则两阶段 job 永远不可点重试）。为真当：非 pending/running；error 或 done 空题；`deepseekCalls >= modelCallLimit`；且 `modelCallLimit < 3`。`deepseekCalls` **不因 drain 超时自动清零**；仅 `runJob` 真正开跑时递增。
 6. 第二次仍可能 60s 超时（中台其实已成功）——本期 **接受再烧一次**，不存 `rawText`、不做只解析。
-7. `retry` 只改库状态为 `pending` 并提高上限；执行仍走 `drainRecognize` / `runJob`。客户端 **不等待** 识图结束。
+7. `retry` 只改库状态为 `pending`、提高上限，并把 `visionStage` 拨回 `need_grade`（已有闭集）或 `need_probe`（无闭集）；**不清零** `deepseekCalls`。执行仍走 `drainRecognize` / `runJob`。客户端 **不等待** 识图结束。
 8. 鉴权：与现网识图一致（`OPENID` + 该 job 的 `createdByOpenid` / `childId` 属于当前家庭孩子）。不新做角色系统。
 9. 列表是否可点重试由 **服务端** 算 `canRetry`，前端不复制配额公式。
-10. 点重试前 `wx.showModal` 确认：「将再用一次识别（共两次）。点完约一分钟后下拉刷新。」
+10. 点重试前 `wx.showModal` 确认：「将再识别一次。点完约一分钟后下拉刷新。」（勿写「共两次」，以免与 probe+grade 混淆。）
 
 → 以上不对请直接改本 SPEC 再实现。
 
@@ -30,8 +30,8 @@
 **成功标准（可测）：**
 
 - 失败行出现「重试」；`pending`/`running` 不出现；配额已用尽（已 2 次仍失败或仍 0 题）不出现，并提示重拍。
-- 点重试且确认后：job 为 `pending`，`modelCallLimit === 2`（或等价字段），`deepseekCalls` 仍为已发生次数（一般为 1）；约一分钟内 drain 可再跑；跑完后批次 `jobStatus`/`questionCount`/`jobError` 与首次 `runJob` **同一套 `syncBatch`**。
-- 未点重试：`deepseekCalls >= 1` 且上限仍为 1 时，drain/`runJob` 行为与现网一致（跳过或标超时 error，不二次调模型）。
+- 点重试且确认后：job 为 `pending`，`modelCallLimit` 为原上限 +1（不超过 3），`deepseekCalls` 仍为已发生次数；约一分钟内 drain 可再跑；跑完后批次 `jobStatus`/`questionCount`/`jobError` 与首次 `runJob` **同一套 `syncBatch`**。
+- 未点重试：`deepseekCalls >= modelCallLimit` 时 drain/`runJob` 跳过，不额外调模型。
 - 客户端不调用「同步 run」；不直写云库。
 
 ## Tech Stack
@@ -96,8 +96,8 @@ if ((Number(doc.deepseekCalls) || 0) >= limit) {
 ## Success Criteria
 
 1. `recognizeHomework` 支持 `action: "retry"`，`data.jobId` 必填。
-2. `recognize_job` 有明确上限字段（推荐 `modelCallLimit`，缺省视为 1）；`start` 写入 `1`。
-3. `canRetry` 为真当且仅当：调用者可操作该 job，且（error 或 done 空题），且 `deepseekCalls < 2` 且当前上限为 1（尚未解锁第二次），且状态不是 `pending`/`running`。
+2. `recognize_job` 有明确上限字段（推荐 `modelCallLimit`）；新 `start` 写入 `2` 与 `visionStage=need_probe`；旧文档无阶段字段视为 1 次逐题。
+3. `canRetry` 为真当且仅当：调用者可操作该 job，且（error 或 done 空题），且 `deepseekCalls >= modelCallLimit`，且 `modelCallLimit < 3`，且状态不是 `pending`/`running`。详见两阶段 SPEC 假设 5。
 4. 检查列表：`canRetry` 为真显示「重试」；`catchtap` 不打开详情；确认后调 API，成功则刷新列表并沿用 8/20/40s 刷新。
 5. `runJob` 用 `modelCallLimit` 替代写死的 `>= 1`；第二次开跑时 `deepseekCalls` 变为 2。
 6. 卡住的 `running` 且已调用过模型：仍标 error、**不清零** calls（与现网一致）。
@@ -108,7 +108,7 @@ if ((Number(doc.deepseekCalls) || 0) >= limit) {
 
 `wx.cloud.callFunction({ name: "recognizeHomework", data: { action: "retry", jobId } })`
 
-成功：`{ ok: true, jobId, status: "pending", modelCallLimit: 2 }`  
+成功：`{ ok: true, jobId, status: "pending", modelCallLimit: <新上限> }`  
 失败：`{ ok: false, error: "<code>" }`
 
 `homeworkBatch` `list`/`get` 每条带 `canRetry: boolean`（及现有 `jobId`/`jobStatus`/`questionCount`/`jobError`）。

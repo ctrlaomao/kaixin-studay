@@ -109,7 +109,7 @@ Page({
     }
     wx.showModal({
       title: "确认重试",
-      content: "将再用一次识别（共两次）。点完约一分钟后下拉刷新。",
+      content: "将再识别一次。点完约一分钟后下拉刷新。",
       success: async (res) => {
         if (!res.confirm) return;
         const r = await api.homework.recognizeRetry({ jobId });

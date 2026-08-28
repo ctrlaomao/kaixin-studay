@@ -13,7 +13,7 @@
 | 云函数 | 说明 |
 | --- | --- |
 | `ping` | 健康检查。云端测试验收。 |
-| `recognizeHomework` | 识图批改。中台 `glm-5v-turbo`（`AI_GATEWAY_API_KEY`）。`start` 建任务；定时器 `drain` 跑模型；`retry` 同一 job 再排队一次。提示词见 `homeworkPrompt.js`。`mock:true` 样例。详见 `doc/spec/当前切片实现说明.md`。 |
+| `recognizeHomework` | 识图批改。中台 `VISION_MODEL`=`glm-5v-turbo`（`AI_GATEWAY_API_KEY`）。新任务 `start` 后先 probe 再 grade；一次 `drain` 只跑一段。`retry` 额度 +1，优先重跑 grade。详见 `doc/spec/当前切片实现说明.md`、`SPEC-catalog-two-pass-vision.md`。 |
 | `catalogImport` | F00g 目录导入。`action`: `ping` / `importEdition` / `importTree`；分批 upsert `catalog_edition`、`catalog_lesson`，写 `catalog_sync_log`。见 `cloudfunctions/catalogImport/README.md`。 |
 | `childProfile` | F01A/F02A 孩子档案。`action`: `create` / `list` / `update` / `setTextbook` / `setProgress` / `getTextbooks`。集合 `child` 按 `familyId` 多条。无 `familyId` 时用 `tmp:<OPENID>` 占位（F03A 替换）。见 `cloudfunctions/childProfile/README.md`。 |
 | `catalogRead` | F02A 目录只读。`action`: `listEditions` / `listLessons`。读 `catalog_edition`、`catalog_lesson`。见 `cloudfunctions/catalogRead/README.md`。 |
@@ -80,16 +80,18 @@
 `wx.cloud.callFunction({ name: "homeworkBatch", data })`。`data.action`：`create` | `list` | `get`。
 
 - **create：** 入参 `fileIDs[]`、`subject`；可选 `date`、`source`、`childId`。`childId` 可省：该家庭仅 1 条 `child` 则默认；0 条或多条必须带 `childId`。写入 `homework_batch`，`status` 为 `待核对`。
-- **list / get：** 每条带现有 `jobId` / `jobStatus` / `questionCount` / `jobError`，以及服务端计算的 `canRetry: boolean`。前端不复制配额公式。
+- **list / get：** 每条带现有 `jobId` / `jobStatus` / `questionCount` / `jobError`，以及服务端计算的 `canRetry: boolean`。前端不复制配额公式。`canRetry`：进行中为假；`error` 或 `done` 空题；且已用尽当前额度（`deepseekCalls >= modelCallLimit`）；且 `modelCallLimit < 3`（手动尚未 +1）。
 
 示例 JSON 见 `cloudfunctions/homeworkBatch/README.md`。
 
 ## recognizeHomework
 
-`wx.cloud.callFunction({ name: "recognizeHomework", data })`。`data.action`：`start` | `retry`（执行仍走定时器 `drain`，客户端不等待识图结束；禁止页面调同步 `run`）。
+`wx.cloud.callFunction({ name: "recognizeHomework", data })`。`data.action`：`start` | `retry`（执行仍走定时器 `drain`，客户端不等待识图结束；禁止页面调同步 `run`）。约定见 `SPEC-catalog-two-pass-vision.md`。
 
-- **start：** 建 `pending` 任务，立刻返回。`modelCallLimit` 缺省视为 1，`start` 写入 `1`。
-- **retry：** 必填 `jobId`。只把同一 `recognize_job` 改回 `pending` 并把 `modelCallLimit` 提到 2，**不清零** `deepseekCalls`。成功：`{ ok: true, jobId, status: "pending", modelCallLimit: 2 }`。失败：`{ ok: false, error }`，稳定码 `job_id_required` / `job_not_found` / `forbidden` / `not_retryable` / `quota_exhausted`。
+- **start（新任务）：** 建 `pending`，`visionStage=need_probe`，写入 `modelCallLimit=2`（probe + grade），立刻返回。无 `visionStage` 的旧任务仍按单次逐题（缺省 `modelCallLimit=1`）。
+- **drain：** 一次只跑一段视觉，禁止 60 秒内串两次 HTTP。`need_probe` → 只 probe；成功后 `need_grade`（写闭集或空表）。`need_grade` → 只 grade。两段之间 `status` 回 `pending`，家长仍见识别中。
+- **闭集：** 人教该册 `lessonId`+`lessonLabel`，行数 ≤80，超出截断。英语：probe 可出学科，grade **不带闭集、不写 lessonId**（不挂课时）。probe 失败或选不出版：grade 不附附录，走现有 `matchLesson`。模型返回的 `lessonId` 须在本 job 闭集内，否则丢弃再 `matchLesson(lessonHint)`。
+- **retry：** 必填 `jobId`。自动两段用尽或失败后，把 `modelCallLimit` **再 +1**（常见为 3），**不清零** `deepseekCalls`。有本册闭集则阶段拨回 `need_grade`（优先重跑 grade）；无闭集则 `need_probe`。成功：`{ ok: true, jobId, status: "pending", modelCallLimit }`。失败稳定码：`job_id_required` / `job_not_found` / `forbidden` / `not_retryable` / `quota_exhausted`。
 - 鉴权与现网识图一致（`OPENID` + 该 job 的 `createdByOpenid` / `childId` 属于当前家庭孩子）。
 
 小程序：`api.homework.recognizeStart`；`api.homework.recognizeRetry({ jobId })`。

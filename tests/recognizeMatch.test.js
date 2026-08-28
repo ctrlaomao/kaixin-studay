@@ -1,6 +1,6 @@
 const { test } = require("node:test");
 const assert = require("node:assert/strict");
-const { parseQuestions, normalizeQuestion } = require("../cloudfunctions/recognizeHomework/parse.js");
+const { normalizeQuestion, parseProbe, sanitizeLessonId, parseQuestions } = require("../cloudfunctions/recognizeHomework/parse.js");
 const { pickEdition, matchLesson, attachMatch, normalizeGrade } = require("../cloudfunctions/recognizeHomework/matchCatalog.js");
 
 test("parse grade volume subject", () => {
@@ -17,10 +17,16 @@ test("parse grade volume subject", () => {
   assert.equal(q.subject, "数学");
 });
 
-test("parseQuestions json", () => {
-  const r = parseQuestions('{"questions":[{"stem":"题","grade":"八年级","volume":"上册","subject":"物理","confidence":0.8}]}');
-  assert.equal(r.parseOk, true);
-  assert.equal(r.questions[0].grade, "八年级");
+test("empty stem uses studentAnswer", () => {
+  const q = normalizeQuestion({
+    no: 1,
+    stem: "",
+    studentAnswer: "2+3=6",
+    subject: "数学",
+    isWrong: true,
+  });
+  assert.equal(q.stem, "2+3=6");
+  assert.equal(q.studentAnswer, "2+3=6");
 });
 
 test("normalizeGrade 初一", () => {
@@ -67,4 +73,44 @@ test("english skip lesson still ok confirm if high conf", () => {
     null
   );
   assert.equal(q.needConfirm, false);
+});
+
+test("parseQuestions finds JSON after thinking and latex braces", () => {
+  const body =
+    '思考 $\\sqrt{x}$ 后输出\n{"pageHint":"","questionCount":1,"questions":[{"no":1,"stem":"已知 $\\sqrt{x}=2$","studentAnswer":"B","isWrong":false}]}';
+  const r = parseQuestions(body);
+  assert.equal(r.parseOk, true);
+  assert.equal(r.questions.length, 1);
+  assert.match(r.questions[0].stem, /sqrt/);
+});
+
+test("parseQuestions unwraps stringified json", () => {
+  const inner = { pageHint: "", questionCount: 1, questions: [{ no: 1, stem: "1+1", studentAnswer: "2" }] };
+  const r = parseQuestions(JSON.stringify(JSON.stringify(inner)));
+  assert.equal(r.parseOk, true);
+  assert.equal(r.questions[0].stem, "1+1");
+});
+
+test("parseProbe truncated json still gets grade", () => {
+  const r = parseProbe('{"grade":"七年级","volume":"下');
+  assert.equal(r.parseOk, true);
+  assert.equal(r.grade, "七年级");
+  assert.equal(r.volume, "下册");
+});
+
+test("parseProbe without questions still ok", () => {
+  const r = parseProbe(
+    '{"grade":"八年级","volume":"上册","subject":"数学","lessonHints":["实数","二次根式"]}'
+  );
+  assert.equal(r.parseOk, true);
+  assert.equal(r.grade, "八年级");
+  assert.equal(r.lessonHints.length, 2);
+  assert.equal(r.questions, undefined);
+});
+
+test("sanitizeLessonId drops id not in closed list", () => {
+  const closed = [{ lessonId: "pep-math-1", lessonLabel: "实数" }];
+  assert.equal(sanitizeLessonId("pep-math-1", closed), "pep-math-1");
+  assert.equal(sanitizeLessonId("other", closed), "");
+  assert.equal(sanitizeLessonId("pep-math-1", []), "");
 });

@@ -1,8 +1,55 @@
 # 实现计划
 
-## 当前：识别失败手动重试
+## 当前：两阶段视觉挂课时
 
-依据 [`doc/spec/SPEC-recognize-manual-retry.md`](../doc/spec/SPEC-recognize-manual-retry.md)。**未确认本段前不写代码。**
+依据 [`doc/spec/SPEC-catalog-two-pass-vision.md`](../doc/spec/SPEC-catalog-two-pass-vision.md)。**未确认本段前不写代码。**
+
+### Overview
+
+新任务先 `need_probe`（短视觉，无 questions），选人教一册写入 `lessonClosedList`（≤80），下一分钟 drain 再 `need_grade`（现有逐题 + 闭集）。一次 drain 只跑一段。`modelCallLimit` 起步 2。手动重试再 +1 到 3，优先重跑 grade。`canRetry` 不再要求 `limit===1`。
+
+### Architecture Decisions
+
+- 旧 job 无 `visionStage` 且 limit 缺省 1：仍一次逐题（兼容）。
+- probe / grade 分 prompt 文件；闭集只出现在 grade。
+- `sanitizeLessonId` 后才 `matchLesson`。英语不附闭集。
+- `computeCanRetry` 两云函数仍各一份，条件改为 SPEC 假设 5。
+- 卡住 running：仍不清零 `deepseekCalls`。
+
+### 顺序
+
+```
+probe 契约（prompt/parse/单测）
+  → start/drain 阶段机（index.js）
+    → grade 附录 + 校验挂课时
+      → canRetry + retry
+        → 确认框文案 + 文档
+```
+
+不可并行改同一云函数。
+
+### Task List
+
+见 `todo.md` V1–V6。
+
+### Risks
+
+| Risk | Impact | Mitigation |
+| --- | --- | --- |
+| 一次 drain 误串两阶段 | 超时 | runJob 按 visionStage 只进一个分支 |
+| canRetry 仍用 limit===1 | 两阶段无法重试 | V5 必改两份函数 |
+| 闭集过长 | 第二次超时 | 硬顶 80 行 |
+| 确认框仍写「共两次」 | 与 probe+grade 混淆 | 改为「再识别一次」 |
+
+### Open Questions
+
+无。
+
+---
+
+# 已完成：识别失败手动重试
+
+依据 [`doc/spec/SPEC-recognize-manual-retry.md`](../doc/spec/SPEC-recognize-manual-retry.md)。
 
 ### Overview
 
@@ -18,6 +65,8 @@
 - **`canRetry`：** error，或 done 且 `!(questions||[]).length`；非 pending/running；`deepseekCalls < 2`；`modelCallLimit` 缺省或为 1（尚未解锁）。`limit===2` 且仍失败 → 假。
 - 前端不算配额；只信 `canRetry`。`catchtap` 防止点按钮冒泡打开详情。error 行仍可点卡片：无 `canRetry` 时 toast「请重拍」；有按钮时打开详情仍拦截（error 本来就不能进详情）。
 
+> 两阶段落地后以上 `canRetry`/`start` 的 limit=1 **以 SPEC-catalog-two-pass-vision 为准作废**。
+
 ### 顺序（必须串行）
 
 ```
@@ -27,36 +76,9 @@
             → api.md + 切片说明
 ```
 
-不可并行改同一云函数。无页面可先云端测 retry。
-
 ### Task List
 
-见 `tasks/todo.md`「识别失败手动重试」R1–R4。
-
-### Checkpoint: 云函数
-
-- [ ] 控制台 `retry` 成功/拒绝码符合 SPEC
-- [ ] 未 retry 的 calls=1 任务 drain 不二次调模型
-- [ ] 人确认后再做前端
-
-### Checkpoint: 端到端
-
-- [ ] 检查列表失败行确认后变排队，按钮消失，8/20/40s 刷新
-- [ ] 二次失败无按钮、提示重拍
-- [ ] 正常拍照成功路径不变
-
-### Risks
-
-| Risk | Impact | Mitigation |
-| --- | --- | --- |
-| `runJob` 仍 skip 全部 `done` | 空题 done 无法二次跑 | retry 必须改 `pending` 再 drain |
-| 两份 `computeCanRetry` 漂移 | 按钮与 API 不一致 | 实现时同一注释+同一布尔条件 |
-| 第二次再超时 | 家长觉得按钮无效 | 用尽后面文案改重拍，不第三次 |
-| 部署漏 homeworkBatch | 无按钮 | 两函数都上传 |
-
-### Open Questions
-
-无（SPEC Assumptions 已锁定）。
+见 `tasks/todo.md`「识别失败手动重试」R1–R4（已完成）。
 
 ---
 

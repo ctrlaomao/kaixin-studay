@@ -2,7 +2,37 @@
 
 可视化进度：用浏览器打开 [`doc/plan/进度看板.html`](../doc/plan/进度看板.html)（勾选变化后请同步该页 `CARDS`）。
 
-## 识别失败手动重试（下一张未完成从这里开始）
+## 两阶段视觉挂课时（下一张未完成从这里开始）
+
+规格：`doc/spec/SPEC-catalog-two-pass-vision.md`。计划：`tasks/plan.md` 文首。
+
+- [x] V1: probe 提示词与解析（无 questions）
+  - Acceptance: probePrompt 只要年级/册/学科/lessonHints；parseProbe 不依赖 questions；单测通过
+  - Verify: npm test
+  - Files: cloudfunctions/recognizeHomework/probePrompt.js, parse.js, tests/recognizeMatch.test.js, .cursor/skills/kaixin-homework-vision/SKILL.md
+  - Dependencies: None
+- [x] V2: start/drain 一阶段一视觉
+  - Acceptance: 新 job visionStage=need_probe、modelCallLimit=2；drain 只跑 probe 或只跑 grade；probe 后 status 回 pending、questions 仍空；无 visionStage 的旧 job 仍一次逐题
+  - Verify: 云端测 start 后看库字段；勿一次 invoke 打两次中台
+  - Files: cloudfunctions/recognizeHomework/index.js
+  - Dependencies: V1
+- [x] V3: grade 闭集附录与 lessonId 校验
+  - Acceptance: 列表≤80；英语/空表不附录；非法 id 丢弃后再 matchLesson
+  - Verify: npm test sanitize；云端数学卷看 lessonId
+  - Files: cloudfunctions/recognizeHomework/homeworkPrompt.js, index.js, parse.js, matchCatalog.js（若校验放这）, .cursor/skills/kaixin-homework-vision/SKILL.md
+  - Dependencies: V2
+- [x] V4: 更新 canRetry 与 retry（limit 可到 3，优先 need_grade）
+  - Acceptance: 假设 5；两函数条件一致；确认框不再写易混的「共两次」
+  - Verify: 两阶段失败后列表有重试；进行中无按钮
+  - Files: cloudfunctions/recognizeHomework/index.js, cloudfunctions/homeworkBatch/index.js, frontend/pages/today/index.js, doc/spec/SPEC-recognize-manual-retry.md
+  - Dependencies: V3
+- [x] V5: 同步 api.md 与切片说明
+  - Acceptance: 两阶段、limit=2、闭集、canRetry 新规则已写
+  - Verify: 对照 SPEC Success Criteria
+  - Files: doc/spec/api.md, doc/spec/当前切片实现说明.md
+  - Dependencies: V4
+
+## 识别失败手动重试（已完成）
 
 规格：`doc/spec/SPEC-recognize-manual-retry.md`。计划：`tasks/plan.md` 文首。
 
