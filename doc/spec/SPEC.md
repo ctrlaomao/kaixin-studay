@@ -53,7 +53,7 @@ doc/design/              → 产品设计与 H5 原型
 
 ## Code Style
 
-- 界面与注释中文；CSS 类 kebab-case；云函数 camelCase。
+- 界面、注释与 **Git 提交说明**用中文（`feat:`/`fix:` 等 type 可保留英文；标题与正文必须中文，写 why）。
 - 颜色：主 `#0F766E`，强调 `#D97706`，背景 `#F4F1EA`。
 - 页面 ID 对齐 P01–P13；今日页只挂插槽组件。
 
