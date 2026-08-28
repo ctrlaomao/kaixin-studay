@@ -10,6 +10,14 @@
       <text class="st st-{{item.jobStatus}}">{{item.statusText}}</text>
     </view>
     <view class="muted">{{item.sub}}</view>
+    <button
+      wx:if="{{item.canRetry}}"
+      class="btn retry"
+      size="mini"
+      catchtap="onRetry"
+      data-index="{{index}}"
+      data-job-id="{{item.jobId}}"
+    >重试</button>
   </view>
   <view class="muted" wx:if="{{!records.length}}">还没有拍照记录。</view>
 </view>

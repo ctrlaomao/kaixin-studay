@@ -42,6 +42,7 @@ module.exports = {
     listBatches: (data) => call("homeworkBatch", { action: "list", ...data }),
     getBatch: (data) => call("homeworkBatch", { action: "get", ...data }),
     recognizeStart: (data) => call("recognizeHomework", { action: "start", ...data }),
+    recognizeRetry: (data) => call("recognizeHomework", { action: "retry", jobId: data.jobId }),
   },
   catalog: {
     editions: (data) => call("catalogRead", { action: "listEditions", ...data }),

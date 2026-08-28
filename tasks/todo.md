@@ -11,18 +11,18 @@
   - Verify: 云开发控制台测 retry（无 id / 他人 job / pending / done 有题 / error / done 空题）
   - Files: cloudfunctions/recognizeHomework/index.js
   - Dependencies: None
-- [ ] R2: homeworkBatch list/get 带出 canRetry
+- [x] R2: homeworkBatch list/get 带出 canRetry
   - Acceptance: 与 R1 同一套布尔条件；有 job 时 join 后写入每条 batch.canRetry；get 同样带 canRetry
   - Verify: 云端测 list，失败批次 canRetry true，进行中 false
   - Files: cloudfunctions/homeworkBatch/index.js
   - Dependencies: R1
-- [ ] Checkpoint 云函数：未点重试不二次打模型；retry 后 pending 可被 drain 再跑。确认后再改前端。
-- [ ] R3: 检查列表重试按钮与 api.homework.recognizeRetry
+- [x] Checkpoint 云函数：未点重试不二次打模型；retry 后 pending 可被 drain 再跑。确认后再改前端。
+- [x] R3: 检查列表重试按钮与 api.homework.recognizeRetry
   - Acceptance: canRetry 显示重试；catchtap 不进详情；showModal 文案符合 SPEC；成功后刷新+8/20/40s；用尽无按钮，toast/副文案请重拍；去掉「不会重试」绝对句
   - Verify: 开发者工具预览检查 Tab（小程序无浏览器）
   - Files: frontend/utils/api.js, frontend/pages/today/index.js, index.wxml, index.wxss
   - Dependencies: R2
-- [ ] R4: 同步 api.md 与切片说明
+- [x] R4: 同步 api.md 与切片说明
   - Acceptance: retry 合同、每任务自动 1 次手动可到 2、canRetry 已写进文档
   - Verify: 对照 SPEC Success Criteria 勾完
   - Files: doc/spec/api.md, doc/spec/当前切片实现说明.md

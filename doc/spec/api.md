@@ -13,13 +13,13 @@
 | 云函数 | 说明 |
 | --- | --- |
 | `ping` | 健康检查。云端测试验收。 |
-| `recognizeHomework` | 识图批改。中台 `glm-5v-turbo`（`AI_GATEWAY_API_KEY`）。`start` 建任务；定时器 `drain` 跑模型。提示词见 `homeworkPrompt.js`。`mock:true` 样例。详见 `doc/spec/当前切片实现说明.md`。 |
+| `recognizeHomework` | 识图批改。中台 `glm-5v-turbo`（`AI_GATEWAY_API_KEY`）。`start` 建任务；定时器 `drain` 跑模型；`retry` 同一 job 再排队一次。提示词见 `homeworkPrompt.js`。`mock:true` 样例。详见 `doc/spec/当前切片实现说明.md`。 |
 | `catalogImport` | F00g 目录导入。`action`: `ping` / `importEdition` / `importTree`；分批 upsert `catalog_edition`、`catalog_lesson`，写 `catalog_sync_log`。见 `cloudfunctions/catalogImport/README.md`。 |
 | `childProfile` | F01A/F02A 孩子档案。`action`: `create` / `list` / `update` / `setTextbook` / `setProgress` / `getTextbooks`。集合 `child` 按 `familyId` 多条。无 `familyId` 时用 `tmp:<OPENID>` 占位（F03A 替换）。见 `cloudfunctions/childProfile/README.md`。 |
 | `catalogRead` | F02A 目录只读。`action`: `listEditions` / `listLessons`。读 `catalog_edition`、`catalog_lesson`。见 `cloudfunctions/catalogRead/README.md`。 |
 | `familyBind` | F03A 家庭。`action`: `createFamily` / `createInvite` / `joinFamily` / `me`。集合 `family`。见 `cloudfunctions/familyBind/README.md`。 |
 | `timer` | F04A 纸质计时。`action`: `start` / `pause` / `resume` / `end`。集合 `timer_session`。见 `cloudfunctions/timer/README.md`。 |
-| `homeworkBatch` | 作业批次。`action`: `create` / `list` / `get`。集合 `homework_batch`；`get` 带出 `recognize_job.questions`。 |
+| `homeworkBatch` | 作业批次。`action`: `create` / `list` / `get`。集合 `homework_batch`；`get` 带出 `recognize_job.questions`。`list`/`get` 每条带 `canRetry`。 |
 | `wrongItem` | 错题本。`create` / `list` / `updateLesson`。判错才由前端点写入；去重；可带原图 `fileID`。有课时且非 pending 才打 mastery wrong。 |
 | `practiceCompose` | F14/F14b。`childId`，错题课时 mock 3–8 题；`includeGaps:true` 可并入 1–3 道进度章探测题，总数≤10。 |
 | `gapDetect` | F17。`childId` + `subjectKey`，只选 `progressChapter[subjectKey]` 对应章内无 mastery/wrong 的课时。 |
@@ -77,13 +77,22 @@
 
 ## homework（F06A `homeworkBatch`）
 
-`wx.cloud.callFunction({ name: "homeworkBatch", data })`。`data.action`：`create`。
+`wx.cloud.callFunction({ name: "homeworkBatch", data })`。`data.action`：`create` | `list` | `get`。
 
-- 入参：`fileIDs[]`、`subject`；可选 `date`、`source`、`childId`。
-- `childId` 可省：该家庭仅 1 条 `child` 则默认；0 条或多条必须带 `childId`。
-- 写入 `homework_batch`，`status` 为 `待核对`。
+- **create：** 入参 `fileIDs[]`、`subject`；可选 `date`、`source`、`childId`。`childId` 可省：该家庭仅 1 条 `child` 则默认；0 条或多条必须带 `childId`。写入 `homework_batch`，`status` 为 `待核对`。
+- **list / get：** 每条带现有 `jobId` / `jobStatus` / `questionCount` / `jobError`，以及服务端计算的 `canRetry: boolean`。前端不复制配额公式。
 
 示例 JSON 见 `cloudfunctions/homeworkBatch/README.md`。
+
+## recognizeHomework
+
+`wx.cloud.callFunction({ name: "recognizeHomework", data })`。`data.action`：`start` | `retry`（执行仍走定时器 `drain`，客户端不等待识图结束；禁止页面调同步 `run`）。
+
+- **start：** 建 `pending` 任务，立刻返回。`modelCallLimit` 缺省视为 1，`start` 写入 `1`。
+- **retry：** 必填 `jobId`。只把同一 `recognize_job` 改回 `pending` 并把 `modelCallLimit` 提到 2，**不清零** `deepseekCalls`。成功：`{ ok: true, jobId, status: "pending", modelCallLimit: 2 }`。失败：`{ ok: false, error }`，稳定码 `job_id_required` / `job_not_found` / `forbidden` / `not_retryable` / `quota_exhausted`。
+- 鉴权与现网识图一致（`OPENID` + 该 job 的 `createdByOpenid` / `childId` 属于当前家庭孩子）。
+
+小程序：`api.homework.recognizeStart`；`api.homework.recognizeRetry({ jobId })`。
 
 ## wrongItem / 补练 / 综合卷
 

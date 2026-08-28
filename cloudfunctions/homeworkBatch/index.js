@@ -41,6 +41,24 @@ function nowIso() {
   return new Date().toISOString();
 }
 
+function jobCallLimit(doc) {
+  const n = Number(doc && doc.modelCallLimit);
+  return n > 0 ? n : 1;
+}
+
+/** keep in sync with recognizeHomework computeCanRetry */
+function computeCanRetry(job) {
+  if (!job) return false;
+  const status = job.status;
+  if (status === "pending" || status === "running") return false;
+  const qs = job.questions || [];
+  const emptyDone = status === "done" && !qs.length;
+  if (status !== "error" && !emptyDone) return false;
+  if ((Number(job.deepseekCalls) || 0) >= 2) return false;
+  if (jobCallLimit(job) !== 1) return false;
+  return true;
+}
+
 function trimStr(v) {
   return typeof v === "string" ? v.trim() : "";
 }
@@ -213,6 +231,9 @@ async function listBatches(event, openid) {
     .map(toBatch)
     .sort((a, b) => String(b.createdAt).localeCompare(String(a.createdAt)));
   const jobIds = batches.map((b) => b.jobId).filter(Boolean);
+  for (const b of batches) {
+    b.canRetry = false;
+  }
   if (jobIds.length) {
     try {
       const jobs = await db.collection("recognize_job").where({ _id: _.in(jobIds) }).limit(50).get();
@@ -228,6 +249,7 @@ async function listBatches(event, openid) {
           b.questionCount = j.questions.length;
         }
         b.jobError = formatJobError(j) || b.jobError;
+        b.canRetry = computeCanRetry(j);
       }
     } catch (e) {
       // 无任务集合时仍返回批次
@@ -258,6 +280,7 @@ async function getBatch(event, openid) {
   let mocked = false;
   let jobStatus = doc.jobStatus || "";
   let jobError = "";
+  let canRetry = false;
   if (doc.jobId) {
     try {
       const job = await db.collection("recognize_job").doc(doc.jobId).get();
@@ -267,6 +290,7 @@ async function getBatch(event, openid) {
         mocked = !!j.mocked;
         jobStatus = j.status || jobStatus;
         jobError = formatJobError(j);
+        canRetry = computeCanRetry(j);
       }
     } catch (e) {
       // 任务集合尚未建立时仍返回批次
@@ -274,7 +298,10 @@ async function getBatch(event, openid) {
   }
   return {
     ok: true,
-    batch: toBatch({ ...doc, _id: id, jobStatus, questionCount: questions.length || doc.questionCount }),
+    batch: {
+      ...toBatch({ ...doc, _id: id, jobStatus, questionCount: questions.length || doc.questionCount }),
+      canRetry,
+    },
     questions,
     mocked,
     jobError,

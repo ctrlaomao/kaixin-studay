@@ -17,14 +17,24 @@ function canOpenDetail(rec) {
   return false;
 }
 
+function isExhausted(b) {
+  if (b && b.canRetry) return false;
+  if (!b) return false;
+  if (b.jobStatus === "error") return true;
+  if (b.jobStatus === "done" && !(Number(b.questionCount) > 0)) return true;
+  return false;
+}
+
 function mapRecord(b) {
   const n = b.fileCount || 0;
   const q = b.questionCount || 0;
   const t = (b.createdAt || "").replace("T", " ").slice(0, 16);
+  let sub = n + " 张图" + (q ? " · " + q + " 题" : "") + (b.jobError ? " · " + b.jobError : "");
+  if (isExhausted(b)) sub += " · 请重拍";
   return {
     ...b,
     title: t || "检查记录",
-    sub: n + " 张图" + (q ? " · " + q + " 题" : "") + (b.jobError ? " · " + b.jobError : ""),
+    sub,
     statusText: statusText(b.jobStatus),
   };
 }
@@ -77,7 +87,10 @@ Page({
     const rec = (this.data.records || [])[idx];
     if (!rec) return;
     if (rec.jobStatus === "error") {
-      wx.showToast({ title: rec.jobError || "识别失败，不会重试", icon: "none" });
+      wx.showToast({
+        title: rec.canRetry ? rec.jobError || "识别失败" : "请重拍",
+        icon: "none",
+      });
       return;
     }
     if (!canOpenDetail(rec)) {
@@ -85,6 +98,29 @@ Page({
       return;
     }
     wx.navigateTo({ url: "/pages/recognize/index?batchId=" + rec.id });
+  },
+  onRetry(e) {
+    const idx = Number(e.currentTarget.dataset.index);
+    const rec = (this.data.records || [])[idx];
+    const jobId = (e.currentTarget.dataset.jobId || (rec && rec.jobId) || "").trim();
+    if (!jobId) {
+      wx.showToast({ title: "缺少任务", icon: "none" });
+      return;
+    }
+    wx.showModal({
+      title: "确认重试",
+      content: "将再用一次识别（共两次）。点完约一分钟后下拉刷新。",
+      success: async (res) => {
+        if (!res.confirm) return;
+        const r = await api.homework.recognizeRetry({ jobId });
+        if (r && r.ok) {
+          await this.loadRecords();
+          this.scheduleStatusRefresh();
+        } else {
+          wx.showToast({ title: String((r && r.error) || "重试失败"), icon: "none" });
+        }
+      },
+    });
   },
   async shoot() {
     if (this.data.busy) return;
