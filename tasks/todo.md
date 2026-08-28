@@ -6,7 +6,7 @@
 
 规格：`doc/spec/SPEC-recognize-manual-retry.md`。计划：`tasks/plan.md` 文首。
 
-- [ ] R1: recognizeHomework 配额改为 modelCallLimit，并实现 action=retry
+- [x] R1: recognizeHomework 配额改为 modelCallLimit，并实现 action=retry
   - Acceptance: start 写 modelCallLimit=1；runJob 用 limit，开跑时 deepseekCalls+1；retry 校验后 pending+limit=2 且不清零 calls；error 码符合 SPEC；running 卡住仍不清零
   - Verify: 云开发控制台测 retry（无 id / 他人 job / pending / done 有题 / error / done 空题）
   - Files: cloudfunctions/recognizeHomework/index.js

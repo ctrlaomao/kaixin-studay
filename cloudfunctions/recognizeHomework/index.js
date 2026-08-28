@@ -412,6 +412,24 @@ function nowIso() {
   return new Date().toISOString();
 }
 
+function jobCallLimit(doc) {
+  const n = Number(doc && doc.modelCallLimit);
+  return n > 0 ? n : 1;
+}
+
+/** keep in sync with homeworkBatch computeCanRetry (R2) */
+function computeCanRetry(job) {
+  if (!job) return false;
+  const status = job.status;
+  if (status === "pending" || status === "running") return false;
+  const qs = job.questions || [];
+  const emptyDone = status === "done" && !qs.length;
+  if (status !== "error" && !emptyDone) return false;
+  if ((Number(job.deepseekCalls) || 0) >= 2) return false;
+  if (jobCallLimit(job) !== 1) return false;
+  return true;
+}
+
 async function syncBatch(batchId, patch) {
   if (!batchId) return;
   try {
@@ -444,6 +462,7 @@ async function startJob(event, openid) {
       questions: [],
       error: "",
       deepseekCalls: 0,
+      modelCallLimit: 1,
       createdAt: now,
       updatedAt: now,
     },
@@ -493,13 +512,15 @@ async function runJob(event) {
     logDrain("run_skip", { jobId, reason: "done" });
     return { ok: true, jobId, status: "done", skipped: true };
   }
-  if ((Number(doc.deepseekCalls) || 0) >= 1) {
-    logDrain("run_skip", { jobId, reason: "quota_1", status: doc.status, deepseekCalls: doc.deepseekCalls });
-    return { ok: true, jobId, status: doc.status, skipped: true, reason: "quota_1" };
+  const limit = jobCallLimit(doc);
+  const calls = Number(doc.deepseekCalls) || 0;
+  if (calls >= limit) {
+    logDrain("run_skip", { jobId, reason: "quota", status: doc.status, deepseekCalls: calls, limit });
+    return { ok: true, jobId, status: doc.status, skipped: true, reason: "quota" };
   }
-  logDrain("run_begin", { jobId, mock: !!doc.mock, files: (doc.fileIDs || []).length });
+  logDrain("run_begin", { jobId, mock: !!doc.mock, files: (doc.fileIDs || []).length, calls, limit });
   await db.collection(JOB_COL).doc(jobId).update({
-    data: { deepseekCalls: 1, status: "running", updatedAt: nowIso() },
+    data: { deepseekCalls: calls + 1, status: "running", updatedAt: nowIso() },
   });
   await syncBatch(doc.batchId, { jobStatus: "running" });
   const payload = {
@@ -599,6 +620,49 @@ async function drainPending() {
   }
   logDrain("pick", { jobId: pending[0]._id });
   return runJob({ jobId: pending[0]._id });
+}
+
+async function retryJob(event, openid) {
+  const jobId = String((event && (event.jobId || event.id)) || "").trim();
+  if (!jobId) return { ok: false, error: "job_id_required" };
+  if (!openid) return { ok: false, error: "forbidden" };
+  await ensureJobCol();
+  let doc;
+  try {
+    const got = await db.collection(JOB_COL).doc(jobId).get();
+    doc = got.data;
+  } catch (e) {
+    return { ok: false, error: "job_not_found" };
+  }
+  if (!doc) return { ok: false, error: "job_not_found" };
+  if (String(doc.createdByOpenid || "") !== openid) {
+    return { ok: false, error: "forbidden" };
+  }
+  const status = doc.status;
+  if (status === "pending" || status === "running") {
+    return { ok: false, error: "not_retryable" };
+  }
+  if (status === "done" && (doc.questions || []).length) {
+    return { ok: false, error: "not_retryable" };
+  }
+  if (!computeCanRetry(doc)) {
+    if ((Number(doc.deepseekCalls) || 0) >= 2 || jobCallLimit(doc) !== 1) {
+      return { ok: false, error: "quota_exhausted" };
+    }
+    return { ok: false, error: "not_retryable" };
+  }
+  await db.collection(JOB_COL).doc(jobId).update({
+    data: {
+      status: "pending",
+      modelCallLimit: 2,
+      error: "",
+      message: "",
+      updatedAt: nowIso(),
+    },
+  });
+  await syncBatch(doc.batchId, { jobStatus: "pending", jobError: "" });
+  logDrain("retry", { jobId, deepseekCalls: doc.deepseekCalls });
+  return { ok: true, jobId, status: "pending", modelCallLimit: 2 };
 }
 
 async function processRecognize(event = {}) {
@@ -732,6 +796,7 @@ exports.main = async (event = {}, context) => {
       return await drainPending();
     }
     if (action === "start") return await startJob(e, OPENID);
+    if (action === "retry") return await retryJob(e, OPENID);
     if (action === "poll") return await pollJob(e);
     if (action === "run") return await runJob(e);
     return await processRecognize(e);
