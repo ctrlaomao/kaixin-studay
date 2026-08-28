@@ -1,7 +1,15 @@
 <view class="wrap">
   <view class="h1">错题详情</view>
   <view class="card" wx:if="{{item}}">
-    <view>{{item.stem}}</view>
+    <image
+      wx:if="{{item.fileID}}"
+      class="thumb"
+      src="{{item.fileID}}"
+      mode="widthFix"
+      bindtap="previewPhoto"
+      show-menu-by-longpress
+    />
+    <math-stem text="{{item.stem}}"></math-stem>
     <view class="muted">{{item.gradeLabel}} {{item.volumeLabel}} {{item.subjectKey}}</view>
     <view>{{item.lessonLabel || item.lessonId || "未挂课时"}}</view>
   </view>

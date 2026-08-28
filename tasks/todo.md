@@ -2,6 +2,32 @@
 
 可视化进度：用浏览器打开 [`doc/plan/进度看板.html`](../doc/plan/进度看板.html)（勾选变化后请同步该页 `CARDS`）。
 
+## 识别失败手动重试（下一张未完成从这里开始）
+
+规格：`doc/spec/SPEC-recognize-manual-retry.md`。计划：`tasks/plan.md` 文首。
+
+- [ ] R1: recognizeHomework 配额改为 modelCallLimit，并实现 action=retry
+  - Acceptance: start 写 modelCallLimit=1；runJob 用 limit，开跑时 deepseekCalls+1；retry 校验后 pending+limit=2 且不清零 calls；error 码符合 SPEC；running 卡住仍不清零
+  - Verify: 云开发控制台测 retry（无 id / 他人 job / pending / done 有题 / error / done 空题）
+  - Files: cloudfunctions/recognizeHomework/index.js
+  - Dependencies: None
+- [ ] R2: homeworkBatch list/get 带出 canRetry
+  - Acceptance: 与 R1 同一套布尔条件；有 job 时 join 后写入每条 batch.canRetry；get 同样带 canRetry
+  - Verify: 云端测 list，失败批次 canRetry true，进行中 false
+  - Files: cloudfunctions/homeworkBatch/index.js
+  - Dependencies: R1
+- [ ] Checkpoint 云函数：未点重试不二次打模型；retry 后 pending 可被 drain 再跑。确认后再改前端。
+- [ ] R3: 检查列表重试按钮与 api.homework.recognizeRetry
+  - Acceptance: canRetry 显示重试；catchtap 不进详情；showModal 文案符合 SPEC；成功后刷新+8/20/40s；用尽无按钮，toast/副文案请重拍；去掉「不会重试」绝对句
+  - Verify: 开发者工具预览检查 Tab（小程序无浏览器）
+  - Files: frontend/utils/api.js, frontend/pages/today/index.js, index.wxml, index.wxss
+  - Dependencies: R2
+- [ ] R4: 同步 api.md 与切片说明
+  - Acceptance: retry 合同、每任务自动 1 次手动可到 2、canRetry 已写进文档
+  - Verify: 对照 SPEC Success Criteria 勾完
+  - Files: doc/spec/api.md, doc/spec/当前切片实现说明.md
+  - Dependencies: R3
+
 ## 极简切片（当前主路径，2026-08-27）
 
 - [x] 打开即拍：不填姓名/年级/册/学科；底栏仅检查+错题

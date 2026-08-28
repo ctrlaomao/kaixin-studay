@@ -18,6 +18,13 @@ Page({
   onL(e) {
     this.setData({ lessonId: e.detail.value });
   },
+  previewPhoto() {
+    const item = this.data.item;
+    if (!item) return;
+    const urls = item.fileIDs && item.fileIDs.length ? item.fileIDs : item.fileID ? [item.fileID] : [];
+    if (!urls.length) return;
+    wx.previewImage({ current: urls[0], urls });
+  },
   async save() {
     const r = await api.wrong.updateLesson({
       id: this.data.id,

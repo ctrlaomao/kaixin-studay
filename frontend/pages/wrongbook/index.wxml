@@ -1,7 +1,16 @@
 <view class="wrap">
   <view class="h1">错题本</view>
-  <view class="card" wx:for="{{list}}" wx:key="id" bindtap="open" data-id="{{item.id}}">
-    <view>{{item.stem}}</view>
+  <view class="card" wx:for="{{list}}" wx:key="id" bindtap="open" data-index="{{index}}">
+    <image
+      wx:if="{{item.fileID}}"
+      class="thumb"
+      src="{{item.fileID}}"
+      mode="aspectFill"
+      catchtap="previewPhoto"
+      data-index="{{index}}"
+      show-menu-by-longpress
+    />
+    <math-stem text="{{item.stem}}"></math-stem>
     <view class="muted">{{item.lessonLabel || "未挂课时"}} · {{item.subjectKey}}</view>
     <view class="muted" wx:if="{{item.pending}}">待确认</view>
   </view>

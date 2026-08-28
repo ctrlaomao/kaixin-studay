@@ -1,0 +1,11 @@
+<view class="math-stem">
+  <block wx:for="{{blocks}}" wx:key="i">
+    <view wx:if="{{item.kind === 'table'}}" class="tbl">
+      <view class="tr" wx:for="{{item.rows}}" wx:for-item="row" wx:for-index="ri" wx:key="ri">
+        <text class="td" wx:for="{{row}}" wx:for-item="cell" wx:for-index="ci" wx:key="ci">{{cell}}</text>
+      </view>
+    </view>
+    <view wx:elif="{{item.kind === 'note'}}" class="note">{{item.text}}</view>
+    <text wx:else class="p" decode>{{item.text}}</text>
+  </block>
+</view>

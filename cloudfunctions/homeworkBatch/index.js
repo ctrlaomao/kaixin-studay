@@ -212,6 +212,27 @@ async function listBatches(event, openid) {
   const batches = (res.data || [])
     .map(toBatch)
     .sort((a, b) => String(b.createdAt).localeCompare(String(a.createdAt)));
+  const jobIds = batches.map((b) => b.jobId).filter(Boolean);
+  if (jobIds.length) {
+    try {
+      const jobs = await db.collection("recognize_job").where({ _id: _.in(jobIds) }).limit(50).get();
+      const byId = {};
+      for (const j of jobs.data || []) {
+        byId[j._id] = j;
+      }
+      for (const b of batches) {
+        const j = byId[b.jobId];
+        if (!j) continue;
+        b.jobStatus = j.status || b.jobStatus;
+        if (Array.isArray(j.questions) && j.questions.length) {
+          b.questionCount = j.questions.length;
+        }
+        b.jobError = formatJobError(j) || b.jobError;
+      }
+    } catch (e) {
+      // 无任务集合时仍返回批次
+    }
+  }
   return { ok: true, batches };
 }
 

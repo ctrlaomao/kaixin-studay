@@ -1,5 +1,7 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "math-stem": "/components/math-stem/index"
+  },
   "navigationBarTitleText": "批改结果",
   "enablePullDownRefresh": true,
   "backgroundTextStyle": "dark"

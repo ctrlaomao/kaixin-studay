@@ -17,6 +17,17 @@ Page({
     this.setData({ list: (r && r.items) || [] });
   },
   open(e) {
-    wx.navigateTo({ url: "/pages/wrong-detail/index?id=" + e.currentTarget.dataset.id });
+    const idx = Number(e.currentTarget.dataset.index);
+    const rec = (this.data.list || [])[idx];
+    if (!rec) return;
+    wx.navigateTo({ url: "/pages/wrong-detail/index?id=" + rec.id });
+  },
+  previewPhoto(e) {
+    const idx = Number(e.currentTarget.dataset.index);
+    const rec = (this.data.list || [])[idx];
+    if (!rec) return;
+    const urls = rec.fileIDs && rec.fileIDs.length ? rec.fileIDs : rec.fileID ? [rec.fileID] : [];
+    if (!urls.length) return;
+    wx.previewImage({ current: urls[0], urls });
   },
 });

@@ -1,1 +1,7 @@
-/* pages/wrongbook/index.wxss */
+.thumb {
+  width: 100%;
+  height: 280rpx;
+  border-radius: 12rpx;
+  background: #e7e5e4;
+  margin-bottom: 16rpx;
+}

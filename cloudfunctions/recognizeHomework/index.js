@@ -3,6 +3,7 @@ const http = require("http");
 const https = require("https");
 const { URL } = require("url");
 const Jimp = require("jimp");
+const { parseQuestions, mockQuestions } = require("./parse");
 const { normalizeGrade, normalizeVolume, subjectKeyFromLabel, pickEdition, matchLesson, attachMatch } = require("./matchCatalog");
 
 cloud.init({
@@ -20,12 +21,10 @@ const DEFAULT_VISION_MODEL = "glm-5v-turbo";
 const DEFAULT_TEXT_MODEL = "hy3";
 const GATEWAY_BASE = "http://119.45.25.177:3000/v1";
 const PROVIDER = "glm";
-const MAX_INLINE_JPEG = 58 * 1024;
+const MAX_INLINE_JPEG = 46 * 1024;
+const MAX_BASE64_CHARS = 64 * 1024;
 
-const HOMEWORK_PROMPT = `你是家庭作业错题识别助手。只根据图片作答。
-只输出一个 JSON 对象，不要 markdown 围栏，不要其它说明。格式：
-{"questions":[{"stem":"题干原文或转写","grade":"七年级或八年级或九年级","volume":"上册或下册","subject":"语文或数学或英语或物理或化学或生物或历史或地理或道德与法治","lessonHint":"同步课堂课时名，看不清可空","confidence":0.0,"isWrong":true}]}
-isWrong 表示学生这题做错。confidence 0 到 1。看不清就降低 confidence，不要编造。年级册次学科从卷面归纳。`;
+const HOMEWORK_PROMPT = require("./homeworkPrompt");
 
 function asDataUrl(base64, mime) {
   const raw = String(base64).replace(/^data:image\/[a-zA-Z0-9+.-]+;base64,/, "");
@@ -38,19 +37,23 @@ function asDataUrl(base64, mime) {
 async function compressToJpegDataUrl(buf, tag) {
   const input = Buffer.isBuffer(buf) ? buf : Buffer.from(buf);
   const img = await Jimp.read(input);
-  const maxSide = 1024;
-  if (img.bitmap.width > maxSide || img.bitmap.height > maxSide) {
-    img.scaleToFit(maxSide, maxSide);
+  let side = 1200;
+  if (img.bitmap.width > side || img.bitmap.height > side) {
+    img.scaleToFit(side, side);
   }
-  let quality = 70;
+  let quality = 68;
   let out = await img.clone().quality(quality).getBufferAsync(Jimp.MIME_JPEG);
-  while (out.length > MAX_INLINE_JPEG && quality > 35) {
-    quality -= 10;
+  let guard = 0;
+  while (out.length > MAX_INLINE_JPEG && guard < 14) {
+    guard += 1;
+    if (quality > 48) {
+      quality -= 5;
+    } else {
+      side = Math.max(480, Math.floor(side * 0.82));
+      img.scaleToFit(side, side);
+      quality = 55;
+    }
     out = await img.clone().quality(quality).getBufferAsync(Jimp.MIME_JPEG);
-  }
-  if (out.length > MAX_INLINE_JPEG) {
-    img.scaleToFit(720, 720);
-    out = await img.quality(40).getBufferAsync(Jimp.MIME_JPEG);
   }
   logDs("image_compressed", {
     tag,
@@ -266,7 +269,7 @@ async function generateChat(modelName, messages, extra = {}) {
       mocked: false,
       provider: PROVIDER,
       model: modelName,
-      text: text.slice(0, 4000),
+      text: text.slice(0, 50000),
       usage: data && data.usage ? data.usage : undefined,
     };
   } catch (err) {
@@ -562,6 +565,19 @@ async function drainPending() {
       logDrain("stuck_keep", { jobId: row._id, ageMs: age, questions: qs.length });
       continue;
     }
+    if ((Number(row.deepseekCalls) || 0) >= 1) {
+      logDrain("stuck_fail", { jobId: row._id, ageMs: age });
+      await db.collection(JOB_COL).doc(row._id).update({
+        data: {
+          status: "error",
+          error: "ai_failed",
+          message: "云函数等待超时（中台可能已成功）。同一任务不会再调模型。",
+          updatedAt: nowIso(),
+        },
+      });
+      await syncBatch(row.batchId, { jobStatus: "error", jobError: "等待超时" });
+      continue;
+    }
     logDrain("stuck_reset", { jobId: row._id, ageMs: age });
     await db.collection(JOB_COL).doc(row._id).update({
       data: { status: "pending", deepseekCalls: 0, updatedAt: nowIso() },
@@ -627,12 +643,16 @@ async function processRecognize(event = {}) {
 
   const smoke = event.smoke === true;
   const prompt = event.prompt || (smoke ? "用一两句话描述这张图片里有什么。" : HOMEWORK_PROMPT);
-  const result = await generateChat(modelName, [
-    {
-      role: "user",
-      content: [{ type: "text", text: prompt }, ...imageContentParts(imageUrls)],
-    },
-  ]);
+  const result = await generateChat(
+    modelName,
+    [
+      {
+        role: "user",
+        content: [{ type: "text", text: prompt }, ...imageContentParts(imageUrls)],
+      },
+    ],
+    smoke ? {} : { max_tokens: 8192 }
+  );
   if (!result.ok) {
     return result;
   }
@@ -641,6 +661,12 @@ async function processRecognize(event = {}) {
   }
 
   const parsed = parseQuestions(result.text);
+  logDs("parse", {
+    parseOk: parsed.parseOk,
+    rawCount: parsed.rawCount,
+    kept: (parsed.questions || []).length,
+    textLen: String(result.text || "").length,
+  });
   if (!parsed.parseOk) {
     return {
       ok: false,
@@ -649,6 +675,17 @@ async function processRecognize(event = {}) {
       provider: PROVIDER,
       model: modelName,
       message: "模型未返回合法 JSON（需含 questions 数组）",
+      preview: String(result.text || "").slice(0, 240),
+    };
+  }
+  if (!parsed.questions.length) {
+    return {
+      ok: false,
+      mocked: false,
+      error: "parse_failed",
+      provider: PROVIDER,
+      model: modelName,
+      message: "模型返回了 JSON 但没有可用题干，请下拉刷新或重拍",
       preview: String(result.text || "").slice(0, 240),
     };
   }

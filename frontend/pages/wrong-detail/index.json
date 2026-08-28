@@ -1,1 +1,6 @@
-{"usingComponents": {}}
+{
+  "usingComponents": {
+    "math-stem": "/components/math-stem/index"
+  },
+  "navigationBarTitleText": "错题详情"
+}

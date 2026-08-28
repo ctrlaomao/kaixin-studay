@@ -9,6 +9,14 @@ function statusText(jobStatus) {
   return "处理中";
 }
 
+function canOpenDetail(rec) {
+  if (!rec) return false;
+  if (rec.jobStatus === "error") return false;
+  if (rec.jobStatus === "done") return true;
+  if (Number(rec.questionCount) > 0) return true;
+  return false;
+}
+
 function mapRecord(b) {
   const n = b.fileCount || 0;
   const q = b.questionCount || 0;
@@ -65,18 +73,18 @@ Page({
     this.setData({ records });
   },
   openRecord(e) {
-    const id = e.currentTarget.dataset.id;
-    const rec = (this.data.records || []).find((x) => x.id === id);
+    const idx = Number(e.currentTarget.dataset.index);
+    const rec = (this.data.records || [])[idx];
     if (!rec) return;
     if (rec.jobStatus === "error") {
       wx.showToast({ title: rec.jobError || "识别失败，不会重试", icon: "none" });
       return;
     }
-    if (rec.jobStatus !== "done") {
+    if (!canOpenDetail(rec)) {
       wx.showToast({ title: "还在识别，可下拉刷新", icon: "none" });
       return;
     }
-    wx.navigateTo({ url: "/pages/recognize/index?batchId=" + id });
+    wx.navigateTo({ url: "/pages/recognize/index?batchId=" + rec.id });
   },
   async shoot() {
     if (this.data.busy) return;
@@ -114,7 +122,13 @@ Page({
           await this.loadRecords();
           this.scheduleStatusRefresh();
         } catch (e) {
-          this.setData({ busy: false, msg: String((e && e.errMsg) || e) });
+          const raw = String((e && e.errMsg) || e);
+          let msg = raw;
+          if (/STORAGE_EXCEED_AUTHORITY|Have no access right to the storage/i.test(raw)) {
+            msg =
+              "云存储无写权限。请到云开发控制台 → 存储 → 权限，允许登录用户上传（不要设成仅管理员/仅云函数可写）。";
+          }
+          this.setData({ busy: false, msg });
         }
       },
     });

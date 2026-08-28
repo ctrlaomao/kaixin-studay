@@ -13,14 +13,14 @@
 | 云函数 | 说明 |
 | --- | --- |
 | `ping` | 健康检查。云端测试验收。 |
-| `recognizeHomework` | F07 识图。默认模型中台 `glm-5v-turbo`（环境变量 `AI_GATEWAY_API_KEY`）。`textSmoke` 仍测云开发 `hy3`。`mock:true` 走样例。 |
+| `recognizeHomework` | 识图批改。中台 `glm-5v-turbo`（`AI_GATEWAY_API_KEY`）。`start` 建任务；定时器 `drain` 跑模型。提示词见 `homeworkPrompt.js`。`mock:true` 样例。详见 `doc/spec/当前切片实现说明.md`。 |
 | `catalogImport` | F00g 目录导入。`action`: `ping` / `importEdition` / `importTree`；分批 upsert `catalog_edition`、`catalog_lesson`，写 `catalog_sync_log`。见 `cloudfunctions/catalogImport/README.md`。 |
 | `childProfile` | F01A/F02A 孩子档案。`action`: `create` / `list` / `update` / `setTextbook` / `setProgress` / `getTextbooks`。集合 `child` 按 `familyId` 多条。无 `familyId` 时用 `tmp:<OPENID>` 占位（F03A 替换）。见 `cloudfunctions/childProfile/README.md`。 |
 | `catalogRead` | F02A 目录只读。`action`: `listEditions` / `listLessons`。读 `catalog_edition`、`catalog_lesson`。见 `cloudfunctions/catalogRead/README.md`。 |
 | `familyBind` | F03A 家庭。`action`: `createFamily` / `createInvite` / `joinFamily` / `me`。集合 `family`。见 `cloudfunctions/familyBind/README.md`。 |
 | `timer` | F04A 纸质计时。`action`: `start` / `pause` / `resume` / `end`。集合 `timer_session`。见 `cloudfunctions/timer/README.md`。 |
-| `homeworkBatch` | F06A 作业批次。`action`: `create`。集合 `homework_batch`，`status` 待核对。见 `cloudfunctions/homeworkBatch/README.md`。 |
-| `wrongItem` | F09A/F11/F12A/F13A。`action`: `create` / `list` / `updateLesson`。`create` 写 `wrong_item` 并对 `mastery` 调 `applyMasteryEvent({type:'wrong'})`。 |
+| `homeworkBatch` | 作业批次。`action`: `create` / `list` / `get`。集合 `homework_batch`；`get` 带出 `recognize_job.questions`。 |
+| `wrongItem` | 错题本。`create` / `list` / `updateLesson`。判错才由前端点写入；去重；可带原图 `fileID`。有课时且非 pending 才打 mastery wrong。 |
 | `practiceCompose` | F14/F14b。`childId`，错题课时 mock 3–8 题；`includeGaps:true` 可并入 1–3 道进度章探测题，总数≤10。 |
 | `gapDetect` | F17。`childId` + `subjectKey`，只选 `progressChapter[subjectKey]` 对应章内无 mastery/wrong 的课时。 |
 | `practiceSubmit` | F16A/F20A。`answers` + `durationSec`；对错打星；错回流；写 `practice_record`。 |
@@ -89,9 +89,9 @@
 
 `wx.cloud.callFunction` 名称即函数名。集合不存在时函数内 `createCollection`。
 
-- **wrongItem.create：** `childId, lessonId, stem, confidence`；可选 `errorType, fileID`。写 `wrong_item` 后对该课时 `applyMasteryEvent(..., {type:'wrong'})`。
-- **wrongItem.list：** `childId`；可选 `subject`/`subjectKey`、`lessonId`。
-- **wrongItem.updateLesson：** `wrongItemId`（或 `id`）+ `lessonId`。
+- **wrongItem.create：** `childId, stem, confidence`；可选 `lessonId, no, fileID, fileIDs, pending`。同一孩子下 `fileID+no` 或相同 `stem` 则 `skipped: true`。仅 `lessonId` 且非 pending 时打 mastery `wrong`。
+- **wrongItem.list：** `childId`；可选 `subject`/`subjectKey`、`lessonId`。项含 `fileID`/`fileIDs`。
+- **wrongItem.updateLesson：** `wrongItemId`（或 `id`）+ `lessonId`。不补打 mastery。
 - **practiceCompose：** `childId`；可选 `includeGaps:true`。
 - **gapDetect：** `childId, subjectKey`。无进度章 → `no_progress_chapter`。
 - **practiceSubmit：** `childId, answers[{questionId, lessonId, correct}], durationSec`。

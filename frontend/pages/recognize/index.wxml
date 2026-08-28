@@ -1,9 +1,27 @@
 <view class="wrap">
   <view class="h1">批改结果</view>
   <view class="muted" wx:if="{{mocked}}">演示识别（未走真实模型）</view>
+  <view class="card" wx:if="{{photos.length}}">
+    <view class="no">拍照原图</view>
+    <view class="photos">
+      <image
+        class="photo"
+        wx:for="{{photos}}"
+        wx:key="*this"
+        src="{{item}}"
+        mode="aspectFill"
+        bindtap="previewPhoto"
+        data-index="{{index}}"
+        show-menu-by-longpress
+      />
+    </view>
+    <view class="muted">点图可放大对照卷面</view>
+  </view>
   <view class="card" wx:for="{{questions}}" wx:key="idx">
-    <view class="stem">{{item.stem}}</view>
-    <view class="muted">{{item.isWrong === false ? "判对，不入库" : "判错"}}</view>
+    <view class="no" wx:if="{{item.no}}">第{{item.no}}题</view>
+    <math-stem text="{{item.stem}}"></math-stem>
+    <view class="muted" wx:if="{{item.answerText}}">学生作答：{{item.answerText}}</view>
+    <view class="muted">{{item.isWrong === false ? "判对，不入库" : item.isWrong === true ? "判错" : "对错未判定"}}</view>
     <view class="muted">{{item.subject || ""}} · {{item.grade || ""}} · {{item.volume || ""}}</view>
     <view>{{item.lessonLabel || item.lessonHint || "未挂课时"}}</view>
     <view class="muted" wx:if="{{item.needConfirm}}">需确认后才作为高置信入库</view>

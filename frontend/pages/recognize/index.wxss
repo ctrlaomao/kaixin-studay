@@ -1,1 +1,2 @@
-/* pages/recognize/index.wxss */
+.no { font-weight: 700; color: #0f766e; margin-bottom: 8rpx; }
+.photo { width: 200rpx; height: 200rpx; border-radius: 12rpx; background: #e7e5e4; margin: 0 12rpx 12rpx 0; }

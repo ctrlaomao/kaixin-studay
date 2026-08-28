@@ -146,15 +146,35 @@ function toItem(doc) {
     errorType: doc.errorType || "",
     confidence: doc.confidence,
     fileID: doc.fileID || "",
+    fileIDs: Array.isArray(doc.fileIDs) && doc.fileIDs.length ? doc.fileIDs : doc.fileID ? [doc.fileID] : [],
     subjectKey: doc.subjectKey || "",
     lessonLabel: doc.lessonLabel || "",
     pending: !!doc.pending,
     gradeLabel: doc.gradeLabel || "",
     volumeLabel: doc.volumeLabel || "",
+    no: doc.no || 0,
     source: doc.source || "confirm",
     createdAt: doc.createdAt || "",
     updatedAt: doc.updatedAt || "",
   };
+}
+
+async function findDuplicate(childId, fileID, no, stem) {
+  if (fileID && no) {
+    try {
+      const res = await db.collection(COLS.wrong).where({ childId, fileID, no }).limit(1).get();
+      if (res.data && res.data[0]) return res.data[0];
+    } catch (e) {
+      // ignore
+    }
+  }
+  if (!stem) return null;
+  try {
+    const res = await db.collection(COLS.wrong).where({ childId, stem }).limit(1).get();
+    return (res.data && res.data[0]) || null;
+  } catch (e) {
+    return null;
+  }
 }
 
 async function createItem(event) {
@@ -182,13 +202,32 @@ async function createItem(event) {
 
   await ensureCollection(COLS.wrong);
   const now = nowIso();
+  const fileIDs = [];
+  if (Array.isArray(event.fileIDs)) {
+    for (const id of event.fileIDs) {
+      const s = trimStr(id);
+      if (s) fileIDs.push(s);
+    }
+  }
+  const fileID = trimStr(event.fileID) || fileIDs[0] || "";
+  if (fileID && fileIDs.indexOf(fileID) < 0) fileIDs.unshift(fileID);
+  const no = Number(event.no);
+  const qNo = Number.isFinite(no) && no > 0 ? no : 0;
+
+  const dup = await findDuplicate(childId, fileID, qNo, stem);
+  if (dup) {
+    return { ok: true, skipped: true, reason: "duplicate", item: toItem(dup) };
+  }
+
   const data = {
     childId,
     lessonId: lessonId || "",
     stem,
+    no: qNo,
     errorType: trimStr(event.errorType),
     confidence,
-    fileID: trimStr(event.fileID),
+    fileID,
+    fileIDs,
     subjectKey,
     lessonLabel: (lesson && lesson.lessonLabel) || trimStr(event.lessonLabel),
     gradeLabel: trimStr(event.grade || event.gradeLabel),

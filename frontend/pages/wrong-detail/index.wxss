@@ -1,1 +1,6 @@
-/* pages/wrong-detail/index.wxss */
+.thumb {
+  width: 100%;
+  border-radius: 12rpx;
+  background: #e7e5e4;
+  margin-bottom: 16rpx;
+}

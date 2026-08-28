@@ -1,1 +1,5 @@
-{"usingComponents": {}}
+{
+  "usingComponents": {
+    "math-stem": "/components/math-stem/index"
+  }
+}

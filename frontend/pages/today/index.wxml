@@ -4,7 +4,7 @@
   <button class="btn shoot" bindtap="shoot" loading="{{busy}}">拍照检查</button>
   <view class="muted err" wx:if="{{msg}}">{{msg}}</view>
   <view class="h2">检查记录</view>
-  <view class="card rec" wx:for="{{records}}" wx:key="id" bindtap="openRecord" data-id="{{item.id}}">
+  <view class="card rec" wx:for="{{records}}" wx:key="id" bindtap="openRecord" data-index="{{index}}">
     <view class="row">
       <text>{{item.title}}</text>
       <text class="st st-{{item.jobStatus}}">{{item.statusText}}</text>
