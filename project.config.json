@@ -37,10 +37,6 @@
         "type": "folder"
       },
       {
-        "value": "mp-weixin",
-        "type": "folder"
-      },
-      {
         "value": "data",
         "type": "folder"
       }
